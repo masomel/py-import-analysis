@@ -1,0 +1,3405 @@
+  Could not find a version that satisfies the requirement code_generators (from versions: )
+No matching distribution found for code_generators
+Number of libs in top50: 50
+---- RPi.GPIO
+Searching for imports in path: libs/RPi.GPIO/RPi
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- requests
+Searching for imports in path: libs/requests/requests
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+cryptography has already been analyzed
+---- ntlm
+Searching for imports in path: libs/ntlm/ntlm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- picamera
+Searching for imports in path: libs/picamera/picamera
+Found ctypes wrapper
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- numpy
+Searching for imports in path: libs/numpy/numpy
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- code_generators
+Searching for imports in path: libs/code_generators
+Downloading code_generators
+Did not install through pip: code_generators
+---- genapi
+Searching for imports in path: libs/genapi/genapi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- requests_toolbelt
+Searching for imports in path: libs/genapi/requests_toolbelt
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- requests
+Found requests in c libs, shared libs, or ext proc calls
+---- urllib3
+Searching for imports in path: libs/urllib3/urllib3
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+cryptography has already been analyzed
+---- ntlm
+Searching for imports in path: libs/ntlm/ntlm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+six has already been analyzed  Could not find a version that satisfies the requirement multiarray (from versions: )
+No matching distribution found for multiarray
+  Could not find a version that satisfies the requirement cffi_backend (from versions: )
+No matching distribution found for cffi_backend
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-w4swnl1a/BeautifulSoup/
+
+---- multiarray
+Searching for imports in path: libs/multiarray
+Downloading multiarray
+Found dependency C-lib
+---- nose
+Searching for imports in path: libs/nose/nose
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- docutils
+Searching for imports in path: libs/docutils/docutils
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pygments
+Searching for imports in path: libs/pygments/pygments
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- PIL
+Searching for imports in path: libs/PIL/PIL
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- PyQt5
+Searching for imports in path: libs/PyQt5/PyQt5
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cffi
+Searching for imports in path: libs/cffi/cffi
+Found ctypes wrapper
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cffi_backend
+Searching for imports in path: libs/cffi_backend
+Downloading cffi_backend
+Found dependency C-lib
+---- alsaaudio
+Searching for imports in path: libs/alsaaudio
+No python sources found
+---- cherrypy
+Searching for imports in path: libs/cherrypy/cherrypy
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cheroot
+Searching for imports in path: libs/cherrypy/cheroot
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- cherrypy
+Searching for imports in path: libs/cherrypy/cherrypy
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+cheroot has already been analyzed
+---- coverage
+Searching for imports in path: libs/coverage/coverage
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- contracts
+Searching for imports in path: libs/contracts/contracts.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- eventlet
+Searching for imports in path: libs/eventlet/eventlet
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- Crypto
+Searching for imports in path: libs/Crypto
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+OpenSSL has already been analyzed
+---- yaml
+Searching for imports in path: libs/yaml/yaml
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+cryptography has already been analyzed
+---- ntlm
+Searching for imports in path: libs/ntlm/ntlm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- psycopg2
+Searching for imports in path: libs/psycopg2
+Found ctypes wrapper
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- BeautifulSoup
+Searching for imports in path: libs/BeautifulSoup
+Downloading BeautifulSoup
+Did not install through pip: BeautifulSoup
+---- docutils
+Searching for imports in path: libs/docutils/docutils
+Found call to native proc
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation  Could not find a version that satisfies the requirement Stemmer (from versions: )
+No matching distribution found for Stemmer
+  Could not find a version that satisfies the requirement cdecimal (from versions: )
+No matching distribution found for cdecimal
+  Could not find a version that satisfies the requirement com (from versions: )
+No matching distribution found for com
+  Could not find a version that satisfies the requirement mx (from versions: )
+No matching distribution found for mx
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-pimy_14t/MySQL-python/
+  Could not find a version that satisfies the requirement CFNetwork (from versions: )
+No matching distribution found for CFNetwork
+  Could not find a version that satisfies the requirement CoreFoundation (from versions: )
+No matching distribution found for CoreFoundation
+
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pygments
+Searching for imports in path: libs/pygments/pygments
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- PIL
+Searching for imports in path: libs/PIL/PIL
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- PyQt5
+Searching for imports in path: libs/PyQt5/PyQt5
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cffi
+Found cffi in c libs, shared libs, or ext proc calls
+---- colorama
+Searching for imports in path: libs/colorama/colorama
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+docutils has already been analyzed
+---- sphinx
+Searching for imports in path: libs/sphinx/sphinx
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- Stemmer
+Searching for imports in path: libs/Stemmer
+Downloading Stemmer
+Did not install through pip: Stemmer
+---- babel
+Searching for imports in path: libs/sphinx/babel
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cdecimal
+Searching for imports in path: libs/cdecimal
+Downloading cdecimal
+Did not install through pip: cdecimal
+docutils has already been analyzed
+---- janome
+Searching for imports in path: libs/janome/janome
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- sysdic
+Searching for imports in path: libs/janome/sysdic
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+janome has already been analyzed
+---- jinja2
+Searching for imports in path: libs/sphinx/jinja2
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- markupsafe
+Searching for imports in path: libs/markupsafe/markupsafe
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pretty
+Searching for imports in path: libs/pretty/pretty.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+pygments has already been analyzed
+---- requests
+Found requests in c libs, shared libs, or ext proc calls
+six has already been analyzed
+---- sqlalchemy
+Searching for imports in path: libs/sqlalchemy/sqlalchemy
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- com
+Searching for imports in path: libs/com
+Downloading com
+Did not install through pip: com
+---- google
+Searching for imports in path: libs/google/google
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- bs4
+Searching for imports in path: libs/bs4/bs4
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- html5lib
+Searching for imports in path: libs/html5lib/html5lib
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- chardet
+Searching for imports in path: libs/chardet/chardet
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- genshi
+Searching for imports in path: libs/genshi/genshi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- lxml
+Searching for imports in path: libs/lxml/lxml
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+bs4 has already been analyzed
+html5lib has already been analyzed
+six has already been analyzed
+lxml has already been analyzed
+---- mx
+Searching for imports in path: libs/mx
+Downloading mx
+Did not install through pip: mx
+---- mysql
+Searching for imports in path: libs/mysql
+Downloading mysql
+Did not install through pip: mysql
+---- nose
+Searching for imports in path: libs/nose/nose
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+docutils has already been analyzed
+---- twisted
+Searching for imports in path: libs/twisted/twisted
+Found ctypes wrapper
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- CFNetwork
+Searching for imports in path: libs/CFNetwork
+Downloading CFNetwork
+Did not install through pip: CFNetwork
+---- CoreFoundation
+Searching for imports in path: libs/CoreFoundation
+Downloading CoreFoundation
+Did not install through pip: CoreFoundation
+Crypto has already been analyzed
+---- Cython
+Searching for imports in path: libs/Cython/Cython
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- IPython
+Searching for imports in path: libs/IPython/IPython
+Found ctypes wrapper
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenGL
+Searching for imports in path: libs/OpenGL/OpenGL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenGL_accelerate
+Searching for imports in path: libs/OpenGL_accelerate/OpenGL_accelerate
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+Cython has already been analyzed
+---- numpy
+Searching for imports in path: libs/numpy/numpy
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- code_generators
+Searching for imports in path: libs/code_generators  Could not find a version that satisfies the requirement code_generators (from versions: )
+No matching distribution found for code_generators
+  Could not find a version that satisfies the requirement numpy_distutils (from versions: )
+No matching distribution found for numpy_distutils
+  Could not find a version that satisfies the requirement umath (from versions: )
+No matching distribution found for umath
+
+Downloading code_generators
+Did not install through pip: code_generators
+---- genapi
+Searching for imports in path: libs/genapi/genapi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- requests_toolbelt
+Searching for imports in path: libs/genapi/requests_toolbelt
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+requests has already been analyzed
+---- urllib3
+Searching for imports in path: libs/urllib3/urllib3
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+OpenSSL has already been analyzed
+cryptography has already been analyzed
+ntlm has already been analyzed
+six has already been analyzed
+six has already been analyzed
+---- multiarray
+Found multiarray in c libs, shared libs, or ext proc calls
+nose has already been analyzed
+---- numpy_distutils
+Searching for imports in path: libs/numpy_distutils
+Downloading numpy_distutils
+Did not install through pip: numpy_distutils
+---- pytz
+Searching for imports in path: libs/pytz/pytz
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- umath
+Searching for imports in path: libs/umath
+Downloading umath
+Found dependency C-lib
+---- memcache
+Searching for imports in path: libs/memcache/memcache.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- serial
+Searching for imports in path: libs/serial/serial
+Found ctypes wrapper
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- Adafruit_DHT
+Searching for imports in path: libs/Adafruit_DHT/Adafruit_DHT
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- cv2
+Searching for imports in path: libs/cv2/cv2
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- paho
+Searching for imports in path: libs/paho/paho
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- dns
+Searching for imports in path: libs/dns/dns
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- Crypto
+Searching for imports in path: libs/Crypto
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- yaml
+Searching for imports in path: libs/yaml/yaml
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+cryptography has already been analyzed
+---- ntlm
+Searching for imports in path: libs/ntlm/ntlm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- pocketsphinx
+Searching for imports in path: libs/pocketsphinx/pocketsphinx
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- PIL
+Searching for imports in path: libs/PIL/PIL
+Found call to native proc
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- PyQt5
+Searching for imports in path: libs/PyQt5/PyQt5
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cffi
+Found cffi in c libs, shared libs, or ext proc calls
+---- flask
+Searching for imports in path: libs/flask/flask
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- itsdangerous
+Searching for imports in path: libs/flask/itsdangerous.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- simplejson
+Searching for imports in path: libs/simplejson/simplejson
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports  Could not find a version that satisfies the requirement speedups (from versions: )
+No matching distribution found for speedups
+  Could not find a version that satisfies the requirement pygobject (from appkit) (from versions: )
+No matching distribution found for pygobject (from appkit)
+
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- speedups
+Searching for imports in path: libs/speedups
+Downloading speedups
+Found dependency C-lib
+---- jinja2
+Searching for imports in path: libs/flask/jinja2
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- markupsafe
+Searching for imports in path: libs/markupsafe/markupsafe
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pretty
+Searching for imports in path: libs/pretty/pretty.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- werkzeug
+Searching for imports in path: libs/flask/werkzeug
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- IPython
+Found IPython in c libs, shared libs, or ext proc calls
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- pygame
+Searching for imports in path: libs/pygame/pygame
+Found call to native proc
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- AppKit
+Searching for imports in path: libs/AppKit/AppKit
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- appkit
+Searching for imports in path: libs/appkit
+Downloading appkit
+Did not install through pip: appkit
+---- bs4
+Searching for imports in path: libs/bs4/bs4
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- html5lib
+Searching for imports in path: libs/html5lib/html5lib
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- chardet
+Searching for imports in path: libs/chardet/chardet
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- genshi
+Searching for imports in path: libs/genshi/genshi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- lxml
+Searching for imports in path: libs/lxml/lxml
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+bs4 has already been analyzed
+html5lib has already been analyzed
+---- six
+Searching for imports in path: libs/six/six.pyCommand "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-9avf9c35/MySQL-python/
+
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+lxml has already been analyzed
+---- flask
+Found flask in c libs, shared libs, or ext proc calls
+---- speech_recognition
+Searching for imports in path: libs/speech_recognition/speech_recognition
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- googleapiclient
+Searching for imports in path: libs/googleapiclient/googleapiclient
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- google
+Searching for imports in path: libs/google/google
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- bs4
+Searching for imports in path: libs/bs4/bs4
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- html5lib
+Searching for imports in path: libs/html5lib/html5lib
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- chardet
+Searching for imports in path: libs/chardet/chardet
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- genshi
+Searching for imports in path: libs/genshi/genshi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- lxml
+Searching for imports in path: libs/lxml/lxml
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+bs4 has already been analyzed
+html5lib has already been analyzed
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+lxml has already been analyzed
+---- oauth2client
+Searching for imports in path: libs/oauth2client/oauth2client
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- Crypto
+Searching for imports in path: libs/Crypto
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+six has already been analyzed
+six has already been analyzed
+---- yaml
+Searching for imports in path: libs/yaml/yaml
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+cryptography has already been analyzed
+---- ntlm
+Searching for imports in path: libs/ntlm/ntlm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+OpenSSL has already been analyzed
+---- django
+Searching for imports in path: libs/django/django
+Found ctypes wrapper
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- IPython
+Found IPython in c libs, shared libs, or ext proc calls
+---- MySQLdb
+Searching for imports in path: libs/MySQLdb/MySQLdb
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- mysql
+Searching for imports in path: libs/mysql
+Downloading mysql
+Found dependency C-lib
+---- mysql_exceptions
+Searching for imports in path: libs/MySQLdb/_mysql_exceptions.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- pyaudio
+Searching for imports in path: libs/pyaudio/pyaudio.py
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- MySQLdb
+Searching for imports in path: libs/MySQLdb/MySQLdb
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- mysql_exceptions
+Searching for imports in path: libs/MySQLdb/_mysql_exceptions.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- bluetooth
+Searching for imports in path: libs/bluetooth/bluetooth
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- mraa
+Searching for imports in path: libs/mraa
+No python sources found
+---- oauth2client
+Searching for imports in path: libs/oauth2client/oauth2client
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- Crypto
+Searching for imports in path: libs/Crypto
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- yaml
+Searching for imports in path: libs/yaml/yaml
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+cryptography has already been analyzed
+---- ntlm
+Searching for imports in path: libs/ntlm/ntlm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+OpenSSL has already been analyzed
+---- django
+Found django in c libs, shared libs, or ext proc calls
+---- smbus
+Searching for imports in path: libs/smbus/smbus
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- webrtcvad
+Searching for imports in path: libs/webrtcvad/webrtcvad.py
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- yaml
+Searching for imports in path: libs/yaml/yaml
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- AWSIoTPythonSDK
+Searching for imports in path: libs/AWSIoTPythonSDK/AWSIoTPythonSDK
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- dns
+Searching for imports in path: libs/dns/dns
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- Crypto
+Searching for imports in path: libs/Crypto
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports  Could not find a version that satisfies the requirement dateutil (from versions: )
+No matching distribution found for dateutil
+
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- yaml
+Searching for imports in path: libs/yaml/yaml
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+cryptography has already been analyzed
+---- ntlm
+Searching for imports in path: libs/ntlm/ntlm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- boto3
+Searching for imports in path: libs/boto3/boto3
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- botocore
+Searching for imports in path: libs/boto3/botocore
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- dateutil
+Searching for imports in path: libs/dateutil
+Downloading dateutil
+Did not install through pip: dateutil
+---- docutils
+Searching for imports in path: libs/docutils/docutils
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pygments
+Searching for imports in path: libs/pygments/pygments
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- PIL
+Found PIL in c libs, shared libs, or ext proc calls
+---- gtts
+Searching for imports in path: libs/gtts/gtts
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- gtts_token
+Searching for imports in path: libs/gtts/gtts_token
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- httplib2
+Searching for imports in path: libs/httplib2/httplib2
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- pycurl
+Searching for imports in path: libs/pycurl
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- tweepy
+Searching for imports in path: libs/tweepy/tweepy
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- bson
+Searching for imports in path: libs/bson/bson
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- requests
+Found requests in c libs, shared libs, or ext proc calls
+---- requests_oauthlib
+Searching for imports in path: libs/tweepy/requests_oauthlib
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- oauthlib
+Searching for imports in path: libs/oauthlib/oauthlib
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- jwt
+Searching for imports in path: libs/jwt/jwt
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+six has already been analyzed
+requests has already been analyzed
+six has already been analyzed
+---- vlc
+Searching for imports in path: libs/vlc/vlc.py
+Found ctypes wrapper
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- wolframalpha
+Searching for imports in path: libs/wolframalpha/wolframalpha
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- jaraco
+Searching for imports in path: libs/wolframalpha/jaraco
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- inflect
+Searching for imports in path: libs/inflect/inflect.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- more_itertools
+Searching for imports in path: libs/more_itertools/more_itertools
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- nose
+Searching for imports in path: libs/nose/nose
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- docutils
+Searching for imports in path: libs/docutils/docutils
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pygments
+Searching for imports in path: libs/pygments/pygments
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- PIL
+Found PIL in c libs, shared libs, or ext proc calls
+---- Adafruit_BBIO
+Searching for imports in path: libs/Adafruit_BBIO/Adafruit_BBIO
+C implementation likely elsewhere (no imports)
+---- ISStreamer
+Searching for imports in path: libs/ISStreamer/ISStreamer
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- cec
+Searching for imports in path: libs/cec
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- dropbox
+Searching for imports in path: libs/dropbox/dropbox
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- requests
+Found requests in c libs, shared libs, or ext proc calls
+---- urllib3
+Searching for imports in path: libs/urllib3/urllib3
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+cryptography has already been analyzed
+---- ntlm
+Searching for imports in path: libs/ntlm/ntlm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- feedparser
+Searching for imports in path: libs/feedparser/feedparser.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- gevent
+Searching for imports in path: libs/gevent/gevent
+Found call to native proc
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cffi
+Found cffi in c libs, shared libs, or ext proc calls
+---- googleapiclient
+Searching for imports in path: libs/googleapiclient/googleapiclient
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- google
+Searching for imports in path: libs/google/google
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- bs4
+Searching for imports in path: libs/bs4/bs4
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- html5lib
+Searching for imports in path: libs/html5lib/html5lib
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- chardet
+Searching for imports in path: libs/chardet/chardet
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- genshi
+Searching for imports in path: libs/genshi/genshi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- lxml
+Searching for imports in path: libs/lxml/lxml
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+bs4 has already been analyzed
+html5lib has already been analyzed
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports  Could not find a version that satisfies the requirement code_generators (from versions: )
+No matching distribution found for code_generators
+
+Removing all python std lib imports
+No 3p imports
+lxml has already been analyzed
+---- oauth2client
+Found oauth2client in c libs, shared libs, or ext proc calls
+---- imutils
+Searching for imports in path: libs/imutils/imutils
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- picamera
+Found picamera in c libs, shared libs, or ext proc calls
+---- monotonic
+Searching for imports in path: libs/monotonic/monotonic.py
+Found ctypes wrapper
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- numpy
+Searching for imports in path: libs/numpy/numpy
+Found call to native proc
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- code_generators
+Searching for imports in path: libs/code_generators
+Downloading code_generators
+Did not install through pip: code_generators
+---- genapi
+Searching for imports in path: libs/genapi/genapi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- requests_toolbelt
+Searching for imports in path: libs/genapi/requests_toolbelt
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- requests
+Found requests in c libs, shared libs, or ext proc calls
+---- urllib3
+Searching for imports in path: libs/urllib3/urllib3
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+cryptography has already been analyzed
+---- ntlm
+Searching for imports in path: libs/ntlm/ntlm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+six has already been analyzed
+---- nose
+Searching for imports in path: libs/nose/nose
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- docutils
+Searching for imports in path: libs/docutils/docutils
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pygments
+Searching for imports in path: libs/pygments/pygments
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- PIL
+Found PIL in c libs, shared libs, or ext proc calls
+---- pubnub
+Searching for imports in path: libs/pubnub/pubnub
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- Crypto
+Searching for imports in path: libs/Crypto
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- OpenSSL
+Searching for imports in path: libs/OpenSSL/OpenSSL
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- yaml
+Searching for imports in path: libs/yaml/yaml
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+cryptography has already been analyzed
+---- ntlm
+Searching for imports in path: libs/ntlm/ntlm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+six has already been analyzed
+---- Cryptodome
+Searching for imports in path: libs/pubnub/Cryptodome
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cffi
+Found cffi in c libs, shared libs, or ext proc calls
+---- scapy
+Searching for imports in path: libs/scapy/scapy
+Found ctypes wrapper
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- cryptography
+Searching for imports in path: libs/cryptography/cryptography
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pyasn1
+Searching for imports in path: libs/pyasn1/pyasn1
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- six
+Searching for imports in path: libs/six/six.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- matplotlib
+Searching for imports in path: libs/matplotlib/matplotlib
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- IPython
+Found IPython in c libs, shared libs, or ext proc calls
+---- PIL
+Found PIL in c libs, shared libs, or ext proc calls
+---- sphinxbase
+Found sphinxbase in c libs, shared libs, or ext proc calls
+---- websocket
+Searching for imports in path: libs/websocket/websocket
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- wiringpi2
+Searching for imports in path: libs/wiringpi2/wiringpi2.py
+Found a C-implementation
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- xively
+Searching for imports in path: libs/xively/xively
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- requests
+Found requests in c libs, shared libs, or ext proc calls
+---- APDS9300
+Searching for imports in path: libs/APDS9300/APDS9300.py
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- smbus
+Found smbus in c libs, shared libs, or ext proc calls
+---- Adafruit_CharLCDPlate
+Searching for imports in path: libs/Adafruit_CharLCDPlate
+Found call to native proc
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- Adafruit_BBIO
+Found Adafruit_BBIO in c libs, shared libs, or ext proc calls
+---- RPi.GPIO
+Found RPi.GPIO in c libs, shared libs, or ext proc calls
+---- mock
+Searching for imports in path: libs/mock/mock
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pbr
+Searching for imports in path: libs/mock/pbr
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- docutils
+Searching for imports in path: libs/docutils/docutils
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- pygments
+Searching for imports in path: libs/pygments/pygments
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- PIL
+Found PIL in c libs, shared libs, or ext proc calls
+---- Adafruit_GPIO
+Searching for imports in path: libs/Adafruit_GPIO/Adafruit_GPIO
+Found call to native proc
+Found a C-implementation
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports -- more analysis
+---- Adafruit_BBIO
+Found Adafruit_BBIO in c libs, shared libs, or ext proc calls
+---- Adafruit_PureIO
+Searching for imports in path: libs/Adafruit_GPIO/Adafruit_PureIO
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3p imports
+---- RPi.GPIO
+Found RPi.GPIO in c libs, shared libs, or ext proc calls

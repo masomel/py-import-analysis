@@ -1,0 +1,9 @@
+{
+    "apps/multi/DIYSmartphone": [
+        {
+            "apps/multi/DIYSmartphone/apps/camera/app.py": [
+                "yuv2rgb.so"
+            ]
+        }
+    ]
+}

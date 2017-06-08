@@ -1,0 +1,20 @@
+Number of analyzed IoT apps: 85
+Number of distinct libs (3p): 366 (270)
+% 3p libs: 73.8
+Number of imports per app (min/median/max/mean): 1/7/245/11.7
+Number of 3p imports per app (min/median/max/mean): 0/3/177/5.7
+Top 5 libs by frequency (in % of apps): 
+RPi.GPIO: 44.7
+requests: 23.5
+picamera: 21.2
+alsaaudio: 11.8
+cherrypy: 11.8
+% of apps that exec an external proc: 45.9
+% of apps that load libs thru ctypes: 4.7
+Number of unused libs (3p): 35 (12)
+Top 5 unused 3p libs by frequency (in % of apps): 
+Adafruit_GPIO: 2.4
+RPi.GPIO: 2.4
+numpy: 2.4
+Adafruit_I2C: 1.2
+Adafruit_MCP230xx: 1.2

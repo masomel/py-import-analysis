@@ -1,0 +1,336 @@
+apps/audio/Alexabot:
+[
+    "BaseHTTPServer",
+    "CHIP_IO",
+    "ConfigParser",
+    "RPi.GPIO",
+    "__future__",
+    "abc",
+    "alsaaudio",
+    "cStringIO",
+    "cherrypy",
+    "collections",
+    "contextlib",
+    "email",
+    "flask",
+    "gopigo",
+    "importlib",
+    "json",
+    "logging",
+    "memcache",
+    "optparse",
+    "os",
+    "pocketsphinx",
+    "pyA20",
+    "re",
+    "requests",
+    "shutil",
+    "signal",
+    "socket",
+    "sys",
+    "tempfile",
+    "threading",
+    "time",
+    "urllib",
+    "urllib2",
+    "urlparse",
+    "vlc",
+    "webrtcvad",
+    "xml",
+    "yaml"
+]
+apps/audio/AlexaCoffeeMachine:
+[
+    "AWSIoTPythonSDK",
+    "RPi.GPIO",
+    "alsaaudio",
+    "email",
+    "json",
+    "memcache",
+    "os",
+    "requests",
+    "time",
+    "vlc",
+    "webrtcvad"
+]
+apps/audio/AlexaPhone:
+[
+    "RPi.GPIO",
+    "alsaaudio",
+    "cherrypy",
+    "json",
+    "memcache",
+    "os",
+    "re",
+    "requests",
+    "time",
+    "urllib"
+]
+apps/audio/AlexaPiMQTTSmartHub:
+[
+    "RPi.GPIO",
+    "alsaaudio",
+    "cherrypy",
+    "json",
+    "memcache",
+    "os",
+    "re",
+    "requests",
+    "time",
+    "urllib"
+]
+apps/audio/AlexaWithRaspioProHat:
+[
+    "RPi.GPIO",
+    "alsaaudio",
+    "cherrypy",
+    "json",
+    "memcache",
+    "os",
+    "re",
+    "requests",
+    "time",
+    "urllib"
+]
+apps/audio/AudioServer&Recorder.py:
+[
+    "mraa",
+    "os",
+    "time"
+]
+apps/audio/AWShome:
+[
+    "AWSIoTPythonSDK",
+    "RPi.GPIO",
+    "alsaaudio",
+    "boto3",
+    "cherrypy",
+    "email",
+    "json",
+    "logging",
+    "memcache",
+    "optparse",
+    "os",
+    "pi_switch",
+    "pocketsphinx",
+    "requests",
+    "socket",
+    "sphinxbase",
+    "threading",
+    "time",
+    "urllib",
+    "vlc"
+]
+apps/audio/babynap.py:
+[
+    "json",
+    "nfc",
+    "paho",
+    "ssl",
+    "tentacle_pi",
+    "threading",
+    "time",
+    "wiringpi2"
+]
+apps/audio/BlokBot.py:
+[
+    "Adafruit_SSD1306",
+    "PIL",
+    "espeak",
+    "re",
+    "subprocess",
+    "time",
+    "unirest"
+]
+apps/audio/ControlTVWithVoice:
+[
+    "cec",
+    "speech_recognition"
+]
+apps/audio/DIYAmazonAlexa:
+[
+    "cherrypy",
+    "json",
+    "memcache",
+    "os",
+    "re",
+    "requests",
+    "subprocess",
+    "urllib"
+]
+apps/audio/GettingStartedWithReSpeaker:
+[
+    "Queue",
+    "array",
+    "audioop",
+    "collections",
+    "ctypes",
+    "hid",
+    "io",
+    "logging",
+    "math",
+    "monotonic",
+    "os",
+    "platform",
+    "pocketsphinx",
+    "pyaudio",
+    "pywinusb",
+    "random",
+    "requests",
+    "select",
+    "string",
+    "subprocess",
+    "sys",
+    "tempfile",
+    "threading",
+    "time",
+    "timeit",
+    "types",
+    "usb",
+    "uuid",
+    "wave",
+    "webrtcvad"
+]
+apps/audio/HeyAthena:
+[
+    "__future__",
+    "contextlib",
+    "gtts",
+    "inspect",
+    "logging",
+    "os",
+    "pkgutil",
+    "pocketsphinx",
+    "pyaudio",
+    "pyglet",
+    "random",
+    "re",
+    "requests",
+    "selenium",
+    "speech_recognition",
+    "sys",
+    "tempfile",
+    "time",
+    "traceback",
+    "urllib",
+    "wolframalpha",
+    "yaml"
+]
+apps/audio/JarvisInPython.py:
+[
+    "gtts",
+    "os",
+    "speech_recognition",
+    "time"
+]
+apps/audio/PiHomeMaster:
+[
+    "RPi.GPIO",
+    "alsaaudio",
+    "cherrypy",
+    "json",
+    "memcache",
+    "os",
+    "paho",
+    "re",
+    "requests",
+    "ssl",
+    "time",
+    "urllib"
+]
+apps/audio/PiTranslate:
+[
+    "StringIO",
+    "argparse",
+    "json",
+    "os",
+    "pycurl",
+    "requests",
+    "subprocess",
+    "urllib"
+]
+apps/audio/ReSpeakerMessenger:
+[
+    "collections",
+    "io",
+    "json",
+    "monotonic",
+    "paho",
+    "pprint",
+    "pyaudio",
+    "serial",
+    "signal",
+    "sys",
+    "telepot",
+    "threading",
+    "time",
+    "urllib",
+    "urllib2",
+    "uuid",
+    "wave",
+    "webrtcvad"
+]
+apps/audio/RPiAlexa:
+[
+    "RPi.GPIO",
+    "alsaaudio",
+    "cherrypy",
+    "json",
+    "memcache",
+    "os",
+    "re",
+    "requests",
+    "time",
+    "urllib"
+]
+apps/audio/RPiPersonalAssistant:
+[
+    "sys",
+    "wolframalpha"
+]
+apps/audio/soundSensorPhilippsHue.py:
+[
+    "RPi.GPIO",
+    "qhue",
+    "time"
+]
+apps/audio/STTIntelIoT.py:
+[
+    "speech_recognition"
+]
+apps/audio/TalkingGanesha:
+[
+    "StringIO",
+    "os",
+    "pycurl",
+    "subprocess",
+    "sys",
+    "time",
+    "wolframalpha"
+]
+apps/audio/VintageIntercom:
+[
+    "RPi.GPIO",
+    "alsaaudio",
+    "cherrypy",
+    "json",
+    "memcache",
+    "os",
+    "re",
+    "requests",
+    "time",
+    "urllib"
+]
+apps/audio/VoiceControlRoombaHue:
+[
+    "base64",
+    "gevent",
+    "grequests",
+    "json",
+    "os",
+    "pocketsphinx",
+    "pyaudio",
+    "serial",
+    "sys",
+    "traceback"
+]

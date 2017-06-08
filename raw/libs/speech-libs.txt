@@ -1,0 +1,5 @@
+pocketsphinx
+speech_recognition
+gtts
+webrtcvad
+espeak

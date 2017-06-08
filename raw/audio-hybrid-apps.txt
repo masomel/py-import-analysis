@@ -1,0 +1,10 @@
+{
+    "apps/audio/GettingStartedWithReSpeaker": [
+        {
+            "apps/audio/GettingStartedWithReSpeaker/respeaker/fft.py": [
+                "self.fftw3f = ctypes.CDLL('libfftw3f-3.dll')",
+                "self.fftw3f = ctypes.CDLL('libfftw3f.so')"
+            ]
+        }
+    ]
+}

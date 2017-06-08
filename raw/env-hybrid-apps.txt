@@ -1,0 +1,9 @@
+{
+    "apps/env/SensorianIoTDashboard.py": [
+        {
+            "apps/env/SensorianIoTDashboard.py": [
+                "sensor = CDLL(\"./libMPL.so\")\t\t\t\t\t\t#load the shared library"
+            ]
+        }
+    ]
+}

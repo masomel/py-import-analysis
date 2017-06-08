@@ -1,0 +1,5 @@
+% of pure python top-50 libs: 10.0
+% of top-50 libs implemented in C/C++: 82.0
+% of top-50 libs that load libs thru ctypes: 38.0
+% of libs that exec an external proc: 52.0
+% of libs that have at least two of these properties: 50.0

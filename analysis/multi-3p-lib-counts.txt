@@ -1,0 +1,14 @@
+{
+    "apps/multi/devicePresenseAlert": 177,
+    "apps/multi/RPiSecuritySystem": 8,
+    "apps/multi/SmartMirror": 8,
+    "apps/multi/BeagleAlexa": 7,
+    "apps/multi/GardeningService": 7,
+    "apps/multi/AndyBot": 6,
+    "apps/multi/MarsRover": 6,
+    "apps/multi/DIYSmartphone": 4,
+    "apps/multi/tweetPic.py": 3,
+    "apps/multi/SamsungARKTIKPhotobooth.py": 2,
+    "apps/multi/tweetingPlants.py": 2,
+    "apps/multi/HAL9000": 1
+}

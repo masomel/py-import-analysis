@@ -1,0 +1,169 @@
+Number of env apps being scraped: 24
+--- current app: apps/env/beerfridge
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/CyberSafe
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/detect_bluetooth.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/DHT22Logger
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/EchoPiWeather
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/EmailiPhoneNetworkPresence.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/grove_IOT.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/HomeControlCenterBBGW
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/homeRoomTempHumMonitor.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/HomeTempThingspeak.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/HomeVentilation
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/intelligentDoor.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/IoTRPiArduino
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/IoTTempHumidityMonitor
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/NetworkMonitoringWithAWSIoT.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/PiIndoorAirQualityMonitor
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/RPiPIRSensor.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/RPiRoomTempMonitorGnuplot.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/SensorianIoTDashboard.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/SitSat
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/smartScale
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/thermostatRaspBerryPi
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/env/weatherStation.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/env/WirelessDoorbell.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused

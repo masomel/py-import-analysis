@@ -1,0 +1,69 @@
+serial
+pyaudio
+alsaaudio
+wave
+vlc
+RPi.GPIO
+alsaaudio
+espeak - os.system
+play - os.system
+wiringpi2
+alsaaudio
+mpg123 - os.system
+wave
+RPi.GPIO
+micarray - subprocess.Popen
+gpio - subprocess.Popen
+mpg123 - os.system
+rmmod - subprocess.Popen
+espeak
+Adafruit_SSD1306
+Adafruit_GPIO.SPI
+arerecord - subprocess.call
+speech_recognition
+pydub
+alsaaudio
+mpg123 - os.system
+wave
+RPi.GPIO
+jasper
+mplayer - CLI
+voicecommand - CLI
+voicecommand - CLI
+arerecord - CLI
+mplayer - subprocess.call
+pyaudio
+serial
+pyaudio
+speech_recognition
+speech_recognition
+cec
+speech_recognition
+mpg123 - os.system
+alsaaudio
+mpg123 - os.system
+wave
+pyaudio
+pyaudio
+speech_recognition
+pyglet
+alsaaudio
+wave
+mpg123 - os.system
+RPi.GPIO
+alsaaudio
+wave
+mpg123 - os.system
+RPi.GPIO
+gopigo
+alsaaudio
+espeak - subprocess.Popen
+arecord - os.system
+RPi.GPIO
+speech_recognition
+arecord - os.system
+aplay - os.system
+mraa
+alsaaudio
+wave
+RPi.GPIO

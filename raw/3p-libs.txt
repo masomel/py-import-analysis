@@ -1,0 +1,9 @@
+{
+    "pyA20": [],
+    "pywinusb": [
+        "pkg_resources",
+        "wx"
+    ],
+    "grovepi": []
+}
+{}

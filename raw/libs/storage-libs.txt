@@ -1,0 +1,5 @@
+memcache
+pymongo
+MySQLdb
+SynologyDSM
+mysql

@@ -1,0 +1,6 @@
+yaml
+numpy
+feedparser
+bs4
+fuzzywuzzy
+jinja2

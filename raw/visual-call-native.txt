@@ -1,0 +1,99 @@
+{
+    "apps/visual/CodeYourOwnPhotobooth.py": [
+        {
+            "apps/visual/CodeYourOwnPhotobooth.py": [
+                "subprocess.Popen([call], shell=True)",
+                "subprocess.Popen([movecall], shell=True)",
+                "subprocess.Popen([movecall], shell=True)",
+                "subprocess.call([call], shell=True)",
+                "subprocess.call([call], shell=True)",
+                "subprocess.Popen([\"x-www-browser file:///home/pi/GUI/About/About.htm\"], shell=True)",
+                "subprocess.Popen([\"x-www-browser http://127.0.0.1:631\"], shell=True)",
+                "subprocess.Popen([\"leafpad /home/pi/.muttrc\"], shell=True)",
+                "subprocess.call([call], shell=True)",
+                "subprocess.call([call], shell=True)",
+                "subprocess.call([call], shell=True)",
+                "subprocess.call([call], shell=True)",
+                "subprocess.Popen([call1], shell=True)",
+                "subprocess.Popen([imagecall2], shell=True)",
+                "subprocess.Popen([imagecall], shell=True)",
+                "subprocess.Popen([imagecall], shell=True)",
+                "subprocess.Popen([imagecall], shell=True)",
+                "ml = subprocess.Popen([mutt], shell = True)",
+                "ml = subprocess.Popen([mutt], shell = True)",
+                "subprocess.Popen([printer], shell = True)",
+                "subprocess.Popen([printer], shell = True)",
+                "subprocess.Popen([call], shell = True)",
+                "subprocess.Popen([call1], shell=True)",
+                "subprocess.Popen([call1], shell=True)",
+                "subprocess.Popen([call], shell=True)",
+                "subprocess.Popen([call1], shell=True)",
+                "subprocess.Popen([call1], shell=True)"
+            ]
+        }
+    ],
+    "apps/visual/Fishtank": [
+        {
+            "apps/visual/Fishtank/Lights.py": [
+                "call([\"python\", Config.path + \"server/elro.py\", \"1\", \"1\" if value else \"0\"])"
+            ]
+        }
+    ],
+    "apps/visual/GPIO&PiCameraUsingTelegram.py": [
+        {
+            "apps/visual/GPIO&PiCameraUsingTelegram.py": [
+                "subprocess.call(cmd.split())",
+                "subprocess.call(cmd.split())",
+                "subprocess.call(cmd.split())",
+                "subprocess.call(cmd.split())"
+            ]
+        }
+    ],
+    "apps/visual/RPiIoTDoorbell": [
+        {
+            "apps/visual/RPiIoTDoorbell/bell.py": [
+                "os.system(command)",
+                "os.system(emailcommand) #running the Email script with:"
+            ]
+        }
+    ],
+    "apps/visual/RPiLaserSecurity.py": [
+        {
+            "apps/visual/RPiLaserSecurity.py": [
+                "sm_pid = os.spawnlp(os.P_NOWAIT, \"/usr/bin/python3\",\"python3\",\"/home/pi/Desktop/security/send_mail.py\")"
+            ]
+        }
+    ],
+    "apps/visual/RPiPhotobooth": [
+        {
+            "apps/visual/RPiPhotobooth/matchbox_test.py": [
+                "matchbox = subprocess.Popen([\"matchbox-keyboard\"])"
+            ]
+        }
+    ],
+    "apps/visual/WifiPhotobooth": [
+        {
+            "apps/visual/WifiPhotobooth/photobooth_control.py": [
+                "subprocess.call( ['/home/pi/pb/combine.sh', LastPictures[0], LastPictures[1], LastPictures[2], LastPictures[3]])",
+                "os.system(\"sudo shutdown -h now\")",
+                "subprocess.call( ['/home/pi/pb/combine.sh', LastPictures[0], LastPictures[1], LastPictures[2], LastPictures[3]])",
+                "os.system(\"sudo shutdown -h now\")"
+            ]
+        }
+    ],
+    "apps/visual/monitordoorbell.py": [
+        {
+            "apps/visual/monitordoorbell.py": [
+                "returncode = subprocess.Popen(\"/usr/bin/fswebcam -c /opt/develop/deurmonitor.cfg\", shell=True)"
+            ]
+        }
+    ],
+    "apps/visual/pidoorbell.py": [
+        {
+            "apps/visual/pidoorbell.py": [
+                "os.system(command)",
+                "os.system('mpg321 -g 100 /home/pi/Ringtones/doorbell1.mp3 &amp;')"
+            ]
+        }
+    ]
+}

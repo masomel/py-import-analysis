@@ -1,0 +1,12 @@
+DIYSmartphone, http://www.instructables.com/id/Build-Your-Own-Smartphone/?ALLSTEPS
+AndyBot, https://hackaday.io/project/1205-andy-a-multi-purpose-humanoid-robot
+BeagleAlexa, https://www.hackster.io/fcooper27/beaglealexa-56f174
+SmartMirror, http://www.instructables.com/id/Raspberry-Pi-Smart-Mirror/?ALLSTEPS
+tweetPic.py, https://hackaday.io/project/11688-iot-twitter-sentry-ward-using-intel-edison
+tweetingPlants.py, https://www.hackster.io/archieroques/iot-tweeting-plants-w-raspberry-pi-f99da2
+GardeningService, https://www.hackster.io/terren/simple-gardening-service-manage-indoor-gardens-using-iot-be95d1
+RPiSecuritySystem, https://www.hackster.io/FutureSharks/raspberry-pi-security-system-with-motion-detection-camera-bed172
+MarsRover, http://www.instructables.com/id/Mobile-Station-Prototype-for-Environmental-Data-Ca/?ALLSTEPS
+HAL9000, http://www.instructables.com/id/RaspberryPI-HAL9000/?ALLSTEPS
+SamsungARKTIKPhotobooth.py, https://www.artik.io/blog/2016/07/building-photo-booth-samsung-artik-10/
+devicePresenceAlert, https://www.hackster.io/imrehg/device-presence-alert-home-automation-148276

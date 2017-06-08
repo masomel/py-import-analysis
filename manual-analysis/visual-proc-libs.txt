@@ -1,0 +1,24 @@
+openCV
+openCV
+imutils
+openCV
+yuv2rgb
+pygame
+PIL.Image
+MySQLdb
+urllib
+PIL.Image
+openCV
+PIL.Image
+montage - subprocess.Popen
+convert - subprocess.Popen
+opencv
+cPickle
+yuv2rgb
+Image
+convert - subprocess.call
+qrencode - subprocess.call
+oauth2client
+SimpleCV
+openCV
+numpy

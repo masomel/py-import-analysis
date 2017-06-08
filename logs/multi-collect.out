@@ -1,0 +1,91 @@
+Number of multi apps being scraped: 12
+--- current app: apps/multi/AndyBot
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/multi/BeagleAlexa
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/multi/devicePresenseAlert
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/multi/DIYSmartphone
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/multi/GardeningService
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/multi/HAL9000
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/multi/MarsRover
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/multi/RPiSecuritySystem
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/multi/SamsungARKTIKPhotobooth.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/multi/SmartMirror
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/multi/tweetingPlants.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/multi/tweetPic.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused

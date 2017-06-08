@@ -1,0 +1,1556 @@
+  Could not find a version that satisfies the requirement APDS9300 (from versions: )
+No matching distribution found for APDS9300
+Target directory /tmp/AWSIoTPythonSDK/AWSIoTPythonSDK-1.1.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/AWSIoTPythonSDK/AWSIoTPythonSDK already exists. Specify --upgrade to force replacement.
+Target directory /tmp/Adafruit_BBIO/overlays already exists. Specify --upgrade to force replacement.
+Target directory /tmp/Adafruit_BBIO/Adafruit_BBIO already exists. Specify --upgrade to force replacement.
+Target directory /tmp/Adafruit_BBIO/Adafruit_I2C.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/Adafruit_BBIO/Adafruit_BBIO-1.0.1.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement Adafruit_CharLCDPlate (from versions: )
+No matching distribution found for Adafruit_CharLCDPlate
+  Could not find a version that satisfies the requirement Adafruit_DHT (from versions: )
+No matching distribution found for Adafruit_DHT
+Target directory /tmp/Adafruit_GPIO/tests already exists. Specify --upgrade to force replacement.
+Target directory /tmp/Adafruit_GPIO/Adafruit_GPIO already exists. Specify --upgrade to force replacement.
+Target directory /tmp/Adafruit_GPIO/Adafruit_GPIO-1.0.1.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement Adafruit_Nokia_LCD (from versions: )
+No matching distribution found for Adafruit_Nokia_LCD
+  Could not find a version that satisfies the requirement Adafruit_Python_BMP (from versions: )
+No matching distribution found for Adafruit_Python_BMP
+Target directory /tmp/Adafruit_SSD1306/Adafruit_SSD1306 already exists. Specify --upgrade to force replacement.
+Target directory /tmp/Adafruit_SSD1306/Adafruit_SSD1306-1.6.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/CHIP_IO/overlays already exists. Specify --upgrade to force replacement.
+Target directory /tmp/CHIP_IO/CHIP_IO-0.2.6.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/CHIP_IO/CHIP_IO already exists. Specify --upgrade to force replacement.
+Target directory /tmp/DirectPy/directpy-0.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/DirectPy/DirectPy.py already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement Gnuplot (from versions: )
+No matching distribution found for Gnuplot
+Target directory /tmp/ISStreamer/ISStreamer already exists. Specify --upgrade to force replacement.
+Target directory /tmp/ISStreamer/ISStreamer-0.1.1.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement MPL3115A2 (from versions: )
+No matching distribution found for MPL3115A2
+  Could not find a version that satisfies the requirement MySQLdb (from versions: )
+No matching distribution found for MySQLdb
+  Could not find a version that satisfies the requirement OpenSSL (from versions: )
+No matching distribution found for OpenSSL
+  Could not find a version that satisfies the requirement PIL (from versions: )
+No matching distribution found for PIL
+Target directory /tmp/PyISY/PyISY already exists. Specify --upgrade to force replacement.
+Target directory /tmp/PyISY/PyISY-1.0.7.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/PyMata/PyMata already exists. Specify --upgrade to force replacement.
+Target directory /tmp/PyMata/PyMata-2.13.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement RFXtrx (from versions: )
+No matching distribution found for RFXtrx
+Target directory /tmp/RPi.GPIO/RPi.GPIO-0.6.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/RPi.GPIO/RPi already exists. Specify --upgrade to force replacement.
+Target directory /tmp/SimpleCV/SimpleCV-1.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/SimpleCV/SimpleCV already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement SynologyDSM (from versions: )
+No matching distribution found for SynologyDSM
+Target directory /tmp/TwitterAPI/TwitterAPI already exists. Specify --upgrade to force replacement.
+Target directory /tmp/TwitterAPI/TwitterAPI-2.4.3.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement adxl345 (from versions: )
+No matching distribution found for adxl345
+Target directory /tmp/aiohttp/aiohttp already exists. Specify --upgrade to force replacement.
+Target directory /tmp/aiohttp/aiohttp-1.2.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/aiohttp_cors/aiohttp_cors-0.5.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/aiohttp_cors/aiohttp_cors already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement alsaaudio (from versions: )
+No matching distribution found for alsaaudio
+Target directory /tmp/apcaccess/apcaccess-0.0.9.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/apcaccess/apcaccess already exists. Specify --upgrade to force replacement.
+Target directory /tmp/apns2/apns2 already exists. Specify --upgrade to force replacement.
+Target directory /tmp/apns2/apns2-0.1.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/astral/astral.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/astral/astral-1.3.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/async_timeout/async_timeout already exists. Specify --upgrade to force replacement.
+Target directory /tmp/async_timeout/async_timeout-1.1.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/batinfo/batinfo already exists. Specify --upgrade to force replacement.
+Target directory /tmp/batinfo/batinfo-0.4.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/blinkstick/BlinkStick-1.1.8.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/blinkstick/blinkstick already exists. Specify --upgrade to force replacement.
+Target directory /tmp/blockchain/blockchain-1.3.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/blockchain/blockchain already exists. Specify --upgrade to force replacement.
+Target directory /tmp/bluepy_devices/bluepy_devices-0.2.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/bluepy_devices/bluepy_devices already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement bluetooth (from versions: )
+No matching distribution found for bluetooth
+Target directory /tmp/boto3/boto3 already exists. Specify --upgrade to force replacement.
+Target directory /tmp/boto3/boto3-1.4.4.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement braviarc (from versions: )
+No matching distribution found for braviarc
+Target directory /tmp/bs4/bs4-0.0.1.dist-info already exists. Specify --upgrade to force replacement.
+  Failed building wheel for cec
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-ospt9vr7/cec/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-d91za8nj-record/install-record.txt --single-version-externally-managed --no-compile --home=/tmp/tmp26f7l4lm" failed with error code 1 in /tmp/pip-build-ospt9vr7/cec/
+Target directory /tmp/cherrypy/CherryPy-10.0.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/cherrypy/cherrypy already exists. Specify --upgrade to force replacement.
+Target directory /tmp/colorlog/colorlog-2.10.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/colorlog/colorlog already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement cpuinfo (from versions: )
+No matching distribution found for cpuinfo
+  Could not find a version that satisfies the requirement cv2 (from versions: )
+No matching distribution found for cv2
+  Could not find a version that satisfies the requirement dateutil (from versions: )
+No matching distribution found for dateutil
+  Could not find a version that satisfies the requirement devicehive (from versions: )
+No matching distribution found for devicehive
+  Could not find a version that satisfies the requirement digitalocean (from versions: )
+No matching distribution found for digitalocean
+Target directory /tmp/distro/distro.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/distro/distro-1.0.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/dlipower/dlipower already exists. Specify --upgrade to force replacement.
+Target directory /tmp/dlipower/dlipower-0.7.165.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/dropbox/dropbox already exists. Specify --upgrade to force replacement.
+Target directory /tmp/dropbox/dropbox-7.1.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/dsmr_parser/test already exists. Specify --upgrade to force replacement.
+Target directory /tmp/dsmr_parser/dsmr_parser-0.8.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/dsmr_parser/dsmr_parser already exists. Specify --upgrade to force replacement.
+Target directory /tmp/dweepy/dweepy-0.2.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/dweepy/dweepy.py already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement eiscp (from versions: )
+No matching distribution found for eiscp
+Target directory /tmp/enocean/enocean-0.31.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/enocean/enocean already exists. Specify --upgrade to force replacement.
+Target directory /tmp/envirophat/envirophat-0.0.6.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/envirophat/envirophat already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement espeak (from versions: )
+No matching distribution found for espeak
+Target directory /tmp/evdev/evdev-0.6.4.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/evdev/evdev already exists. Specify --upgrade to force replacement.
+Target directory /tmp/evohomeclient/evohomeclient2 already exists. Specify --upgrade to force replacement.
+Target directory /tmp/evohomeclient/evohomeclient-0.2.5.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/evohomeclient/evohomeclient already exists. Specify --upgrade to force replacement.
+Target directory /tmp/feedparser/feedparser-5.2.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/feedparser/feedparser.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/fixerio/fixerio-0.1.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/fixerio/fixerio already exists. Specify --upgrade to force replacement.
+Target directory /tmp/flask/flask already exists. Specify --upgrade to force replacement.
+Target directory /tmp/flask/Flask-0.12.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/flask_login/flask_login already exists. Specify --upgrade to force replacement.
+Target directory /tmp/flask_login/Flask_Login-0.4.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/flask_socketio/Flask_SocketIO-2.8.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/flask_socketio/flask_socketio already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement forecastio (from versions: )
+No matching distribution found for forecastio
+Target directory /tmp/freesms/freesms-0.1.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/freesms/freesms already exists. Specify --upgrade to force replacement.
+Target directory /tmp/fritzconnection/fritzconnection already exists. Specify --upgrade to force replacement.
+Target directory /tmp/fritzconnection/fritzconnection-0.6.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/fuzzywuzzy/fuzzywuzzy-0.14.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/fuzzywuzzy/fuzzywuzzy already exists. Specify --upgrade to force replacement.
+  Failed building wheel for gattlib
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-1rqs2ik7/gattlib/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-m3puljqs-record/install-record.txt --single-version-externally-managed --no-compile --home=/tmp/tmp45mqlnv5" failed with error code 1 in /tmp/pip-build-1rqs2ik7/gattlib/
+Target directory /tmp/gdata/gdata-2.0.18.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gdata/gdata already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gdata/atom already exists. Specify --upgrade to force replacement.
+Number of libs in all: 272
+--- AWSIoTPythonSDK
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- Adafruit_BBIO
+C implementation likely elsewhere (no imports)
+--- Adafruit_GPIO
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- Adafruit_SSD1306
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- CHIP_IO
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- DirectPy
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- ISStreamer
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- PyISY
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- PyMata
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- RPi.GPIO
+C implementation likely elsewhere (with imports)
+--- SimpleCV
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- TwitterAPI
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- aiohttp
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- aiohttp_cors
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- apcaccess
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- apns2
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- astral
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- async_timeout
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- batinfo
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- blinkstick
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- blockchain
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- bluepy_devices
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- boto3
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- bs4
+No python sources found
+--- cherrypy
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- colorlog
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- distro
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- dlipower
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- dropbox
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- dsmr_parser
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- dweepy
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- enocean
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- envirophat
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- evdev
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- evohomeclient
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- feedparser
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- fixerio
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- flask
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- flask_login
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- flask_socketio
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- freesms
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- fritzconnection
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- fuzzywuzzy
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- gdata
+Replacing the first-party imports for group: raw_imports
+Extracting package names for importsTarget directory /tmp/gevent/gevent already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gevent/gevent-1.2.1.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement googleapiclient (from versions: )
+No matching distribution found for googleapiclient
+Target directory /tmp/googlemaps/googlemaps-2.4.5.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/googlemaps/googlemaps already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gopigo/gopigo-1.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gopigo/gopigo already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gps3/gps3-0.33.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gps3/gps3 already exists. Specify --upgrade to force replacement.
+Target directory /tmp/grequests/grequests.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/grequests/grequests-0.3.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/grovepi/grovepi already exists. Specify --upgrade to force replacement.
+Target directory /tmp/grovepi/grovepi-1.2.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gspread/gspread-0.6.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gspread/gspread already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gtts/gtts already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gtts/gTTS-1.1.8.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gtts_token/gtts_token already exists. Specify --upgrade to force replacement.
+Target directory /tmp/gtts_token/gTTS_token-1.1.1.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement haalpr (from versions: )
+No matching distribution found for haalpr
+  Could not find a version that satisfies the requirement haffmpeg (from versions: )
+No matching distribution found for haffmpeg
+  Could not find a version that satisfies the requirement haphilipsjs (from versions: )
+No matching distribution found for haphilipsjs
+Target directory /tmp/hbmqtt/hbmqtt-0.8.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/hbmqtt/scripts already exists. Specify --upgrade to force replacement.
+Target directory /tmp/hbmqtt/hbmqtt already exists. Specify --upgrade to force replacement.
+Target directory /tmp/heatmiserV3/heatmiserV3 already exists. Specify --upgrade to force replacement.
+Target directory /tmp/heatmiserV3/heatmiserV3-0.9.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/hid/hid-0.1.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/hid/hid already exists. Specify --upgrade to force replacement.
+Target directory /tmp/hikvision/hikvision-1.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/hikvision/hikvision already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement hpilo (from versions: )
+No matching distribution found for hpilo
+Target directory /tmp/httplib2/httplib2-0.9.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/httplib2/httplib2 already exists. Specify --upgrade to force replacement.
+Target directory /tmp/ibmiotf/ibmiotf-0.2.6.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/ibmiotf/ibmiotf already exists. Specify --upgrade to force replacement.
+Target directory /tmp/imutils/imutils already exists. Specify --upgrade to force replacement.
+Target directory /tmp/imutils/imutils-0.3.10.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement insteon (from versions: )
+No matching distribution found for insteon
+Target directory /tmp/insteonlocal/insteonlocal-0.39.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/insteonlocal/insteonlocal already exists. Specify --upgrade to force replacement.
+Target directory /tmp/jinja2/Jinja2-2.9.4.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/jinja2/jinja2 already exists. Specify --upgrade to force replacement.
+Target directory /tmp/jsonrpc_async/jsonrpc_async already exists. Specify --upgrade to force replacement.
+Target directory /tmp/jsonrpc_async/jsonrpc_async-0.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/jsonrpc_requests/jsonrpc_requests-0.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/jsonrpc_requests/jsonrpc_requests already exists. Specify --upgrade to force replacement.
+Target directory /tmp/jwt/jwt already exists. Specify --upgrade to force replacement.
+Target directory /tmp/jwt/jwt-0.3.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/keyring/keyring-10.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/keyring/keyring already exists. Specify --upgrade to force replacement.
+Target directory /tmp/knxip/knxip-0.3.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/knxip/knxip already exists. Specify --upgrade to force replacement.
+Target directory /tmp/libnacl/libnacl already exists. Specify --upgrade to force replacement.
+Target directory /tmp/libnacl/libnacl-1.5.0.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement libopenzwave (from versions: )
+No matching distribution found for libopenzwave
+Target directory /tmp/libsoundtouch/libsoundtouch-0.1.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/libsoundtouch/libsoundtouch already exists. Specify --upgrade to force replacement.
+Target directory /tmp/liffylights/liffylights.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/liffylights/liffylights-0.9.4.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/lightify/lightify already exists. Specify --upgrade to force replacement.
+Target directory /tmp/lightify/lightify-1.0.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/limitlessled/limitlessled-1.0.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/limitlessled/limitlessled already exists. Specify --upgrade to force replacement.
+Target directory /tmp/lnetatmo/lnetatmo.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/lnetatmo/lnetatmo-1.2.1.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement magic (from versions: )
+No matching distribution found for magic
+Target directory /tmp/matplotlib/matplotlib-2.0.0-py3.5-nspkg.pth already exists. Specify --upgrade to force replacement.
+Target directory /tmp/matplotlib/matplotlib already exists. Specify --upgrade to force replacement.
+Target directory /tmp/matplotlib/mpl_toolkits already exists. Specify --upgrade to force replacement.
+Target directory /tmp/matplotlib/pylab.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/matplotlib/matplotlib-2.0.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/matrix_client/matrix_client-0.0.5.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/matrix_client/matrix_client already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement memcache (from versions: )
+No matching distribution found for memcache
+Target directory /tmp/messagebird/messagebird-1.2.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/messagebird/messagebird already exists. Specify --upgrade to force replacement.
+Target directory /tmp/mficlient/mficlient already exists. Specify --upgrade to force replacement.
+Target directory /tmp/mficlient/mficlient-0.3.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/miniupnpc/miniupnpc.cpython-35m-x86_64-linux-gnu.so already exists. Specify --upgrade to force replacement.
+Target directory /tmp/miniupnpc/miniupnpc-1.9.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/mock/mock already exists. Specify --upgrade to force replacement.
+Target directory /tmp/mock/mock-2.0.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/monotonic/monotonic-1.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/monotonic/monotonic.py already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement mraa (from versions: )
+No matching distribution found for mraa
+Target directory /tmp/mysql/mysql-0.0.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/myusps/myusps already exists. Specify --upgrade to force replacement.
+Target directory /tmp/myusps/myusps-1.0.2.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement nad_receiver (from versions: )
+No matching distribution found for nad_receiver
+Target directory /tmp/netaddr/netaddr-0.7.19.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/netaddr/netaddr already exists. Specify --upgrade to force replacement.
+Target directory /tmp/netdisco/netdisco already exists. Specify --upgrade to force replacement.
+Target directory /tmp/netdisco/netdisco-0.8.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/netifaces/netifaces.cpython-35m-x86_64-linux-gnu.so already exists. Specify --upgrade to force replacement.
+Target directory /tmp/netifaces/netifaces-0.10.5.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/neurio/neurio-0.3.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/neurio/neurio already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement nfc (from versions: )
+No matching distribution found for nfc
+Target directory /tmp/nmap/nmap already exists. Specify --upgrade to force replacement.
+Target directory /tmp/nmap/nmap-0.0.1.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement nuimo (from versions: )
+No matching distribution found for nuimo
+Target directory /tmp/numpy/numpy-1.12.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/numpy/numpy already exists. Specify --upgrade to force replacement.
+
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- gevent
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- googlemaps
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- gopigo
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- gps3
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- grequests
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- grovepi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- gspread
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- gtts
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- gtts_token
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- hbmqtt
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- heatmiserV3
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- hid
+Found ctypes wrapper
+--- hikvision
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- httplib2
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- ibmiotf
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- imutils
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- insteonlocal
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- jinja2
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- jsonrpc_async
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- jsonrpc_requests
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- jwt
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- keyring
+Found ctypes wrapper
+--- knxip
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- libnacl
+Found ctypes wrapper
+--- libsoundtouch
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- liffylights
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- lightify
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- limitlessled
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- lnetatmo
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- matplotlib
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- matrix_client
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- messagebird
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- mficlient
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- miniupnpc
+No python sources found
+--- mock
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- monotonic
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- mysql
+No python sources found
+--- myusps
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- netaddr
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- netdisco
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- netifaces
+No python sources found
+--- neurio
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- nmap
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- numpy
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for importsTarget directory /tmp/oauth2client/oauth2client-4.0.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/oauth2client/oauth2client already exists. Specify --upgrade to force replacement.
+Target directory /tmp/oauth2client/tests already exists. Specify --upgrade to force replacement.
+Target directory /tmp/oauthlib/oauthlib-2.0.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/oauthlib/oauthlib already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement openalpr_api (from versions: )
+No matching distribution found for openalpr_api
+  Could not find a version that satisfies the requirement openzwave (from versions: )
+No matching distribution found for openzwave
+Target directory /tmp/orvibo/orvibo already exists. Specify --upgrade to force replacement.
+Target directory /tmp/orvibo/orvibo-1.1.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/ouimeaux/ouimeaux-0.8.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/ouimeaux/ouimeaux already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement paho (from versions: )
+No matching distribution found for paho
+Target directory /tmp/passlib/passlib already exists. Specify --upgrade to force replacement.
+Target directory /tmp/passlib/passlib-1.7.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pdunehd/pdunehd already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pdunehd/pdunehd-1.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pexpect/pexpect-4.2.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pexpect/pexpect already exists. Specify --upgrade to force replacement.
+Target directory /tmp/phue/phue-0.9.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/phue/phue.py already exists. Specify --upgrade to force replacement.
+  Failed building wheel for pi-switch
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-89eml2hz/pi-switch/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-1are16wu-record/install-record.txt --single-version-externally-managed --no-compile --home=/tmp/tmptd42xem2" failed with error code 1 in /tmp/pip-build-89eml2hz/pi-switch/
+Target directory /tmp/picamera/picamera-1.12.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/picamera/picamera already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pigpio/pigpio.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pigpio/pigpio-1.35.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/plexapi/tests already exists. Specify --upgrade to force replacement.
+Target directory /tmp/plexapi/PlexAPI-2.0.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/plexapi/plexapi already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pmsensor/pmsensor-0.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pmsensor/pmsensor already exists. Specify --upgrade to force replacement.
+  Failed building wheel for pocketsphinx
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-1txhaai9/pocketsphinx/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-utvcn7yu-record/install-record.txt --single-version-externally-managed --no-compile --home=/tmp/tmpoju2s46h" failed with error code 1 in /tmp/pip-build-1txhaai9/pocketsphinx/
+  Could not find a version that satisfies the requirement powerview_api (from versions: )
+No matching distribution found for powerview_api
+Target directory /tmp/psutil/psutil-5.0.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/psutil/psutil already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pubnub/pubnub-4.0.6.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pubnub/pubnub already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pubnubsubhandler (from versions: )
+No matching distribution found for pubnubsubhandler
+Target directory /tmp/pwaqi/pwaqi-1.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pwaqi/pwaqi already exists. Specify --upgrade to force replacement.
+Target directory /tmp/py4j/py4j-0.10.4.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/py4j/py4j already exists. Specify --upgrade to force replacement.
+ERROR: Target path exists but is not a directory, will not continue.
+Target directory /tmp/pyHS100/pyHS100-0.2.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyHS100/pyHS100 already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pyW215 (from versions: )
+No matching distribution found for pyW215
+  Could not find a version that satisfies the requirement pyalarmdotcom (from versions: )
+No matching distribution found for pyalarmdotcom
+  Failed building wheel for pyaudio
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-6wtcwz4p/pyaudio/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-dx84yaxn-record/install-record.txt --single-version-externally-managed --no-compile --home=/tmp/tmp_qc292ex" failed with error code 1 in /tmp/pip-build-6wtcwz4p/pyaudio/
+Target directory /tmp/pybbox/pybbox already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pybbox/pybbox-0.0.5a0.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pybotvac (from versions: )
+No matching distribution found for pybotvac
+Target directory /tmp/pychromecast/PyChromecast-0.7.7.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pychromecast/pychromecast already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pychromecast/.DS_Store already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pycmus/pycmus already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pycmus/pycmus-0.1.0.dist-info already exists. Specify --upgrade to force replacement.
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-3yvm3nn1/pycurl/
+Target directory /tmp/pydispatch/dispatch already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pydispatch/pydispatch-1.1.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pydub/pydub-0.16.7.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pydub/pydub already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pyecobee (from versions: )
+No matching distribution found for pyecobee
+  Could not find a version that satisfies the requirement pyedimax (from versions: )
+No matching distribution found for pyedimax
+Target directory /tmp/pyemby/pyemby already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyemby/pyEmby-0.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyenvisalink/pyenvisalink-2.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyenvisalink/pyenvisalink already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pyflic (from versions: )
+No matching distribution found for pyflic
+Target directory /tmp/pyfttt/pyfttt-0.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyfttt/pyfttt already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pygame/pygame-1.9.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pygame/pygame already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyglet/pyglet already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyglet/pyglet-1.2.4.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pygtfs/test already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pygtfs/pygtfs-0.1.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pygtfs/pygtfs already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyharmony/pyharmony already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyharmony/pyharmony-1.0.12.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyhik/pyhik already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyhik/pyHik-0.0.7.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyhomematic/pyhomematic already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyhomematic/pyhomematic-0.1.20.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyicloud/pyicloud-0.9.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyicloud/pyicloud already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyiss/pyiss already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyiss/pyiss-1.0.1.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pyjoin (from versions: )
+No matching distribution found for pyjoin
+  Could not find a version that satisfies the requirement pykeyboard (from versions: )
+No matching distribution found for pykeyboard
+Target directory /tmp/pylast/pylast-1.7.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pylast/pylast already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pylgnetcast (from versions: )
+No matching distribution found for pylgnetcast
+  Could not find a version that satisfies the requirement pylgtv (from versions: )
+No matching distribution found for pylgtv
+Target directory /tmp/pylitejet/pylitejet-0.1.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pylitejet/pylitejet already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyloopenergy/pyloopenergy already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyloopenergy/pyloopenergy-0.0.16.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pymochad/pymochad-0.1.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pymochad/pymochad already exists. Specify --upgrade to force replacement.
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-mycasml0/pymodbus/
+Target directory /tmp/pymongo/pymongo already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pymongo/pymongo-3.4.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pymongo/gridfs already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pymongo/bson already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pymystrom (from versions: )
+No matching distribution found for pymystrom
+Target directory /tmp/pynetgear/pynetgear-0.3.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pynetgear/pynetgear already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pynetio/pynetio.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pynetio/pynetio-0.1.9.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pynut2/pynut2-2.1.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pynut2/pynut2 already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyowm/pyowm-2.6.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyowm/pyowm already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyqwikswitch/pyqwikswitch already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyqwikswitch/pyqwikswitch-0.4.dist-info already exists. Specify --upgrade to force replacement.
+
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- oauth2client
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- oauthlib
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- orvibo
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- ouimeaux
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- passlib
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pdunehd
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pexpect
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- phue
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- picamera
+Found ctypes wrapper
+Found ctypes wrapper
+--- pigpio
+Found a C-implementation
+--- plexapi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pmsensor
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- psutil
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pubnub
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pwaqi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- py4j
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyHS100
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pybbox
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pychromecast
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pycmus
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pydispatch
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pydub
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyemby
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pyenvisalink
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pyfttt
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pygame
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyglet
+Found ctypes wrapper
+Found ctypes wrapper
+Found ctypes wrapper
+--- pygtfs
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyharmony
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyhik
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyhomematic
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyicloud
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyiss
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pylast
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pylitejet
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyloopenergy
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pymochad
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pymongo
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pynetgear
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pynetio
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pynut2
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pyowm
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyqwikswitch
+Replacing the first-party imports for group: raw_imports  Could not find a version that satisfies the requirement pysabnzbd (from versions: )
+No matching distribution found for pysabnzbd
+Target directory /tmp/pyscreenshot/pyscreenshot already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyscreenshot/pyscreenshot-0.4.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pysma/pysma already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pysma/pysma-0.1.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pysnmp/pysnmp already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pysnmp/pysnmp-4.3.2.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pythinkingcleaner (from versions: )
+No matching distribution found for pythinkingcleaner
+Target directory /tmp/pytrackr/pytrackr already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pytrackr/pytrackr-0.0.5.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pytz/pytz already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pytz/pytz-2016.10.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyunifi/pyunifi already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyunifi/pyunifi-1.31.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pyupm_grove (from versions: )
+No matching distribution found for pyupm_grove
+Target directory /tmp/pyvera/pyvera-0.2.23.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyvera/pyvera already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pywebpush/pywebpush already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pywebpush/pywebpush-0.6.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pywemo/pywemo-0.4.11.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pywemo/pywemo already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement pywink (from versions: )
+No matching distribution found for pywink
+Target directory /tmp/pywinusb/pywinusb-0.4.2-nspkg.pth already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pywinusb/pywinusb already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pywinusb/pywinusb-0.4.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyyeelight/pyyeelight already exists. Specify --upgrade to force replacement.
+Target directory /tmp/pyyeelight/pyyeelight-1.0b0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/qhue/qhue already exists. Specify --upgrade to force replacement.
+Target directory /tmp/qhue/qhue-1.0.5.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/requests/requests-2.13.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/requests/requests already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement russound (from versions: )
+No matching distribution found for russound
+Target directory /tmp/rxv/rxv-0.4.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/rxv/rxv already exists. Specify --upgrade to force replacement.
+Target directory /tmp/samsungctl/samsungctl-0.6.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/samsungctl/samsungctl already exists. Specify --upgrade to force replacement.
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-wikbr415/scapy/
+Target directory /tmp/schiene/schiene-0.18.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/schiene/schiene already exists. Specify --upgrade to force replacement.
+Target directory /tmp/scsgate/scsgate already exists. Specify --upgrade to force replacement.
+Target directory /tmp/scsgate/scsgate-0.1.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/selenium/selenium-3.0.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/selenium/selenium already exists. Specify --upgrade to force replacement.
+Target directory /tmp/sense_hat/sense_hat already exists. Specify --upgrade to force replacement.
+Target directory /tmp/sense_hat/sense_hat-2.2.0.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement serial (from versions: )
+No matching distribution found for serial
+Target directory /tmp/setuptools/pkg_resources already exists. Specify --upgrade to force replacement.
+Target directory /tmp/setuptools/setuptools-34.0.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/setuptools/easy_install.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/setuptools/setuptools already exists. Specify --upgrade to force replacement.
+Target directory /tmp/sharp_aquos_rc/sharp_aquos_rc-0.3.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/sharp_aquos_rc/sharp_aquos_rc already exists. Specify --upgrade to force replacement.
+Target directory /tmp/slacker/slacker already exists. Specify --upgrade to force replacement.
+Target directory /tmp/slacker/slacker-0.9.30.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/sleekxmpp/sleekxmpp-1.3.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/sleekxmpp/sleekxmpp already exists. Specify --upgrade to force replacement.
+Target directory /tmp/sleepyq/sleepyq already exists. Specify --upgrade to force replacement.
+Target directory /tmp/sleepyq/sleepyq-0.6.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement smbus (from versions: )
+No matching distribution found for smbus
+Target directory /tmp/soco/soco-0.12.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/soco/soco already exists. Specify --upgrade to force replacement.
+Target directory /tmp/somecomfort/somecomfort-0.4.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/somecomfort/somecomfort already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement speech_recognition (from versions: )
+No matching distribution found for speech_recognition
+  Could not find a version that satisfies the requirement sphinxbase (from versions: )
+No matching distribution found for sphinxbase
+Target directory /tmp/spidev/spidev-3.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/spidev/spidev.cpython-35m-x86_64-linux-gnu.so already exists. Specify --upgrade to force replacement.
+Target directory /tmp/sqlalchemy/sqlalchemy already exists. Specify --upgrade to force replacement.
+Target directory /tmp/sqlalchemy/SQLAlchemy-1.1.5.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/steam/steam-0.8.14.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/steam/steam already exists. Specify --upgrade to force replacement.
+Target directory /tmp/telegram/telegram already exists. Specify --upgrade to force replacement.
+Target directory /tmp/telegram/telegram-0.0.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/telepot/telepot already exists. Specify --upgrade to force replacement.
+Target directory /tmp/telepot/telepot-10.4.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement tellcore (from versions: )
+No matching distribution found for tellcore
+Target directory /tmp/temperusb/temperusb-1.5.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/temperusb/temperusb already exists. Specify --upgrade to force replacement.
+  Failed building wheel for tentacle-pi
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-kauthmlt/tentacle-pi/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-1dp512le-record/install-record.txt --single-version-externally-managed --no-compile --home=/tmp/tmpqn13rirc" failed with error code 1 in /tmp/pip-build-kauthmlt/tentacle-pi/
+  Could not find a version that satisfies the requirement tgl (from versions: )
+No matching distribution found for tgl
+Target directory /tmp/transmissionrpc/transmissionrpc-0.11.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/transmissionrpc/transmissionrpc already exists. Specify --upgrade to force replacement.
+Target directory /tmp/tweepy/examples already exists. Specify --upgrade to force replacement.
+Target directory /tmp/tweepy/tweepy-3.5.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/tweepy/tweepy already exists. Specify --upgrade to force replacement.
+Target directory /tmp/twilio/twilio already exists. Specify --upgrade to force replacement.
+Target directory /tmp/twilio/twilio-5.7.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/twisted/Twisted-16.6.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/twisted/twisted already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement twitch (from versions: )
+No matching distribution found for twitch
+Target directory /tmp/twitter/twitter-1.17.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/twitter/twitter already exists. Specify --upgrade to force replacement.
+Target directory /tmp/twython/twython already exists. Specify --upgrade to force replacement.
+Target directory /tmp/twython/twython-3.4.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/uber_rides/tests already exists. Specify --upgrade to force replacement.
+Target directory /tmp/uber_rides/uber_rides already exists. Specify --upgrade to force replacement.
+Target directory /tmp/uber_rides/example already exists. Specify --upgrade to force replacement.
+Target directory /tmp/uber_rides/uber_rides-0.4.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/ubidots/ubidots already exists. Specify --upgrade to force replacement.
+Target directory /tmp/ubidots/ubidots-1.6.6.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/unirest/unirest already exists. Specify --upgrade to force replacement.
+Target directory /tmp/unirest/Unirest-1.1.7.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement usb (from versions: )
+No matching distribution found for usb
+Target directory /tmp/uvcclient/uvcclient already exists. Specify --upgrade to force replacement.
+Target directory /tmp/uvcclient/uvcclient-0.10.0.dist-info already exists. Specify --upgrade to force replacement.
+
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyscreenshot
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pysma
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pysnmp
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pytrackr
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pytz
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyunifi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- pyvera
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pywebpush
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pywemo
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pywinusb
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- pyyeelight
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- qhue
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- requests
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- rxv
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- samsungctl
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- schiene
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- scsgate
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- selenium
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- sense_hat
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- setuptools
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- sharp_aquos_rc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- slacker
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- sleekxmpp
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- sleepyq
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- soco
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- somecomfort
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- spidev
+No python sources found
+--- sqlalchemy
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- steam
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- telegram
+C implementation likely elsewhere (no imports)
+--- telepot
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- temperusb
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- transmissionrpc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- tweepy
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- twilio
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- twisted
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Found call to native proc
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- twitter
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- twython
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- uber_rides
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- ubidots
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- unirest
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- uvcclient
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python libTarget directory /tmp/uvloop/uvloop-0.7.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/uvloop/uvloop already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement vlc (from versions: )
+No matching distribution found for vlc
+Target directory /tmp/voluptuous/voluptuous already exists. Specify --upgrade to force replacement.
+Target directory /tmp/voluptuous/voluptuous-0.9.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/w1thermsensor/w1thermsensor-0.3.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/w1thermsensor/w1thermsensor already exists. Specify --upgrade to force replacement.
+Target directory /tmp/wakeonlan/wakeonlan already exists. Specify --upgrade to force replacement.
+Target directory /tmp/wakeonlan/wakeonlan-0.2.2.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement webiopi (from versions: )
+No matching distribution found for webiopi
+Target directory /tmp/webrtcvad/_webrtcvad.cpython-35m-x86_64-linux-gnu.so already exists. Specify --upgrade to force replacement.
+Target directory /tmp/webrtcvad/webrtcvad-2.0.10.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/webrtcvad/webrtcvad.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/websocket/websocket-0.2.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/websocket/websocket already exists. Specify --upgrade to force replacement.
+Target directory /tmp/websockets/websockets already exists. Specify --upgrade to force replacement.
+Target directory /tmp/websockets/websockets-3.2.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/wiringpi/wiringpi-2.32.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/wiringpi/_wiringpi.cpython-35m-x86_64-linux-gnu.so already exists. Specify --upgrade to force replacement.
+Target directory /tmp/wiringpi/wiringpi.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/wiringpi2/wiringpi2-2.32.3.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/wiringpi2/wiringpi2.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/wolframalpha/wolframalpha-3.0.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/wolframalpha/wolframalpha already exists. Specify --upgrade to force replacement.
+Target directory /tmp/xbee_helper/xbee_helper-0.0.7.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/xbee_helper/xbee_helper already exists. Specify --upgrade to force replacement.
+Target directory /tmp/xboxapi/xboxapi-0.1.1.dist-info already exists. Specify --upgrade to force replacement.
+Target directory /tmp/xboxapi/xboxapi already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement xively (from versions: )
+No matching distribution found for xively
+  Could not find a version that satisfies the requirement xmlrpc (from versions: )
+No matching distribution found for xmlrpc
+Target directory /tmp/xmltodict/xmltodict.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/xmltodict/xmltodict-0.10.2.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement xmpp (from versions: )
+No matching distribution found for xmpp
+Target directory /tmp/yahooweather/yahooweather.py already exists. Specify --upgrade to force replacement.
+Target directory /tmp/yahooweather/yahooweather-0.8.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement yaml (from versions: )
+No matching distribution found for yaml
+Target directory /tmp/yarl/yarl already exists. Specify --upgrade to force replacement.
+Target directory /tmp/yarl/yarl-0.8.1.dist-info already exists. Specify --upgrade to force replacement.
+  Could not find a version that satisfies the requirement yuv2rgb (from versions: )
+No matching distribution found for yuv2rgb
+  Could not find a version that satisfies the requirement zope (from versions: )
+No matching distribution found for zope
+
+--- uvloop
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- voluptuous
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- w1thermsensor
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- wakeonlan
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- webrtcvad
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- websocket
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- websockets
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- wiringpi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- wiringpi2
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- wolframalpha
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- xbee_helper
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation
+--- xboxapi
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- xmltodict
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- yahooweather
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+No 3-p imports: pure python lib
+--- yarl
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Removing all python std lib imports
+Found 3-p imports, so need further investigation

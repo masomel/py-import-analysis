@@ -1,0 +1,10 @@
+Adafruit_DHT
+APDS9300
+MPL3115A2
+adxl345
+ouimeaux
+pyupm_grove
+w1thermsensor
+envirophat
+neurio
+pmsensor

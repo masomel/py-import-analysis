@@ -1,0 +1,265 @@
+apps/visual/360_pi_cam:
+[
+    "SimpleCV",
+    "cv2",
+    "numpy",
+    "time"
+]
+apps/visual/camera-vision-logo.py:
+[
+    "base64",
+    "googleapiclient",
+    "oauth2client",
+    "picamera"
+]
+apps/visual/CodeYourOwnPhotobooth.py:
+[
+    "RPi.GPIO",
+    "Tkinter",
+    "picamera",
+    "shelve",
+    "subprocess",
+    "time"
+]
+apps/visual/EasyRPISecCam.py:
+[
+    "datetime",
+    "os",
+    "picamera",
+    "requests"
+]
+apps/visual/Fishtank:
+[
+    "MySQLdb",
+    "configparser",
+    "datetime",
+    "flask",
+    "flask_login",
+    "hashlib",
+    "json",
+    "magic",
+    "os",
+    "pygame",
+    "requests",
+    "serial",
+    "string",
+    "subprocess",
+    "sys",
+    "thread",
+    "time",
+    "traceback",
+    "websocket",
+    "wiringpi"
+]
+apps/visual/GPIO&PiCameraUsingTelegram.py:
+[
+    "RPi.GPIO",
+    "datetime",
+    "functools",
+    "os",
+    "picamera",
+    "subprocess",
+    "tgl",
+    "time"
+]
+apps/visual/HomeSecurityEmailAlert.py:
+[
+    "RPi.GPIO",
+    "cv2",
+    "datetime",
+    "email",
+    "os",
+    "smtplib"
+]
+apps/visual/LegoRobot:
+[
+    "RPi.GPIO",
+    "pubnub",
+    "time"
+]
+apps/visual/monitordoorbell.py:
+[
+    "RPi.GPIO",
+    "subprocess",
+    "time"
+]
+apps/visual/pi-home-surveillance:
+[
+    "argparse",
+    "cv2",
+    "datetime",
+    "dropbox",
+    "imutils",
+    "json",
+    "os",
+    "picamera",
+    "time",
+    "uuid",
+    "warnings"
+]
+apps/visual/pidoorbell.py:
+[
+    "MySQLdb",
+    "RPi.GPIO",
+    "datetime",
+    "http",
+    "os",
+    "socket",
+    "time",
+    "urllib"
+]
+apps/visual/PiNoculars:
+[
+    "atexit",
+    "cPickle",
+    "errno",
+    "fnmatch",
+    "io",
+    "os",
+    "picamera",
+    "pygame",
+    "stat",
+    "subprocess",
+    "threading",
+    "time"
+]
+apps/visual/PiScream.py:
+[
+    "RPi.GPIO",
+    "picamera",
+    "requests",
+    "time"
+]
+apps/visual/RefrigeratorSecurity:
+[
+    "RPi.GPIO",
+    "datetime",
+    "http",
+    "json",
+    "os",
+    "urllib"
+]
+apps/visual/RPiIoTDoorbell:
+[
+    "RPi.GPIO",
+    "email",
+    "os",
+    "smtplib",
+    "sys",
+    "time"
+]
+apps/visual/RPiLaserSecurity.py:
+[
+    "RPi.GPIO",
+    "os",
+    "time"
+]
+apps/visual/RPiPhotobooth:
+[
+    "ConfigParser",
+    "PIL",
+    "Tkinter",
+    "cv2",
+    "datetime",
+    "email",
+    "gdata",
+    "getpass",
+    "glob",
+    "httplib2",
+    "mimetypes",
+    "oauth2client",
+    "os",
+    "picamera",
+    "pygame",
+    "pyscreenshot",
+    "serial",
+    "signal",
+    "smtplib",
+    "subprocess",
+    "sys",
+    "time",
+    "webbrowser"
+]
+apps/visual/SecurityCam:
+[
+    "RPi.GPIO",
+    "base64",
+    "cv2",
+    "httplib",
+    "json",
+    "os",
+    "picamera",
+    "pubnub",
+    "random",
+    "sys",
+    "threading",
+    "time"
+]
+apps/visual/SendingReceivingPicsMqtt.py:
+[
+    "base64",
+    "ibmiotf",
+    "math",
+    "picamera",
+    "random",
+    "string",
+    "time"
+]
+apps/visual/smartJpegCamera.py:
+[
+    "RPi.GPIO",
+    "datetime",
+    "picamera",
+    "time"
+]
+apps/visual/surocam.py:
+[
+    "webiopi"
+]
+apps/visual/TwitterPhotoLiveFeed.py:
+[
+    "datetime",
+    "random",
+    "subprocess",
+    "time",
+    "tweepy"
+]
+apps/visual/vintage_raspi_cam:
+[
+    "RPi.GPIO",
+    "dropbox",
+    "os",
+    "pygame",
+    "sys",
+    "time",
+    "urllib2"
+]
+apps/visual/WhoIsAtCoffeeMachine:
+[
+    "cv2",
+    "fnmatch",
+    "glob",
+    "imutils",
+    "io",
+    "math",
+    "numpy",
+    "os",
+    "picamera",
+    "re",
+    "select",
+    "serial",
+    "smbus",
+    "sys",
+    "time"
+]
+apps/visual/WifiPhotobooth:
+[
+    "PIL",
+    "RPi.GPIO",
+    "os",
+    "picamera",
+    "pygame",
+    "random",
+    "subprocess",
+    "time"
+]

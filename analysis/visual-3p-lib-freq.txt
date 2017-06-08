@@ -1,0 +1,21 @@
+{
+    "picamera": 18,
+    "cv2": 9,
+    "pygame": 6,
+    "tweepy": 3,
+    "dropbox": 2,
+    "googleapiclient": 2,
+    "imutils": 2,
+    "numpy": 2,
+    "pubnub": 2,
+    "websocket": 2,
+    "SimpleCV": 1,
+    "flask_login": 1,
+    "gdata": 1,
+    "ibmiotf": 1,
+    "magic": 1,
+    "pyscreenshot": 1,
+    "tgl": 1,
+    "webiopi": 1,
+    "wiringpi": 1
+}

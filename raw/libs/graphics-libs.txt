@@ -1,0 +1,8 @@
+pyglet
+Gnupot
+matplotlib
+pygame
+imutils
+yuv2rgb
+pyscreenshot
+PIL

@@ -1,0 +1,15 @@
+mysqldump
+Adafruit_DHT
+nmap
+wakeonlan
+arp
+net
+fping
+snmpwalk
+Adafruit_DHT
+bluez-test-input
+raspistill
+arp
+ping
+vcgencmd measure_temp
+pico2wave

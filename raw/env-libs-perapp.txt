@@ -1,0 +1,244 @@
+apps/env/beerfridge:
+[
+    "ISStreamer",
+    "RPi.GPIO",
+    "bluetooth",
+    "collections",
+    "glob",
+    "os",
+    "subprocess",
+    "sys",
+    "thread",
+    "time"
+]
+apps/env/CyberSafe:
+[
+    "MySQLdb",
+    "mraa",
+    "socket",
+    "time"
+]
+apps/env/detect_bluetooth.py:
+[
+    "Adafruit_BBIO",
+    "bluetooth",
+    "time"
+]
+apps/env/DHT22Logger:
+[
+    "Adafruit_DHT",
+    "MySQLdb",
+    "datetime",
+    "gspread",
+    "json",
+    "oauth2client",
+    "os",
+    "platform",
+    "re",
+    "smtplib",
+    "subprocess",
+    "sys",
+    "time"
+]
+apps/env/EchoPiWeather:
+[
+    "AWSIoTPythonSDK",
+    "atexit",
+    "pigpio",
+    "time"
+]
+apps/env/EmailiPhoneNetworkPresence.py:
+[
+    "datetime",
+    "email",
+    "os",
+    "smtplib",
+    "time"
+]
+apps/env/grove_IOT.py:
+[
+    "datetime",
+    "grovepi",
+    "time",
+    "xively"
+]
+apps/env/HomeControlCenterBBGW:
+[
+    "datetime",
+    "flask",
+    "flask_socketio",
+    "gevent",
+    "mraa",
+    "pyupm_grove",
+    "threading",
+    "time"
+]
+apps/env/homeRoomTempHumMonitor.py:
+[
+    "RPi.GPIO",
+    "httplib",
+    "json",
+    "time"
+]
+apps/env/HomeTempThingspeak.py:
+[
+    "ctypes",
+    "httplib",
+    "smbus",
+    "time",
+    "urllib"
+]
+apps/env/HomeVentilation:
+[
+    "Adafruit_DHT",
+    "Adafruit_GPIO",
+    "Adafruit_Nokia_LCD",
+    "PIL",
+    "RPi.GPIO",
+    "atexit",
+    "datetime",
+    "ouimeaux",
+    "time",
+    "w1thermsensor"
+]
+apps/env/intelligentDoor.py:
+[
+    "adxl345",
+    "paho",
+    "ssl",
+    "thread",
+    "time"
+]
+apps/env/IoTRPiArduino:
+[
+    "Adafruit_DHT",
+    "RPi.GPIO",
+    "serial",
+    "sys",
+    "time",
+    "urllib2"
+]
+apps/env/IoTTempHumidityMonitor:
+[
+    "Adafruit_DHT",
+    "PIL",
+    "math",
+    "sys",
+    "time",
+    "ubidots"
+]
+apps/env/NetworkMonitoringWithAWSIoT.py:
+[
+    "json",
+    "paho",
+    "ssl",
+    "subprocess",
+    "time"
+]
+apps/env/PiIndoorAirQualityMonitor:
+[
+    "Adafruit_Python_BMP",
+    "ConfigParser",
+    "OpenSSL",
+    "StringIO",
+    "argparse",
+    "array",
+    "base64",
+    "collections",
+    "datetime",
+    "devicehive",
+    "flask",
+    "glob",
+    "httplib",
+    "httplib2",
+    "json",
+    "logging",
+    "matplotlib",
+    "mock",
+    "os",
+    "pymongo",
+    "random",
+    "re",
+    "serial",
+    "sha",
+    "smbus",
+    "sqlite3",
+    "struct",
+    "subprocess",
+    "sys",
+    "thread",
+    "threading",
+    "time",
+    "twisted",
+    "unittest",
+    "urllib",
+    "urllib2",
+    "urlparse",
+    "uuid",
+    "xively",
+    "xmpp",
+    "zope"
+]
+apps/env/RPiPIRSensor.py:
+[
+    "RPi.GPIO",
+    "smtplib",
+    "time"
+]
+apps/env/RPiRoomTempMonitorGnuplot.py:
+[
+    "Gnuplot",
+    "time"
+]
+apps/env/SensorianIoTDashboard.py:
+[
+    "APDS9300",
+    "MPL3115A2",
+    "ctypes",
+    "datetime",
+    "flask",
+    "time"
+]
+apps/env/SitSat:
+[
+    "RPi.GPIO",
+    "datetime",
+    "time"
+]
+apps/env/smartScale:
+[
+    "ISStreamer",
+    "bluetooth",
+    "collections",
+    "random",
+    "subprocess",
+    "sys",
+    "time"
+]
+apps/env/thermostatRaspBerryPi:
+[
+    "Adafruit_CharLCDPlate",
+    "Adafruit_DHT",
+    "Queue",
+    "RPi.GPIO",
+    "datetime",
+    "getopt",
+    "random",
+    "sqlite3",
+    "subprocess",
+    "sys",
+    "threading",
+    "time"
+]
+apps/env/weatherStation.py:
+[
+    "Adafruit_DHT",
+    "RPi.GPIO",
+    "smtplib",
+    "time"
+]
+apps/env/WirelessDoorbell.py:
+[
+    "scapy",
+    "urllib"
+]

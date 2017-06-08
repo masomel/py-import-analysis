@@ -1,0 +1,50 @@
+RPi.GPIO
+requests
+picamera
+alsaaudio, pyalsaaudio
+cherrypy
+memcache, python-memcached
+serial, pyserial
+Adafruit_DHT, adafruit_python_dht
+cv2, opencv-python
+paho, paho-mqtt
+pocketsphinx
+PIL, Pillow
+flask
+pygame
+speech_recognition, SpeechRecognition
+pyaudio
+MySQLdb, MySQL-python
+bluetooth, pybluez
+mraa, python-mraa
+oauth2client
+smbus, smbus-cffi
+webrtcvad
+yaml, pyyaml
+AWSIoTPythonSDK
+boto3
+gtts
+httplib2
+pycurl
+tweepy
+vlc, python-vlc
+wolframalpha
+Adafruit_BBIO
+ISStreamer
+cec
+dropbox
+feedparser
+gevent
+googleapiclient, google-api-python-client
+imutils
+monotonic
+numpy
+pubnub
+scapy, scapy-python3
+sphinxbase, pocketsphinx
+websocket
+wiringpi2
+xively, xively-python
+APDS9300
+Adafruit_CharLCDPlate, Adafruit-CharLCD
+Adafruit_GPIO

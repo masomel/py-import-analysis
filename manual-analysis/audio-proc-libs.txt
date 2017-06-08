@@ -1,0 +1,54 @@
+wave
+audioop
+pocketsphinx
+pocketsphinx
+sphinxbase
+email
+memcached
+json
+json
+pocketsphinx
+sox - os.system
+json
+json
+memcached
+memcached
+json
+PIL.Image
+PIL.ImageDraw
+PIL.ImageFont
+gtts
+simpleNLG - py4j
+pydub
+memcached
+json
+urllib
+json
+flac - CLI
+pocketsphinx
+base64
+webrtcvad
+json
+wave
+gtts
+json
+memcached
+webrtcvad
+wave
+json
+pocketsphinx
+gtts
+memcached
+json
+memcached
+json
+json
+email
+yaml
+memcached
+webrtcvad
+pocketsphinx
+xml.etree
+flac - os.system
+json
+memcached

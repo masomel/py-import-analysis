@@ -1,0 +1,142 @@
+{
+    "apps/audio/AWShome": [
+        {
+            "apps/audio/AWShome/AlexaPi/main.py": [
+                "os.system(\"halt\")"
+            ]
+        }
+    ],
+    "apps/audio/AlexaCoffeeMachine": [
+        {
+            "apps/audio/AlexaCoffeeMachine/AlexaPi.py": [
+                "if debug == False: os.system(\"rm \"+path+\"tmpcontent/*\")"
+            ]
+        }
+    ],
+    "apps/audio/AlexaPhone": [
+        {
+            "apps/audio/AlexaPhone/AlexaPi/main.py": [
+                "os.system('mpg123 -q {}1sec.mp3 {}response.mp3 {}1sec.mp3'.format(path, path, path))",
+                "os.system('mpg123 -q {}1sec.mp3 {}hello.mp3'.format(path, path))"
+            ]
+        }
+    ],
+    "apps/audio/AlexaPiMQTTSmartHub": [
+        {
+            "apps/audio/AlexaPiMQTTSmartHub/AlexaPi/main.py": [
+                "os.system('mpg123 -q {}1sec.mp3 {}response.mp3'.format(path, path))",
+                "os.system('mpg123 -q {}1sec.mp3 {}hello.mp3'.format(path, path))"
+            ]
+        }
+    ],
+    "apps/audio/AlexaWithRaspioProHat": [
+        {
+            "apps/audio/AlexaWithRaspioProHat/AlexaPi/main.py": [
+                "os.system('mpg123 -q {}1sec.mp3 {}response.mp3'.format(path, path))",
+                "os.system('mpg123 -q {}1sec.mp3 {}hello.mp3'.format(path, path))"
+            ]
+        }
+    ],
+    "apps/audio/Alexabot": [
+        {
+            "apps/audio/Alexabot/AlexaPi/alexapi/device_platforms/rpilike.py": [
+                "os.system(self._pconfig['long_press']['command'])"
+            ]
+        }
+    ],
+    "apps/audio/AudioServer&Recorder.py": [
+        {
+            "apps/audio/AudioServer&Recorder.py": [
+                "os.system(record)",
+                "os.system(stop)",
+                "os.system(stopPlay)",
+                "os.system(stopRecord)"
+            ]
+        }
+    ],
+    "apps/audio/BlokBot.py": [
+        {
+            "apps/audio/BlokBot.py": [
+                "subprocess.call(a1,shell= True)"
+            ]
+        }
+    ],
+    "apps/audio/DIYAmazonAlexa": [
+        {
+            "apps/audio/DIYAmazonAlexa/alexa_voice_demo.py": [
+                "os.system('mpg123 -q {}1sec.mp3 {}response.mp3'.format(path + \"/assets/\", path))",
+                "process = subprocess.Popen(['./micarray/build/micarray_dump'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)",
+                "subprocess.Popen(['sudo', 'rmmod', 'lirc_rpi'])",
+                "os.system('mpg123 -q {}1sec.mp3 {}hello.mp3'.format(path +\"/assets/\", path + \"/assets/\"))",
+                "subprocess.Popen(['gpio','edge','16','both'])",
+                "os.system('mpg123 -q {}1sec.mp3 {}response.mp3'.format(path + \"/assets/\", path))",
+                "process = subprocess.Popen(['./micarray/build/micarray_dump'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)",
+                "subprocess.Popen(['sudo', 'rmmod', 'lirc_rpi'])",
+                "os.system('mpg123 -q {}1sec.mp3 {}hello.mp3'.format(path +\"/assets/\", path + \"/assets/\"))",
+                "subprocess.Popen(['gpio','edge','16','both'])"
+            ]
+        }
+    ],
+    "apps/audio/GettingStartedWithReSpeaker": [
+        {
+            "apps/audio/GettingStartedWithReSpeaker/respeaker/player.py": [
+                "p = subprocess.Popen(command, stdin=subprocess.PIPE, shell=True)",
+                "p = subprocess.Popen(command, stdin=f, shell=True)"
+            ]
+        }
+    ],
+    "apps/audio/JarvisInPython.py": [
+        {
+            "apps/audio/JarvisInPython.py": [
+                "os.system(\"mpg321 audio.mp3\")",
+                "os.system(\"chromium-browser https://www.google.nl/maps/place/\" + location + \"/&amp;\")"
+            ]
+        }
+    ],
+    "apps/audio/PiHomeMaster": [
+        {
+            "apps/audio/PiHomeMaster/AlexaPi/main.py": [
+                "os.system('mpg123 -q {}1sec.mp3 {}response.mp3 {}1sec.mp3'.format(path, path, path))",
+                "os.system('mpg123 -q {}1sec.mp3 {}hello.mp3'.format(path, path))"
+            ]
+        }
+    ],
+    "apps/audio/PiTranslate": [
+        {
+            "apps/audio/PiTranslate/PiTranslate.py": [
+                "subprocess.call([\"mplayer\",googleSpeechURL], shell=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)",
+                "subprocess.call([\"mplayer\",googleSpeechURL], shell=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)"
+            ]
+        }
+    ],
+    "apps/audio/RPiAlexa": [
+        {
+            "apps/audio/RPiAlexa/AlexaPi/main.py": [
+                "os.system('mpg123 -q {}1sec.mp3 {}response.mp3 {}1sec.mp3'.format(path, path, path))",
+                "os.system('mpg123 -q {}1sec.mp3 {}hello.mp3'.format(path, path))"
+            ]
+        }
+    ],
+    "apps/audio/TalkingGanesha": [
+        {
+            "apps/audio/TalkingGanesha/queryProcess.py": [
+                "p = subprocess.Popen(inputcommand, stdout=subprocess.PIPE, shell=True)"
+            ]
+        },
+        {
+            "apps/audio/TalkingGanesha/FHRILVHIEKJ0SZZ.py": [
+                "p = subprocess.Popen(inputcommand, stdout=subprocess.PIPE, shell=True)",
+                "os.system(\"./stt.sh\")",
+                "os.system(\"python queryProcess.py '\" + final_result + \"'\")"
+            ]
+        }
+    ],
+    "apps/audio/VintageIntercom": [
+        {
+            "apps/audio/VintageIntercom/main.py": [
+                "os.system('mpg123 -q {}1sec.mp3 {}response.mp3'.format(path, path))",
+                "os.system('mpg123 -q {}1sec.mp3 {}hello.mp3'.format(path, path))"
+            ]
+        }
+    ]
+}

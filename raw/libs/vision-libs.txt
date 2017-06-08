@@ -1,0 +1,4 @@
+cv2
+SimpleCV
+haalpr
+openalpr_api

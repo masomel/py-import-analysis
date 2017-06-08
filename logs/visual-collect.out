@@ -1,0 +1,175 @@
+Number of visual apps being scraped: 25
+--- current app: apps/visual/360_pi_cam
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/camera-vision-logo.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/CodeYourOwnPhotobooth.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/EasyRPISecCam.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/Fishtank
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/GPIO&PiCameraUsingTelegram.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/HomeSecurityEmailAlert.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/LegoRobot
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/monitordoorbell.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/pi-home-surveillance
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/pidoorbell.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/PiNoculars
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/PiScream.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/RefrigeratorSecurity
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/RPiIoTDoorbell
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/RPiLaserSecurity.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/RPiPhotobooth
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/SecurityCam
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/SendingReceivingPicsMqtt.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/smartJpegCamera.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/surocam.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/TwitterPhotoLiveFeed.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/visual/vintage_raspi_cam
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/WhoIsAtCoffeeMachine
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/visual/WifiPhotobooth
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused

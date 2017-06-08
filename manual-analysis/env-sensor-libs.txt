@@ -1,0 +1,61 @@
+Adafruit_BMP
+Adafruit_DHT
+serial
+smbus
+APDS9300
+RPi.GPIO
+libMPL - ctypes
+MPL3115A2
+mraa
+Adafruit_DHT
+RPi.GPIO
+envirophat
+net status - subprocess.Popen
+scan - subprocess.Popen
+speed - subprocess.Popen
+device powerup - subprocess.Popen
+mraa
+pi_switch
+Adafruit_DHT
+pigpio
+hdc1000
+scapy
+netaddr
+netifaces
+bluetooth
+netdisco
+asyncio
+adxl345
+RPi.GPIO
+mraa
+RPi.GPIO
+RPi.GPIO
+modprobe - os.system
+bluetooth
+Adafruit_DHT
+Adafruit_I2C
+Adafruit_MCP230XX
+RPi.GPIO
+smbus
+Adafruit_CharLCDPlate
+scapy
+Adafruit_DHT
+Adafruit_SSD1306
+Adafruit_GPIO.SPI
+nmap - os.popen
+Adafruit_DHT
+RPi.GPIO
+Adafruit_DHT - subprocess.call
+RPi.GPIO
+RPi.GPIO
+Adafruit_DHT
+bluetooth
+Adafruit_DHT
+RPi.GPIO
+Adafruit_GPIO.SPI
+Adafruit_Nokia_LCD
+w1thermsensor
+serial
+smbus
+RPi.GPIO
+smbus

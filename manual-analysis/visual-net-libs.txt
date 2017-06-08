@@ -1,0 +1,35 @@
+httplib
+pubnub
+dropbox
+tgl
+ibmiotf.device
+smtplib
+email
+requests
+webiopi
+flask
+urllib
+tweepy
+curl - subprocess.Popen
+curl - subprocess.Popen
+tweepy
+azure.storage.blob
+boto3
+telegram
+http.client
+exec - CLI
+gdata
+smtplib - os.spawnp
+mutt - subprocess.Popen
+email.mime
+smptplib - os.system
+sigfox
+curl - subprocess.call
+requests
+flask
+pubnub
+googleapiclient
+tweepy
+dropbox.client
+urllib2
+SimpleCV.JpegStreamer

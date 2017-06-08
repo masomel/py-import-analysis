@@ -1,0 +1,181 @@
+Number of audio apps being scraped: 24
+--- current app: apps/audio/Alexabot
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/AlexaCoffeeMachine
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/AlexaPhone
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/AlexaPiMQTTSmartHub
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/AlexaWithRaspioProHat
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/AudioServer&Recorder.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/audio/AWShome
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/babynap.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/audio/BlokBot.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/audio/ControlTVWithVoice
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/DIYAmazonAlexa
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/GettingStartedWithReSpeaker
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/HeyAthena
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/JarvisInPython.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/audio/PiHomeMaster
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/PiTranslate
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/ReSpeakerMessenger
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/RPiAlexa
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/RPiPersonalAssistant
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/soundSensorPhilippsHue.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/audio/STTIntelIoT.py
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Extracting package names for imports
+Extracting package names for unused
+--- current app: apps/audio/TalkingGanesha
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/VintageIntercom
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused
+--- current app: apps/audio/VoiceControlRoombaHue
+Grouping all unused by app
+Grouping all imports by app
+Checking if app calls a native process is hybrid python-C
+Replacing the first-party imports for group: raw_imports
+Extracting package names for imports
+Replacing the first-party imports for group: unused
+Extracting package names for unused

@@ -1,0 +1,48 @@
+picamera
+RPi.GPIO
+picamera
+picamera
+RPi.GPIO
+picamera
+openCV
+RPi.GPIO
+picamera
+RPi.GPIO
+mjpg_streamer - CLI
+pygame
+openCV
+picamera
+picamera
+fswebcam - os.system
+fswebcam - subprocess
+picamera
+picamera
+RPi.GPIO
+fswebcam - os.system
+fswebcam - subprocess.Popen
+picamera
+openCV
+openCV
+picamera
+RPi.GPIO
+RPi.GPIO
+picamera
+tkinter
+fswebcam - os.system
+imutils.video
+smbus
+picamera
+pygame
+pygame
+picamera
+RPi.GPIO
+picamera
+picamera
+motion - CLI
+RPi.GPIO
+picamera
+raspistill - subprocess.call
+pygame.camera
+RPi.GPIO
+pygame
+SimpleCV.Camera
