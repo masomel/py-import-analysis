@@ -9,10 +9,10 @@ from util import *
 def app_stats():
     # get all the apps
     apps = dict()
-    apps['visual'] = read_set("corpus/visual-apps.txt")
-    apps['audio'] = read_set("corpus/audio-apps.txt")
-    apps['env'] = read_set("corpus/env-apps.txt")
-    apps['multi'] = read_set("corpus/multi-apps.txt")
+    apps['visual'] = read_set("raw/visual-apps.txt")
+    apps['audio'] = read_set("raw/audio-apps.txt")
+    apps['env'] = read_set("raw/env-apps.txt")
+    apps['multi'] = read_set("raw/multi-apps.txt")
 
     # get total number of distinct apps
     distinct_apps = get_distinct(apps)
@@ -25,10 +25,10 @@ def app_stats():
 
     # get all the libs
     libs = OrderedDict()
-    libs['audio'] = read_set("corpus/audio-libs.txt")
-    libs['env'] = read_set("corpus/env-libs.txt")
-    libs['multi'] = read_set("corpus/multi-libs.txt")
-    libs['visual'] = read_set("corpus/visual-libs.txt")
+    libs['audio'] = read_set("raw/audio-libs.txt")
+    libs['env'] = read_set("raw/env-libs.txt")
+    libs['multi'] = read_set("raw/multi-libs.txt")
+    libs['visual'] = read_set("raw/visual-libs.txt")
 
     # count the number of distinct libs among all lib sets
     distinct_libs = get_distinct(libs)
@@ -46,8 +46,8 @@ def app_stats():
     write_val(str(num_all_libs)+" ("+str(num_3p_libs)+")", "distinct libs (3p)")
     pct_3p_libs = "%.1f" % ((num_3p_libs/num_all_libs)*100)
     write_str(pct_3p_libs, "% 3p libs")
-    write_list_raw(distinct_libs, "corpus/all-libs.txt")
-    write_list_raw(libs3p, "corpus/all-3p-libs.txt")
+    write_list_raw(distinct_libs, "raw/all-libs.txt")
+    write_list_raw(distinct_3p, "raw/all-3p-libs.txt")
 
     # let's get the min/median/max of imports and 3p imports
     counts = OrderedDict()
@@ -101,7 +101,7 @@ def app_stats():
     #write_val(len(common_libs), "common libs")
     write_freq_map(common_libs, filename="analysis/common-3p-lib-freq.txt", perm="w+")
 
-    write_list_raw(common_libs.keys(), "corpus/common-3p-libs.txt")
+    write_list_raw(common_libs.keys(), "raw/common-3p-libs.txt")
 
     #write_val(len(only_libs['audio']), "audio-only libs")
     write_freq_map(only_libs['audio'], filename="analysis/audio-3p-lib-freq.txt", perm="w+")
@@ -126,10 +126,10 @@ def app_stats():
 
     # get the number of apps that call an external proc
     call_native = OrderedDict()
-    call_native['audio'] = read_map("corpus/audio-call-native.txt")
-    call_native['env'] = read_map("corpus/env-call-native.txt")
-    call_native['multi'] = read_map("corpus/multi-call-native.txt")
-    call_native['visual'] = read_map("corpus/visual-call-native.txt")
+    call_native['audio'] = read_map("raw/audio-call-native.txt")
+    call_native['env'] = read_map("raw/env-call-native.txt")
+    call_native['multi'] = read_map("raw/multi-call-native.txt")
+    call_native['visual'] = read_map("raw/visual-call-native.txt")
 
     num_ext_proc = 0
     for cat in call_native:
@@ -140,10 +140,10 @@ def app_stats():
 
     # get the number of apps that are hybrid
     hybrid = OrderedDict()
-    hybrid['audio'] = read_map("corpus/audio-hybrid-apps.txt")
-    hybrid['env'] = read_map("corpus/env-hybrid-apps.txt")
-    hybrid['multi'] = read_map("corpus/multi-hybrid-apps.txt")
-    hybrid['visual'] = read_map("corpus/visual-hybrid-apps.txt")
+    hybrid['audio'] = read_map("raw/audio-hybrid-apps.txt")
+    hybrid['env'] = read_map("raw/env-hybrid-apps.txt")
+    hybrid['multi'] = read_map("raw/multi-hybrid-apps.txt")
+    hybrid['visual'] = read_map("raw/visual-hybrid-apps.txt")
 
     num_hybrid = 0
     for cat in hybrid:
@@ -154,17 +154,17 @@ def app_stats():
 
     # get all the unused libs
     unused = OrderedDict()
-    unused['audio'] = read_set("corpus/audio-unused-libs.txt")
-    unused['env'] = read_set("corpus/env-unused-libs.txt")
-    unused['multi'] = read_set("corpus/multi-unused-libs.txt")
-    unused['visual'] = read_set("corpus/visual-unused-libs.txt")
+    unused['audio'] = read_set("raw/audio-unused-libs.txt")
+    unused['env'] = read_set("raw/env-unused-libs.txt")
+    unused['multi'] = read_set("raw/multi-unused-libs.txt")
+    unused['visual'] = read_set("raw/visual-unused-libs.txt")
 
     # count the frequency of each unused lib
     distinct_unused = OrderedDict()
     for cat in unused:
         distinct_unused = count_freq(unused[cat], distinct_unused)
 
-    write_list_raw(distinct_unused.keys(), "corpus/all-unused-libs.txt")
+    write_list_raw(distinct_unused.keys(), "raw/all-unused-libs.txt")
 
     # get the number of 3p libs in the unused
     unused_3p = OrderedDict()
@@ -181,10 +181,10 @@ def app_stats():
 ### Top 50 stats ###
 def top50_lib_stats():
     top50 = OrderedDict()
-    top50['c-libs'] = read_set("corpus/top50-c-libs.txt")
-    top50['hybrid-libs'] = read_set("corpus/top50-shared-libs.txt")
-    top50['ext-proc'] = read_set("corpus/top50-ext-proc.txt")
-    top50_py_libs = read_set("corpus/top50-py-libs.txt")
+    top50['c-libs'] = read_set("raw/top50-c-libs.txt")
+    top50['hybrid-libs'] = read_set("raw/top50-shared-libs.txt")
+    top50['ext-proc'] = read_set("raw/top50-ext-proc.txt")
+    top50_py_libs = read_set("raw/top50-py-libs.txt")
 
     common_top50 = get_common(top50, 'c-libs', 'hybrid-libs', 'ext-proc')
     only_top50 = get_unique(top50, 'c-libs', 'hybrid-libs', 'ext-proc')
