@@ -148,13 +148,13 @@ def read_map(filename):
         m = json.loads(f.read(), object_pairs_hook=OrderedDict)
     return m
 
-def write_val(v, name, filename=STATS_FILE):
-    f = open(filename, "a+")
+def write_val(v, name, filename=STATS_FILE, perm="a+"):
+    f = open(filename, perm)
     f.write("Number of "+name+": "+str(v)+"\n")
     f.close()
 
-def write_str(v, s, filename=STATS_FILE):
-    f = open(filename, "a+")
+def write_str(v, s, filename=STATS_FILE, perm="a+"):
+    f = open(filename, perm)
     f.write(s+": "+str(v)+"\n")
     f.close()
 

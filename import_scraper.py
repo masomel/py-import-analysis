@@ -7,7 +7,7 @@ import xmlrpc.client as xmlrpclib
 from pyflakes import reporter as modReporter
 from pyflakes.api import checkRecursive, iterSourceCode
 
-from util import *
+from .util import *
 
 def extract_imports(cat, path, perm="w+"):
     f = open("pyflakes-out/"+cat+"-py3-report.txt", perm)
@@ -414,9 +414,12 @@ def replace_fp_mod_group(grp_dict, g, target, is_libs=False):
                 sys.exit(-1)
     return remove_dups(libs)
 
-def call_native_proc(l):
+def call_native_proc(l, with_cmd=False):
     if "os.system" in l or "os.spawn" in l or "os.exec" in l or "os.popen" in l or "subprocess.call" in l or "subprocess.Popen" in l or "subprocess.run" in l or "subprocess.check_output" in l or "Popen(" in l or "call([" in l:
         return True
+    if with_cmd:
+        if "cmd = " in l or "command = " in l:
+            return True
     return False
 
 # collect all the native calls so proc collection is only about
