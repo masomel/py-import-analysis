@@ -25,8 +25,8 @@ def check_for_c_source(path, lib):
     for m in mods:
         c = search_c_source(path, m)
         if len(c) > 0:
-            return True
-    return False
+            return True, c
+    return False, c
 
 def check_ctypes_wrapper(imps):
     for src, i in imps.items():
@@ -38,11 +38,27 @@ def check_ctypes_wrapper(imps):
                     return True
     return False
 
-def check_shared_libs(path, lib):
-    shlibs = search_shared_libs(path, lib)
+def get_shared_libs(c_list):
+    shlibs = []
+    for s in c_list:
+        if s.endswith(".so"):
+            shlibs.append(s)
+    return shlibs
+
+shared_freq_libs = dict()
+def count_shared_lib_freq(srcs, lib):
+    shlibs = get_shared_libs(srcs)
+    if shared_freq_libs.get(lib) == None:
+        tmp = dict()
+    else:
+        tmp = shared_freq_libs[lib]
+    for l in shlibs:
+        if tmp.get(l) == None:
+            tmp[l] = 1
+        else:
+            tmp[l] += 1
     if len(shlibs) > 0:
-        return True
-    return False
+        shared_freq_libs[lib] = tmp
 
 def check_ext_proc_calls(imps):
     for src, i in imps['raw_imports'].items():
@@ -54,7 +70,18 @@ def check_ext_proc_calls(imps):
                     return True
     return False
 
-def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc):
+dep_freq = dict()
+dist_deps = []
+def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl):
+    if lvl > 0:
+        print(lib+" is dependency for "+top_lib)
+        if dep_freq.get(lib) == None:
+            dep_freq[lib] = 1
+            dist_deps.append(lib)
+        else:
+            dep_freq[lib] += 1
+    
+    lvl += 1
     no_pip = []
 
     print("---- "+lib)
@@ -72,6 +99,7 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc):
             s = [lib]
         if lib in extproc:
             n = [lib]
+        lvl -= 1
         return c, s, n, no_pip
 
     # the alternative name
@@ -110,22 +138,27 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc):
         if not os.path.isdir(lib_path) and not os.path.isfile(lib_path):
             time.sleep(5) # sleep 5s to make sure we're not clobbering pip
             print("Downloading "+downl)
-            subprocess.check_output(["pip3", "install", "-qq", "--no-compile", "-t", "libs/"+lib, downl])
+            subprocess.check_output(["pip3", "install", "-qq", "--no-compile", "-t", LIB_DIR+"/"+lib, downl])
 
     except subprocess.CalledProcessError:
         # let's see if we can find any sources in the lib path
-        if check_for_c_source(top_lib_path, lib):
+        has_c, srcs = check_for_c_source(top_lib_path, lib)
+        if has_c:
+            count_shared_lib_freq(srcs, lib)
             print("Found dependency C-lib")
+            lvl -= 1
             return [lib], [], [], []
 
         no_pip.append(lib)
         print("Did not install through pip: "+lib)
+        lvl -= 1
         return [], [], [], no_pip
 
     # we might have dependency py files in our lib path
     search_path = lib_path
     if top_lib_path == LIB_DIR+"/"+lib and lib_path.endswith(".py"):
         search_path = top_lib_path
+
     imports_raw, unused_raw = extract_imports(cat, search_path, perm="a+")
 
     imps = OrderedDict()
@@ -133,10 +166,12 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc):
     # this means pyflakes didn't find any .py files in the source
     if len(imports_raw) == 0 and len(unused_raw) == 0:
         print("No python sources found")
+        lvl -= 1
         return [lib], [], [], []
     # this means pyflakes found a single empty __init__.py file
     elif len(imports_raw) == 1 and len(unused_raw) == 1 and imports_raw.get(lib_path+"/__init__.py") != None and len(imports_raw.get(lib_path+"/__init__.py")) == 0 and unused_raw.get(lib_path+"/__init__.py") != None and len(unused_raw.get(lib_path+"/__init__.py")) == 0:
         print("C implementation likely elsewhere (no imports)")
+        lvl -= 1
         return [lib], [], [], []
     else:
         imps['unused'] = unused_raw
@@ -156,6 +191,7 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc):
         # sure that we have a c implementation elsewhere
         if len(imps['raw_imports']) == 1 and imps['raw_imports'].get(lib_path+"/__init__.py") != None and len(imps['raw_imports'].get(lib_path+"/__init__.py")) == 0:
             print("C implementation likely elsewhere (with imports)")
+            lvl -= 1 
             return [lib], [], [], []
         else:
             c_libs = []
@@ -173,11 +209,16 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc):
             # in case we missed anything within the current lib pkg
             # remove any such libs from the imports
             clean = dict()
+            clibsd = dict()
             for src, i in imps['raw_imports'].items():
                 clean[src] = []
+                clibsd[src] = []
                 for l in i:
-                    if check_for_c_source(top_lib_path, l):
+                    has_c, srcs = check_for_c_source(top_lib_path, l)
+                    if has_c:
+                        count_shared_lib_freq(srcs, lib)
                         print("Found a C-implementation")
+                        print(srcs)
                         c_libs.append(l)
                     else:
                         clean[src].append(l)
@@ -196,9 +237,10 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc):
             # iterate over all imports and prune away all std lib imports
             print("Removing all python std lib imports")
             imps['imports'] = remove_stdlib_imports(imps['imports'])
-
+            
             if len(imps['imports']) == 0:
                 print("No 3p imports")
+                lvl -= 1
                 return c_libs, hybrid_libs, call_native, []
             else:
                 print("Found 3-p imports -- more analysis")
@@ -235,13 +277,13 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc):
                                 names[l] = "ndg-httpsclient"
                             elif l.startswith("win32"):
                                 names[l] = "pywin32"
-                            c, hyb, n, np = get_libs_with_deps(names, lib, l, visited, clibs, shlibs, extproc)
+                            c, hyb, n, np = get_libs_with_deps(names, lib, l, visited, clibs, shlibs, extproc, lvl)
                             c_libs.extend(c)
                             hybrid_libs.extend(hyb)
-                            call_native.append(n)
+                            call_native.extend(n)
                             no_pip.extend(np)
+            lvl -= 1
             return c_libs, hybrid_libs, call_native, no_pip
-
 
 #### MAIN ###
 
@@ -282,21 +324,33 @@ hybrid_libs = []
 no_pip = []
 top_no_pip = []
 py_libs = []
+clibs = []
+shlibs = []
+execs = []
 for l in libs:
     pair = l.split(",")
     lib = pair[0].strip()
     recurs_limit = []
-    c, hyb, native, np = get_libs_with_deps(lib_names, lib, lib, recurs_limit, c_libs, hybrid_libs, call_native)
+    c_libs_top = []
+    call_native_top = []
+    hybrid_libs_top = []
+    c, hyb, native, np = get_libs_with_deps(lib_names, lib, lib, recurs_limit, c_libs_top, hybrid_libs_top, call_native_top, 0)
 
     if len(c) == 0 and len(hyb) == 0 and len(native) == 0 and len(np) == 0:
         py_libs.append(lib)
     else:
         if len(c) > 0:
-            c_libs.append(lib)
+            #c_libs_top.append(lib)
+            #c_libs_top.extend(c)
+            clibs.append(lib)
         if len(hyb) > 0:
-            hybrid_libs.append(lib)
+            #hybrid_libs_top.append(lib)
+            #hybrid_libs_top.extend(hyb)
+            shlibs.append(lib)
         if len(native) > 0:
-            call_native.append(lib)
+            #call_native_top.append(lib)
+            #call_native_top.extend(native)
+            execs.append(lib)
         if len(np) > 0:
             if lib in np:
                 top_no_pip.append(lib)
@@ -311,26 +365,18 @@ for l in libs:
         c_libs.extend(c)
         hybrid_libs.extend(hyb)
         call_native.extend(native)
-
+        
 no_pip = remove_dups(no_pip)
 write_list_raw(no_pip, RAW_DATA_DIR+"/"+cat+"-no-pip.txt")
 write_list_raw(top_no_pip, RAW_DATA_DIR+"/"+cat+"-failed.txt")
 write_list_raw(py_libs, RAW_DATA_DIR+"/"+cat+"-py-libs.txt")
 
-# need to clean up the lists
-c_libs_top = []
-call_native_top = []
-hybrid_libs_top = []
-for l in libs:
-    pair = l.split(",")
-    lib = pair[0].strip()
-    if lib in c_libs:
-        c_libs_top.append(lib)
-    if lib in call_native:
-        call_native_top.append(lib)
-    if lib in hybrid_libs:
-        hybrid_libs_top.append(lib)
-
-write_list_raw(call_native_top, RAW_DATA_DIR+"/"+cat+"-ext-proc.txt")
-write_list_raw(c_libs_top, RAW_DATA_DIR+"/"+cat+"-c-libs.txt")
-write_list_raw(hybrid_libs_top, RAW_DATA_DIR+"/"+cat+"-shared-libs.txt")
+write_list_raw(execs, RAW_DATA_DIR+"/"+cat+"-ext-proc.txt")
+write_list_raw(remove_dups(call_native), RAW_DATA_DIR+"/"+cat+"-ext-proc-deps.txt")
+write_list_raw(clibs, RAW_DATA_DIR+"/"+cat+"-c-libs.txt")
+write_list_raw(remove_dups(c_libs), RAW_DATA_DIR+"/"+cat+"-c-libs-deps.txt")
+write_list_raw(shlibs, RAW_DATA_DIR+"/"+cat+"-ctypes.txt")
+write_list_raw(remove_dups(hybrid_libs), RAW_DATA_DIR+"/"+cat+"-ctypes-deps.txt")
+write_map(shared_freq_libs, RAW_DATA_DIR+"/"+cat+"-shared-lib-freq.txt", perm="w+")
+write_freq_map(dep_freq, "analysis/"+cat+"-dep-freq.txt", "w+")
+write_list_raw(remove_dups(dist_deps), RAW_DATA_DIR+"/"+cat+"-unique-deps.txt")

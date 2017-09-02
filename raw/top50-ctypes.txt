@@ -1,7 +1,5 @@
 APDS9300
-AWSIoTPythonSDK
 Adafruit_CharLCDPlate
-Adafruit_GPIO
 PIL
 boto3
 cherrypy
@@ -9,12 +7,14 @@ flask
 gevent
 googleapiclient
 imutils
+monotonic
 numpy
 oauth2client
-paho
 picamera
 pubnub
 pygame
 scapy
+serial
 speech_recognition
+vlc
 wolframalpha

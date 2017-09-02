@@ -7,28 +7,28 @@ import xmlrpc.client as xmlrpclib
 from pyflakes import reporter as modReporter
 from pyflakes.api import checkRecursive, iterSourceCode
 
-from .util import *
+from util import *
 
 def extract_imports(cat, path, perm="w+"):
-    f = open("pyflakes-out/"+cat+"-py3-report.txt", perm)
+    f = open("logs/pyflakes-out/"+cat+"-py3-report.txt", perm)
     reporter = modReporter.Reporter(f, f)
     # num = number of warnings, imps = used imports, un = unused imports
     num, imps, un = checkRecursive([path], reporter)
     f.close()
 
-    #write_map(imps, "pyflakes-out/"+cat+"-imports-py3.txt", perm=perm, sort=True)
-    #write_map(un, "pyflakes-out/"+cat+"-unused-py3.txt", perm=perm, sort=True)
+    write_map(imps, "logs/pyflakes-out/"+cat+"-imports-py3.txt", perm=perm, sort=True)
+    write_map(un, "logs/pyflakes-out/"+cat+"-unused-py3.txt", perm=perm, sort=True)
 
     # the modules in this list are likely written in python2 so run pyflakes
     # on python2
     redir = ">"
     if perm == "a+":
         redir = ">>"
-    os.system("python2 -m pyflakes "+path+" "+redir+" pyflakes-out/"+cat+"-py2-report.txt 2>&1")
+    os.system("python2 -m pyflakes "+path+" "+redir+" logs/pyflakes-out/"+cat+"-py2-report.txt 2>&1")
 
     # now, let's parse the imports and unused
-    imps_2 = read_map("pyflakes-out/imports-py2.txt")
-    un_2 = read_map("pyflakes-out/unused-py2.txt")
+    imps_2 = read_map("logs/pyflakes-out/imports-py2.txt")
+    un_2 = read_map("logs/pyflakes-out/unused-py2.txt")
 
     # the py2 run of flakes probably finds imports found by the py3 run
     # let's merge the two dicts
@@ -38,11 +38,11 @@ def extract_imports(cat, path, perm="w+"):
     unused_raw = un.copy()
     unused_raw.update(un_2)
 
-    write_map(imports_raw, "pyflakes-out/"+cat+"-imports.txt", perm=perm, sort=True)
-    write_map(unused_raw, "pyflakes-out/"+cat+"-unused.txt", perm=perm, sort=True)
+    write_map(imports_raw, "logs/pyflakes-out/"+cat+"-imports.txt", perm=perm, sort=True)
+    write_map(unused_raw, "logs/pyflakes-out/"+cat+"-unused.txt", perm=perm, sort=True)
 
-    os.remove("pyflakes-out/imports-py2.txt")
-    os.remove("pyflakes-out/unused-py2.txt")
+    os.remove("logs/pyflakes-out/imports-py2.txt")
+    os.remove("logs/pyflakes-out/unused-py2.txt")
 
     return imports_raw, unused_raw
 
@@ -403,7 +403,7 @@ def replace_fp_mod_group(grp_dict, g, target, is_libs=False):
                 recurs_limit = []
                 # want this check bc we want to make sure we stay
                 # within the app directory
-                tmp = replace_fp_mod(g, super_dir, src_dir, l, grp_dict['raw_imports'], recurs_limit, is_libs)
+                tmp = replace_fp_mod(g, super_dir, src_dir, l, grp_dict[target], recurs_limit, is_libs)
 
                 # this is just to avoid printing redundant messages
                 if not(len(tmp) == 1 and tmp[0] == l):

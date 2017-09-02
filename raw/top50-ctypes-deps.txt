@@ -1,0 +1,10 @@
+IPython
+cffi
+django
+monotonic
+picamera
+psycopg2
+scapy
+serial
+smbus_cffi
+vlc

@@ -103,11 +103,11 @@ def checkPath(filename, reporter=None):
             codestr += '\n'     # Work around for Python <= 2.6
     except UnicodeError:
         reporter.unexpectedError(filename, 'problem decoding source')
-        return 1
+        return (1, [], [])
     except IOError:
         msg = sys.exc_info()[1]
         reporter.unexpectedError(filename, msg.args[1])
-        return 1
+        return (1, [], [])
     return check(codestr, filename, reporter)
 
 
@@ -127,7 +127,6 @@ def iterSourceCode(paths):
                         yield os.path.join(dirpath, filename)
         else:
             yield path
-
 
 def write_map(m, filename, name=None, perm="a+"):
     f = open(filename, perm)
@@ -163,8 +162,8 @@ def checkRecursive(paths, reporter):
 
     # save the imports and unused to the file if we're running in python2.x
     if sys.version_info < (3, ):
-        write_map(d_imp, "pyflakes-out/imports-py2.txt", perm="w+")
-        write_map(d_unused, "pyflakes-out/unused-py2.txt", perm="w+")
+        write_map(d_imp, "logs/pyflakes-out/imports-py2.txt", perm="w+")
+        write_map(d_unused, "logs/pyflakes-out/unused-py2.txt", perm="w+")
 
     return warnings, d_imp, d_unused
 

@@ -1,5 +1,22 @@
-% of pure python top-50 libs: 10.0
+Number of distinct dependencies: 75
+Top 5 dependencies of top 50 libs: 
+cryptography: 24.0
+pyasn1: 24.0
+six: 24.0
+OpenSSL: 22.7
+ntlm: 21.3
+% of pure python top-50 libs: 12.0
 % of top-50 libs implemented in C/C++: 82.0
-% of top-50 libs that load libs thru ctypes: 38.0
-% of libs that exec an external proc: 52.0
-% of libs that have at least two of these properties: 50.0
+Number of distinct native libraries: 598
+Number of distinct libraries that import shared libs: 25
+Top 5 .so by frequency (by # of libs importing): 
+_SHA256.cpython-35m-x86_64-linux-gnu.so: 2.9
+_cffi_backend.cpython-35m-x86_64-linux-gnu.so: 2.9
+_smbus_cffi.cpython-35m-x86_64-linux-gnu.so: 2.9
+_speedups.cpython-35m-x86_64-linux-gnu.so: 2.9
+_sphinxbase.cpython-35m-x86_64-linux-gnu.so: 2.9
+% of top-50 libs that load .so thru ctypes: 40.0
+Number of distinct dependencies that load .so thru ctypes: 10
+% of libs that exec an external proc: 40.0
+Number of distinct dependencies that exec an external proc: 22
+% of libs that have at least two of these properties: 40.0

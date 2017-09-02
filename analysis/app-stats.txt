@@ -18,3 +18,6 @@ RPi.GPIO: 2.4
 numpy: 2.4
 Adafruit_I2C: 1.2
 Adafruit_MCP230xx: 1.2
+Top 5 dependencies by frequency: 
+Top 5 dependencies by frequency: 
+Top 5 .so by frequency: 

@@ -16,7 +16,7 @@ speech_recognition, SpeechRecognition
 pyaudio
 MySQLdb, MySQL-python
 bluetooth, pybluez
-mraa, python-mraa
+mraa
 oauth2client
 smbus, smbus-cffi
 webrtcvad

@@ -1,5 +1,6 @@
 ISStreamer
 feedparser
+gtts
 httplib2
 memcache
 yaml
