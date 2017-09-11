@@ -195,6 +195,12 @@ def map2list(m):
         l.append(k+": %.1f" % v)
     return l
 
+def map2list_int(m):
+    l = []
+    for k, v in m.items():
+        l.append(k+": "+str(v))
+    return l
+
 def get_top_n_freq(n, m, total):
     d = sort_freq_map(m)
     count = 0
@@ -204,6 +210,17 @@ def get_top_n_freq(n, m, total):
             break
         freq = (ct/total)*100
         top[l] = freq
+        count += 1
+    return top
+
+def get_top_n(n, m):
+    d = sort_freq_map(m)
+    count = 0
+    top = OrderedDict()
+    for l, ct in d.items():
+        if count == n:
+            break
+        top[l] = ct
         count += 1
     return top
 

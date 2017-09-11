@@ -499,7 +499,6 @@ def add_mod_init_imports(l, raw_imports, unused):
                     # which is implemented in c
                     # otherwise, wiringpi2 is marked as py-only, which is false
                     if l == "wiringpi2":
-                        print("got here")
                         if l_unused.startswith("wiringpi"):
                             print(l_unused)
                             new_i.append(l_unused)

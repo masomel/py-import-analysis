@@ -180,6 +180,8 @@ def app_stats():
 
 ### Top 50 stats ###
 def top50_lib_stats():
+    top50_libs = read_set("raw/top50-libs.txt")
+    
     top50 = OrderedDict()
     top50['c-libs'] = read_set("raw/top50-c-libs.txt")
     top50['hybrid-libs'] = read_set("raw/top50-ctypes.txt")
@@ -189,6 +191,29 @@ def top50_lib_stats():
     common_top50 = get_common(top50, 'c-libs', 'hybrid-libs', 'ext-proc')
     only_top50 = get_unique(top50, 'c-libs', 'hybrid-libs', 'ext-proc')
 
+    # get % of python libs
+    pct_py_libs = "%.1f" % ((len(top50_py_libs)/50)*100)
+    write_str(pct_py_libs, "% of pure python top-50 libs", filename="analysis/top50-lib-stats.txt")
+
+    # get % of C libs
+    pct_c_libs = "%.1f" % ((len(top50['c-libs'])/50)*100)
+    pct_c_only = "%.1f" % ((len(only_top50['c-libs'])/50)*100)
+    write_str(pct_c_libs+" ("+pct_c_only+")", "% of top-50 libs implemented in C/C++ (pure native)", filename="analysis/top50-lib-stats.txt")
+
+    # get % of hybrid
+    pct_hyb_libs = "%.1f" % ((len(top50['hybrid-libs'])/50)*100)
+    pct_hyb_only = "%.1f" % ((len(only_top50['hybrid-libs'])/50)*100)
+    write_str(pct_hyb_libs+" ("+pct_hyb_only+")", "% of top-50 libs that load .so thru ctypes (ctypes-only)", filename="analysis/top50-lib-stats.txt")
+    
+    # get % of libs that call an ext proc
+    pct_ext_proc_libs = "%.1f" % ((len(top50['ext-proc'])/50)*100)
+    pct_ext_only = "%.1f" % ((len(only_top50['ext-proc'])/50)*100)
+    write_str(pct_ext_proc_libs+" ("+pct_ext_only+")", "% of top-50 libs that exec an external proc (exec-only)", filename="analysis/top50-lib-stats.txt")
+
+    # get the % of libs that have at least two of these properties
+    pct_common_libs = "%.1f" % ((len(common_top50)/50)*100)
+    write_str(pct_common_libs, "% of top-50 libs that have at least two of these properties", filename="analysis/top50-lib-stats.txt")
+    
     # get count of unique imported dependencies
     total_deps = read_set("raw/top50-unique-deps.txt")
     write_val(len(total_deps), "distinct dependencies", filename="analysis/top50-lib-stats.txt")
@@ -196,24 +221,23 @@ def top50_lib_stats():
     # get top 5 dependencies
     dep_freq = read_map("analysis/top50-dep-freq.txt")
     write_str("", "Top 5 dependencies of top 50 libs", filename="analysis/top50-lib-stats.txt")
-    write_list_raw(map2list(get_top_n_freq(5, dep_freq, len(total_deps))), "analysis/top50-lib-stats.txt", perm="a+", sort=False)
-    
-    # get % of python libs
-    pct_py_libs = "%.1f" % ((len(top50_py_libs)/50)*100)
-    write_str(pct_py_libs, "% of pure python top-50 libs", filename="analysis/top50-lib-stats.txt")
+    write_list_raw(map2list_int(get_top_n(5, dep_freq)), "analysis/top50-lib-stats.txt", perm="a+", sort=False)
 
-    # get % of C libs
-    pct_c_libs = "%.1f" % ((len(top50['c-libs'])/50)*100)
-    write_str(pct_c_libs, "% of top-50 libs implemented in C/C++", filename="analysis/top50-lib-stats.txt")
+    # count how many of the top50 libs are also dependencies to top50
+    dep_top50_num = 0
+    for l in top50_libs:
+        if l in total_deps:
+            dep_top50_num += 1
+    write_val(dep_top50_num, "top50 libs that are also dependencies", filename="analysis/top50-lib-stats.txt")
 
     # get count of unique native libs imported
     total_c = read_set("raw/top50-c-libs-deps.txt")
-    write_val(len(total_c), "distinct native libraries", filename="analysis/top50-lib-stats.txt")
+    write_val(len(total_c), "distinct native dependencies", filename="analysis/top50-lib-stats.txt")
 
     # get top shared libs imported
     so_freq_libs = read_map("raw/top50-shared-lib-freq.txt")
     shlib_freq = dict()
-    write_val(len(so_freq_libs.keys()), "distinct libraries that import shared libs", filename="analysis/top50-lib-stats.txt")
+    write_val(len(so_freq_libs.keys()), "distinct .so's imported directly as native dependencies", filename="analysis/top50-lib-stats.txt")
     for lib, deps in so_freq_libs.items():
         for so in deps:
             if shlib_freq.get(so) == None:
@@ -221,28 +245,21 @@ def top50_lib_stats():
             else:
                 shlib_freq[so] += 1
     write_freq_map(shlib_freq, filename="analysis/top50-distinct-shlib-freq.txt", perm="w+")
-    write_str("", "Top 5 .so by frequency (by # of libs importing)", filename="analysis/top50-lib-stats.txt")
-    write_list_raw(map2list(get_top_n_freq(5, shlib_freq, len(shlib_freq.keys()))), "analysis/top50-lib-stats.txt", perm="a+", sort=False)
-    
-    # get % of hybrid
-    pct_hyb_libs = "%.1f" % ((len(top50['hybrid-libs'])/50)*100)
-    write_str(pct_hyb_libs, "% of top-50 libs that load .so thru ctypes", filename="analysis/top50-lib-stats.txt")
+    write_str("", "Top 5 .so's imported directly (by # of occurrences)", filename="analysis/top50-lib-stats.txt")
+    write_list_raw(map2list_int(get_top_n(5, shlib_freq)), "analysis/top50-lib-stats.txt", perm="a+", sort=False)
 
     # get count of unique ctypes libraries
     total_ctypes = read_set("raw/top50-ctypes-deps.txt")
     write_val(len(total_ctypes), "distinct dependencies that load .so thru ctypes", filename="analysis/top50-lib-stats.txt")
 
-    # get % of libs that call an ext proc
-    pct_ext_proc_libs = "%.1f" % ((len(top50['ext-proc'])/50)*100)
-    write_str(pct_ext_proc_libs, "% of libs that exec an external proc", filename="analysis/top50-lib-stats.txt")
+    # get top shared libs imported
+    so_freq_libs = read_map("raw/top50-ctypes-shared-lib-freq.txt")
+    shlib_freq = dict()
+    write_val(len(so_freq_libs.keys()), "distinct .so's loaded via ctypes", filename="analysis/top50-lib-stats.txt")
 
     # get count of unique libs that exec an ext_proc
     total_execs = read_set("raw/top50-ext-proc-deps.txt")
     write_val(len(total_execs), "distinct dependencies that exec an external proc", filename="analysis/top50-lib-stats.txt")
-    
-    # get the % of libs that have at least two of these properties
-    pct_common_libs = "%.1f" % ((len(common_top50)/50)*100)
-    write_str(pct_common_libs, "% of libs that have at least two of these properties", filename="analysis/top50-lib-stats.txt")
 
 ## MAIN ##
 if len(sys.argv) != 2:
