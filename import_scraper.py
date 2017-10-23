@@ -1,4 +1,5 @@
 import os
+import os.path
 import sys
 
 from collections import OrderedDict
@@ -446,31 +447,55 @@ def scan_source_native(src):
             nextLn = ""
     return nats
 
-# collect all the shared lib loads so proc collection is only about
-# parsing those lines
-def scan_source_ctypes(src):
+# opens a source file
+def read_src_file(src):
     f = open(src, "r")
     lines = f.readlines()
     f.close()
+    return lines
+
+# collect all the shared lib loads so proc collection is only about
+# parsing those lines
+def scan_source_ctypes(src):    
     # these are the calls to native code that we've observed
     hybs = []
+    lines = read_src_file(src)
     for l in lines:
         clean = l.strip()
-        if not clean.startswith("#") and ("CDLL(" in clean or "LoadLibrary(" in clean):
+        if not clean.startswith("#") and "=" in clean and ("CDLL(" in clean or "LoadLibrary(" in clean or "dlopen(" in clean):
             debug("Found shared lib load in code: "+clean)
             hybs.append(clean)
     return hybs
 
-def search_c_source(path, lib):
+# collect all instances of setjmp/longjmp in c sources
+def scan_source_longjmp(src):
+    jmps = []
+    lines = read_src_file(src)
+    for l in lines:
+        clean = l.strip()
+        if not clean.startswith("//") and ("setjmp(" in clean or "longjmp(" in clean):
+            debug("Found longjmp in code: "+clean)
+            jmps.append(clean)
+    return jmps
+
+# searches for all native libraries
+def search_c_source(path, lib, is_ctypes=False):
     c = []
+    j = []
     for dirpath, dirnames, filenames in os.walk(path):
-        for f in filenames:
-            f_hierarch = f.split("/")
-            filename = f_hierarch[len(f_hierarch)-1] # the actual filename is the last element
-            if (filename.startswith(lib+".") or filename.startswith("_"+lib+".")) and (filename.endswith(".c") or filename.endswith(".h") or filename.endswith(".cpp") or filename.endswith(".hpp") or filename.endswith(".so")):
+        for filename in filenames:
+            if (filename.endswith(".c") or filename.endswith(".h") or filename.endswith(".cpp") or filename.endswith(".hpp") or filename.endswith(".so")):
                 debug("Found C source: "+filename)
-                c.append(filename)
-    return c
+                if is_ctypes and filename.endswith(".so"):
+                    c.append(filename)
+                else:
+                    if filename.startswith(lib) or filename.startswith("_"+lib):
+                        c.append(filename)
+                    if not filename.endswith(".so"):
+                        if len(scan_source_longjmp(os.path.join(dirpath, filename))) > 0:
+                            debug("Found longjmp")
+                            j.append(filename)
+    return c, j
 
 def search_shared_libs(path, lib):
     shlibs = []
@@ -553,3 +578,33 @@ def find_pip_name(lib):
 
     if not found:
         print(lib+": "+str(search))
+
+import ctypes.util
+
+def extract_ctypes_shlib(line):
+
+    if line.endswith(".so"):
+        return line
+
+    st_idx = line.find('(')
+    end_idx = line.find(')')
+
+    # extract the potential shared lib
+    shlib_raw = line[st_idx+1:end_idx]
+    shlib_raw = shlib_raw.split(',')[0]
+    shlib_raw = shlib_raw.strip("'")
+    shlib_raw = shlib_raw.strip('"')
+
+    if 'ctypes.util' in shlib_raw:
+        # we have a call to ctypes.util.find_lib()
+        # we'll want to execute that call to get the actual lib
+        l_idx = shlib_raw.find('(')
+        lib_name = shlib_raw[l_idx+1:]
+        lib_name = lib_name.strip("'")
+        shlib = ctypes.util.find_library(lib_name)
+        if shlib == None:
+            return lib_name
+        else:
+            return shlib
+    else:
+        return shlib_raw

@@ -1,3 +1,4 @@
+Cryptodome
 IPython
 cffi
 django
@@ -6,5 +7,4 @@ picamera
 psycopg2
 scapy
 serial
-smbus_cffi
 vlc

@@ -20,23 +20,27 @@ RAW_DATA_DIR = "raw"
 
 # this goes through the entire lib hierarchy and looks for
 # a C-implementation of the lib
-def check_for_c_source(path, lib):
+def check_for_c_source(path, lib, is_ctypes=False):
     mods = lib.split(".")
     for m in mods:
-        c = search_c_source(path, m)
+        c, j = search_c_source(path, m, is_ctypes)
         if len(c) > 0:
-            return True, c
-    return False, c
+            return True, c, j
+    return False, c, j
 
 def check_ctypes_wrapper(imps):
     for src, i in imps.items():
-        for l in i:
-            if l == "ctypes":
-                lds = scan_source_ctypes(src)
-                if len(lds) > 0:
-                    print("Found ctypes wrapper")
-                    return True, lds
+        lds = scan_source_ctypes(src)
+        if len(lds) > 0:
+            print("Found ctypes wrapper")
+            return True, lds
     return False, []
+
+longjmp_libs = []
+def check_longjmps(jmps, lib):
+    if len(jmps) > 0:
+        if lib not in longjmp_libs:
+            longjmp_libs.append(lib)
 
 def get_shared_libs(c_list):
     shlibs = []
@@ -62,7 +66,7 @@ def count_shared_lib_freq(sh, lib, d):
     d[lib] = tmp
 
 def check_ext_proc_calls(imps):
-    for src, i in imps['raw_imports'].items():
+    for src, i in imps.items():
         for l in i:
             if l == "os" or l == "subprocess" or l == "subprocess.call" or l == "subprocess.Popen" or "os." in l:
                 c = scan_source_native(src)
@@ -98,7 +102,7 @@ def compute_lib_path(lib, top_lib, top_lib_path):
 dep_freq = dict()
 dist_deps = []
 c_shared_freq = dict()
-ctypes_shared_freq = dict()
+ctypes_instances_freq = dict()
 def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl):
     if lvl > 0:
         print(lib+" is dependency for "+top_lib)
@@ -138,8 +142,6 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl
     top_lib_path = LIB_DIR+"/"+top_lib
     lib_path = compute_lib_path(lib, top_lib, top_lib_path)
 
-    print("Searching for imports in path: "+lib_path)
-
     try:
         if not os.path.isdir(lib_path) and not os.path.isfile(lib_path):
             time.sleep(5) # sleep 5s to make sure we're not clobbering pip
@@ -148,13 +150,14 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl
 
     except subprocess.CalledProcessError:
         # let's see if we can find any sources in the lib path
-        has_c, srcs = check_for_c_source(top_lib_path, lib)
+        has_c, srcs, jmps = check_for_c_source(top_lib_path, lib)
         if has_c:
             shlibs = get_shared_libs(srcs)
             for sh in shlibs:
                 count_shared_lib_freq(sh, lib, c_shared_freq)
             print("Found dependency C-lib")
             lvl -= 1
+            check_longjmps(jmps, lib)
             return [lib], [], [], []
 
         no_pip.append(lib)
@@ -167,6 +170,8 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl
     if top_lib_path == LIB_DIR+"/"+lib and lib_path.endswith(".py"):
         search_path = top_lib_path
 
+    print("Searching for imports in: "+search_path)
+
     imports_raw, unused_raw = extract_imports(cat, search_path, perm="a+")
 
     imps = OrderedDict()
@@ -178,7 +183,7 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl
         lvl -= 1
         return [lib], [], [], []
     # this means pyflakes found a single empty __init__.py file
-    elif len(imports_raw) == 1 and len(unused_raw) == 1 and imports_raw.get(lib_path+"/__init__.py") != None and len(imports_raw.get(lib_path+"/__init__.py")) == 0 and unused_raw.get(lib_path+"/__init__.py") != None and len(unused_raw.get(lib_path+"/__init__.py")) == 0:
+    elif len(imports_raw) == 1 and len(unused_raw) == 1 and imports_raw.get(search_path+"/__init__.py") != None and len(imports_raw.get(search_path+"/__init__.py")) == 0 and unused_raw.get(search_path+"/__init__.py") != None and len(unused_raw.get(search_path+"/__init__.py")) == 0:
         print("C implementation likely elsewhere (no imports)")
         lvl -= 1
         return [lib], [], [], []
@@ -188,7 +193,7 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl
 
         # iterate over the raw_imports to replace any pkg-level
         # imports in any "unused" __init__.py files
-        imps['raw_imports'] = replace_unused_init_imports(imps['raw_imports'], imps['unused'], lib_path)
+        imps['raw_imports'] = replace_unused_init_imports(imps['raw_imports'], imps['unused'], search_path)
 
         # iterate over the raw_imports to add any pkg-level
         # imports in any "unused" __init__.py files
@@ -198,7 +203,7 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl
         # at this point, if we've replaced the init imports
         # and the imports are still empty, we can be pretty
         # sure that we have a c implementation elsewhere
-        if len(imps['raw_imports']) == 1 and imps['raw_imports'].get(lib_path+"/__init__.py") != None and len(imps['raw_imports'].get(lib_path+"/__init__.py")) == 0:
+        if len(imps['raw_imports']) == 1 and imps['raw_imports'].get(search_path+"/__init__.py") != None and len(imps['raw_imports'].get(search_path+"/__init__.py")) == 0:
             print("C implementation likely elsewhere (with imports)")
             lvl -= 1
             return [lib], [], [], []
@@ -210,10 +215,15 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl
             is_ctypes, hybs = check_ctypes_wrapper(imps['raw_imports'])
             if is_ctypes:
                 hybrid_libs.append(lib)
-
-            if check_ext_proc_calls(imps):
+                ctypes_c, ct_cs, jmps = check_for_c_source(search_path, lib, True)
+                hybs.extend(get_shared_libs(ct_cs))
+                for h in hybs:
+                    actual_h = extract_ctypes_shlib(h)
+                    count_shared_lib_freq(actual_h, lib, ctypes_instances_freq)
+                    
+            if check_ext_proc_calls(imps['raw_imports']):
                 call_native.append(lib)
-
+                
             # let's do one more check for c sources at this point
             # in case we missed anything within the current lib pkg
             # remove any such libs from the imports
@@ -222,25 +232,35 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl
             for src, i in imps['raw_imports'].items():
                 clean[src] = []
                 for l in i:
-                    has_c, c_srcs = check_for_c_source(top_lib_path, l)
+                    has_c = False
+                    c_srcs = []
+                    jmps = []
+
+                    has_c, c_srcs, jmps = check_for_c_source(search_path, l)
+
+                    extra_src_dir = ""
+                    for dp, dn, fn in os.walk(top_lib_path):
+                        if "source" in dn:
+                            extra_src_dir = os.path.join(dp, "source")
+                        elif "src" in dn:
+                            extra_src_dir = os.path.join(dp, "src")
+
+                        if extra_src_dir != "":
+                            has_c1, c_srcs1, jmps1 = check_for_c_source(extra_src_dir, l)
+                            has_c = has_c or has_c1
+                            c_srcs.extend(c_srcs1)
+                            jmps.extend(jmps1)
+                            
                     if has_c:
                         shlibs = get_shared_libs(c_srcs)
                         # we want to separate the .so files used in ctypes
                         # libs from the ones imported directly into python
                         for s in shlibs:
-                            if is_ctypes:
-                                ctypes_so = False
-                                for h in hybs:
-                                    if s in h:
-                                        count_shared_lib_freq(s, lib, ctypes_shared_freq)
-                                        ctypes_so = True
-                                        break
-                                if not ctypes_so:
-                                    count_shared_lib_freq(s, lib, c_shared_freq)
-                            else:
+                            if (is_ctypes and s not in hybs) or not is_ctypes:
                                 count_shared_lib_freq(s, lib, c_shared_freq)
                         print("Found a C-implementation")
                         clibsd.append(l)
+                        check_longjmps(jmps, lib)
                     else:
                         clean[src].append(l)
 
@@ -250,7 +270,7 @@ def get_libs_with_deps(names, top_lib, lib, visited, clibs, shlibs, extproc, lvl
             # make sure to sort the sources to have a deterministic analysis
             imps['raw_imports'] = OrderedDict(sorted(imps['raw_imports'].items(), key=lambda t: t[0]))
 
-            imps['imports'] = replace_fp_mod_group(imps, lib_path, 'raw_imports', is_libs=True)
+            imps['imports'] = replace_fp_mod_group(imps, search_path, 'raw_imports', is_libs=True)
 
             # we only want to store the pkg names
             imps['imports'] = get_pkg_names(imps, 'imports')
@@ -398,6 +418,7 @@ write_list_raw(remove_dups(c_libs), RAW_DATA_DIR+"/"+cat+"-c-libs-deps.txt")
 write_list_raw(shlibs, RAW_DATA_DIR+"/"+cat+"-ctypes.txt")
 write_list_raw(remove_dups(hybrid_libs), RAW_DATA_DIR+"/"+cat+"-ctypes-deps.txt")
 write_map(c_shared_freq, RAW_DATA_DIR+"/"+cat+"-shared-lib-freq.txt", perm="w+")
-write_map(ctypes_shared_freq, RAW_DATA_DIR+"/"+cat+"-ctypes-shared-lib-freq.txt", perm="w+")
+write_map(ctypes_instances_freq, RAW_DATA_DIR+"/"+cat+"-ctypes-shared-lib-freq.txt", perm="w+")
 write_freq_map(dep_freq, "analysis/"+cat+"-dep-freq.txt", "w+")
 write_list_raw(remove_dups(dist_deps), RAW_DATA_DIR+"/"+cat+"-unique-deps.txt")
+write_list_raw(remove_dups(longjmp_libs), RAW_DATA_DIR+"/"+cat+"-longjmp-libs.txt")

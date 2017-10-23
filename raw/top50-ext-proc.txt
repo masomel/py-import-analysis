@@ -1,4 +1,3 @@
-APDS9300
 AWSIoTPythonSDK
 Adafruit_CharLCDPlate
 Adafruit_GPIO
@@ -17,4 +16,5 @@ pubnub
 pygame
 scapy
 speech_recognition
+websocket
 wolframalpha

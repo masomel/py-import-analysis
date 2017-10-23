@@ -3,22 +3,28 @@
 % of top-50 libs that load .so thru ctypes (ctypes-only): 40.0 (6.0)
 % of top-50 libs that exec an external proc (exec-only): 40.0 (0.0)
 % of top-50 libs that have at least two of these properties: 40.0
-Number of distinct dependencies: 75
+Number of distinct dependencies: 71
 Top 5 dependencies of top 50 libs: 
 cryptography: 18
 pyasn1: 18
 six: 18
 OpenSSL: 17
 ntlm: 16
-Number of top50 libs that are also dependencies: 8
-Number of distinct native dependencies: 50
-Number of distinct .so's imported directly as native dependencies: 25
+Number of top50 libs that are also dependencies: 9
+Number of distinct native dependencies: 216
+Number of distinct .so's imported directly as native dependencies: 216
 Top 5 .so's imported directly (by # of occurrences): 
-_SHA256.cpython-35m-x86_64-linux-gnu.so: 2
-_cffi_backend.cpython-35m-x86_64-linux-gnu.so: 2
-_smbus_cffi.cpython-35m-x86_64-linux-gnu.so: 2
 _speedups.cpython-35m-x86_64-linux-gnu.so: 2
-_sphinxbase.cpython-35m-x86_64-linux-gnu.so: 2
+Actions.cpython-35m-x86_64-linux-gnu.so: 1
+Code.cpython-35m-x86_64-linux-gnu.so: 1
+FlowControl.cpython-35m-x86_64-linux-gnu.so: 1
+Lexicon.cpython-35m-x86_64-linux-gnu.so: 1
 Number of distinct dependencies that load .so thru ctypes: 10
-Number of distinct .so's loaded via ctypes: 0
-Number of distinct dependencies that exec an external proc: 22
+Number of distinct shared libs loaded via ctypes: 10
+Top 5 shared libs loaded by ctypes (by # of occurrences): 
+CoreFoundation: 2
+/usr/lib/libc.dylib: 1
+IOKit: 1
+None: 1
+_ARC4.cpython-35m-x86_64-linux-gnu.so: 1
+Number of distinct dependencies that exec an external proc: 20

@@ -49,6 +49,23 @@ def app_stats():
     write_list_raw(distinct_libs, "raw/all-libs.txt")
     write_list_raw(distinct_3p, "raw/all-3p-libs.txt")
 
+    # get the number of apps with 3p libs
+    perapp = OrderedDict()
+    perapp['audio'] = read_map("raw/audio-libs-perapp.txt")
+    perapp['env'] = read_map("raw/env-libs-perapp.txt")
+    perapp['multi'] = read_map("raw/multi-libs-perapp.txt")
+    perapp['visual'] = read_map("raw/visual-libs-perapp.txt")
+
+    num_libs_w_3p = 0
+    for cat, d in perapp.items():
+        for a, l in d.items():
+            for i in l:
+                if is_3p_lib(i):
+                    num_libs_w_3p += 1
+                    break
+
+    write_val(str(num_libs_w_3p), "apps that use one or more 3p libs")
+
     # let's get the min/median/max of imports and 3p imports
     counts = OrderedDict()
     counts['audio'] = read_map("analysis/audio-lib-counts.txt")
@@ -230,20 +247,19 @@ def top50_lib_stats():
             dep_top50_num += 1
     write_val(dep_top50_num, "top50 libs that are also dependencies", filename="analysis/top50-lib-stats.txt")
 
+    so_freq_libs = read_map("raw/top50-shared-lib-freq.txt")
+
     # get count of unique native libs imported
-    total_c = read_set("raw/top50-c-libs-deps.txt")
+    total_c = []
+    for d, sos in so_freq_libs.items():
+        for so in sos.keys():
+            if so not in total_c:
+                total_c.append(so)
     write_val(len(total_c), "distinct native dependencies", filename="analysis/top50-lib-stats.txt")
 
     # get top shared libs imported
-    so_freq_libs = read_map("raw/top50-shared-lib-freq.txt")
-    shlib_freq = dict()
-    write_val(len(so_freq_libs.keys()), "distinct .so's imported directly as native dependencies", filename="analysis/top50-lib-stats.txt")
-    for lib, deps in so_freq_libs.items():
-        for so in deps:
-            if shlib_freq.get(so) == None:
-                shlib_freq[so] = 1
-            else:
-                shlib_freq[so] += 1
+    shlib_freq = count_overall_freq(so_freq_libs)
+    write_val(len(shlib_freq.keys()), "distinct .so's imported directly as native dependencies", filename="analysis/top50-lib-stats.txt")
     write_freq_map(shlib_freq, filename="analysis/top50-distinct-shlib-freq.txt", perm="w+")
     write_str("", "Top 5 .so's imported directly (by # of occurrences)", filename="analysis/top50-lib-stats.txt")
     write_list_raw(map2list_int(get_top_n(5, shlib_freq)), "analysis/top50-lib-stats.txt", perm="a+", sort=False)
@@ -252,10 +268,13 @@ def top50_lib_stats():
     total_ctypes = read_set("raw/top50-ctypes-deps.txt")
     write_val(len(total_ctypes), "distinct dependencies that load .so thru ctypes", filename="analysis/top50-lib-stats.txt")
 
-    # get top shared libs imported
+    # get top ctypes shared libs imported
     so_freq_libs = read_map("raw/top50-ctypes-shared-lib-freq.txt")
-    shlib_freq = dict()
-    write_val(len(so_freq_libs.keys()), "distinct .so's loaded via ctypes", filename="analysis/top50-lib-stats.txt")
+    shlib_freq = count_overall_freq(so_freq_libs)
+    write_val(len(so_freq_libs.keys()), "distinct shared libs loaded via ctypes", filename="analysis/top50-lib-stats.txt")
+    write_freq_map(shlib_freq, filename="analysis/top50-distinct-ctypes-shlib-freq.txt", perm="w+")
+    write_str("", "Top 5 shared libs loaded by ctypes (by # of occurrences)", filename="analysis/top50-lib-stats.txt")
+    write_list_raw(map2list_int(get_top_n(5, shlib_freq)), "analysis/top50-lib-stats.txt", perm="a+", sort=False)
 
     # get count of unique libs that exec an ext_proc
     total_execs = read_set("raw/top50-ext-proc-deps.txt")

@@ -189,6 +189,12 @@ def sort_freq_map(m):
     d = OrderedDict(sorted(m.items(), key=lambda kv: (-kv[1], kv[0])))
     return d
 
+# sort dict by values in descreasing order, then keys in regular order
+# From http://stackoverflow.com/questions/9919342/sorting-a-dictionary-by-value-then-key
+def write_freq_map(m, filename=STATS_FILE, perm="a+"):
+    d = sort_freq_map(m)
+    write_map(d, filename, perm=perm)
+
 def map2list(m):
     l = []
     for k, v in m.items():
@@ -224,8 +230,12 @@ def get_top_n(n, m):
         count += 1
     return top
 
-# sort dict by values in descreasing order, then keys in regular order
-# From http://stackoverflow.com/questions/9919342/sorting-a-dictionary-by-value-then-key
-def write_freq_map(m, filename=STATS_FILE, perm="a+"):
-    d = sort_freq_map(m)
-    write_map(d, filename, perm=perm)
+def count_overall_freq(m):
+    overall_freq = dict()
+    for k, v in m.items():
+        for i in v.keys():
+            if overall_freq.get(i) == None:
+                overall_freq[i] = 1
+            else:
+                overall_freq[i] += 1
+    return overall_freq

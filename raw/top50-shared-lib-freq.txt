@@ -1,129 +1,263 @@
 {
-    "webrtcvad": {
-        "_webrtcvad.cpython-35m-x86_64-linux-gnu.so": 1
-    },
-    "pycurl": {
-        "pycurl.cpython-35m-x86_64-linux-gnu.so": 1
-    },
-    "IPython": {
-        "_path.cpython-35m-x86_64-linux-gnu.so": 25
-    },
-    "bluetooth": {
-        "_bluetooth.cpython-35m-x86_64-linux-gnu.so": 7
-    },
-    "pygame": {
-        "constants.cpython-35m-x86_64-linux-gnu.so": 1,
-        "time.cpython-35m-x86_64-linux-gnu.so": 15,
-        "math.cpython-35m-x86_64-linux-gnu.so": 9,
-        "base.cpython-35m-x86_64-linux-gnu.so": 1,
-        "scrap.cpython-35m-x86_64-linux-gnu.so": 2,
-        "bufferproxy.cpython-35m-x86_64-linux-gnu.so": 16,
-        "event.cpython-35m-x86_64-linux-gnu.so": 2,
-        "newbuffer.cpython-35m-x86_64-linux-gnu.so": 14,
-        "fastevent.cpython-35m-x86_64-linux-gnu.so": 1,
-        "pixelcopy.cpython-35m-x86_64-linux-gnu.so": 8,
-        "_camera.cpython-35m-x86_64-linux-gnu.so": 2,
-        "overlay.cpython-35m-x86_64-linux-gnu.so": 1,
-        "rect.cpython-35m-x86_64-linux-gnu.so": 1,
-        "mixer.cpython-35m-x86_64-linux-gnu.so": 5,
-        "mask.cpython-35m-x86_64-linux-gnu.so": 1,
-        "pixelarray.cpython-35m-x86_64-linux-gnu.so": 1,
-        "transform.cpython-35m-x86_64-linux-gnu.so": 2,
-        "color.cpython-35m-x86_64-linux-gnu.so": 1,
-        "font.cpython-35m-x86_64-linux-gnu.so": 2,
-        "surface.cpython-35m-x86_64-linux-gnu.so": 1,
-        "display.cpython-35m-x86_64-linux-gnu.so": 1,
-        "draw.cpython-35m-x86_64-linux-gnu.so": 1,
-        "_freetype.cpython-35m-x86_64-linux-gnu.so": 7
-    },
-    "multiarray": {
-        "multiarray.cpython-35m-x86_64-linux-gnu.so": 2
-    },
-    "cryptography": {
-        "_padding.cpython-35m-x86_64-linux-gnu.so": 204,
-        "_constant_time.cpython-35m-x86_64-linux-gnu.so": 255,
-        "_openssl.cpython-35m-x86_64-linux-gnu.so": 850
-    },
-    "Adafruit_CharLCDPlate": {
-        "spidev.cpython-35m-x86_64-linux-gnu.so": 1
-    },
-    "cffi_backend": {
-        "_cffi_backend.cpython-35m-x86_64-linux-gnu.so": 15
-    },
-    "smbus_cffi": {
-        "_cffi_backend.cpython-35m-x86_64-linux-gnu.so": 2,
-        "_smbus_cffi.cpython-35m-x86_64-linux-gnu.so": 2
+    "pocketsphinx": {
+        "_pocketsphinx.cpython-35m-x86_64-linux-gnu.so": 3
     },
     "numpy": {
-        "multiarray.cpython-35m-x86_64-linux-gnu.so": 85,
-        "test_rational.cpython-35m-x86_64-linux-gnu.so": 4,
-        "struct_ufunc_test.cpython-35m-x86_64-linux-gnu.so": 1,
-        "umath.cpython-35m-x86_64-linux-gnu.so": 41,
-        "mtrand.cpython-35m-x86_64-linux-gnu.so": 1,
-        "fftpack_lite.cpython-35m-x86_64-linux-gnu.so": 1,
-        "_umath_linalg.cpython-35m-x86_64-linux-gnu.so": 1,
-        "umath_tests.cpython-35m-x86_64-linux-gnu.so": 1,
-        "lapack_lite.cpython-35m-x86_64-linux-gnu.so": 2,
-        "operand_flag_tests.cpython-35m-x86_64-linux-gnu.so": 1,
-        "multiarray_tests.cpython-35m-x86_64-linux-gnu.so": 16
+        "test_rational.cpython-35m-x86_64-linux-gnu.so": 1314,
+        "multiarray_tests.cpython-35m-x86_64-linux-gnu.so": 1320,
+        "multiarray.cpython-35m-x86_64-linux-gnu.so": 1320,
+        "libopenblasp-r0-39a31c03.2.18.so": 1314,
+        "operand_flag_tests.cpython-35m-x86_64-linux-gnu.so": 1314,
+        "umath_tests.cpython-35m-x86_64-linux-gnu.so": 1314,
+        "_dummy.cpython-35m-x86_64-linux-gnu.so": 1314,
+        "mtrand.cpython-35m-x86_64-linux-gnu.so": 1314,
+        "lapack_lite.cpython-35m-x86_64-linux-gnu.so": 1314,
+        "umath.cpython-35m-x86_64-linux-gnu.so": 1314,
+        "_umath_linalg.cpython-35m-x86_64-linux-gnu.so": 1314,
+        "fftpack_lite.cpython-35m-x86_64-linux-gnu.so": 1314,
+        "struct_ufunc_test.cpython-35m-x86_64-linux-gnu.so": 1329
     },
-    "pyaudio": {
-        "_portaudio.cpython-35m-x86_64-linux-gnu.so": 1
+    "smbus": {
+        "_smbus_cffi.cpython-35m-x86_64-linux-gnu.so": 8
     },
-    "wiringpi2": {
-        "_wiringpi.cpython-35m-x86_64-linux-gnu.so": 2
+    "cryptography": {
+        "_openssl.cpython-35m-x86_64-linux-gnu.so": 900,
+        "_constant_time.cpython-35m-x86_64-linux-gnu.so": 270,
+        "_padding.cpython-35m-x86_64-linux-gnu.so": 216
     },
-    "cv2": {
-        "cv2.cpython-35m-x86_64-linux-gnu.so": 1
+    "bluetooth": {
+        "_bluetooth.cpython-35m-x86_64-linux-gnu.so": 15
     },
-    "PIL": {
-        "_imagingmath.cpython-35m-x86_64-linux-gnu.so": 1,
-        "_imagingtk.cpython-35m-x86_64-linux-gnu.so": 1,
-        "_imagingmorph.cpython-35m-x86_64-linux-gnu.so": 1,
-        "_webp.cpython-35m-x86_64-linux-gnu.so": 1
-    },
-    "RPi.GPIO": {
-        "_GPIO.cpython-35m-x86_64-linux-gnu.so": 1
-    },
-    "Cryptodome": {
-        "_MD2.cpython-35m-x86_64-linux-gnu.so": 2,
-        "_MD4.cpython-35m-x86_64-linux-gnu.so": 1,
-        "_Salsa20.cpython-35m-x86_64-linux-gnu.so": 1,
-        "_keccak.cpython-35m-x86_64-linux-gnu.so": 7,
-        "_ARC4.cpython-35m-x86_64-linux-gnu.so": 1,
-        "_BLAKE2s.cpython-35m-x86_64-linux-gnu.so": 10,
-        "_SHA384.cpython-35m-x86_64-linux-gnu.so": 3,
-        "_SHA224.cpython-35m-x86_64-linux-gnu.so": 3,
-        "_RIPEMD160.cpython-35m-x86_64-linux-gnu.so": 4,
-        "_SHA512.cpython-35m-x86_64-linux-gnu.so": 3,
-        "_strxor.cpython-35m-x86_64-linux-gnu.so": 21,
-        "_BLAKE2b.cpython-35m-x86_64-linux-gnu.so": 3,
-        "_SHA256.cpython-35m-x86_64-linux-gnu.so": 8
+    "lxml": {
+        "objectify.cpython-35m-x86_64-linux-gnu.so": 12,
+        "etree.cpython-35m-x86_64-linux-gnu.so": 15
     },
     "sphinxbase": {
         "_ad.cpython-35m-x86_64-linux-gnu.so": 2,
         "_sphinxbase.cpython-35m-x86_64-linux-gnu.so": 2
     },
-    "pocketsphinx": {
-        "_pocketsphinx.cpython-35m-x86_64-linux-gnu.so": 3,
-        "_sphinxbase.cpython-35m-x86_64-linux-gnu.so": 1
+    "pycurl": {
+        "pycurl.cpython-35m-x86_64-linux-gnu.so": 1
     },
-    "smbus": {
-        "_smbus_cffi.cpython-35m-x86_64-linux-gnu.so": 2
+    "wiringpi2": {
+        "_wiringpi.cpython-35m-x86_64-linux-gnu.so": 2
     },
-    "Adafruit_GPIO": {
-        "spidev.cpython-35m-x86_64-linux-gnu.so": 1
+    "PyQt5": {
+        "pyrcc.so": 294,
+        "libqevdevkeyboardplugin.so": 294,
+        "libqtcanvas3d.so": 294,
+        "QtSvg.so": 294,
+        "libqeglfs-x11-integration.so": 294,
+        "QtDBus.so": 294,
+        "libqsqlpsql.so": 294,
+        "libqtquicktemplates2plugin.so": 294,
+        "libqtquick2plugin.so": 294,
+        "libqtmedia_pulse.so": 294,
+        "libcupsprintersupport.so": 294,
+        "libqmlsettingsplugin.so": 294,
+        "libqtposition_geoclue.so": 294,
+        "QtSerialPort.so": 294,
+        "libqsvg.so": 294,
+        "QtTest.so": 294,
+        "libgstcamerabin.so": 294,
+        "libqtsensors_linuxsys.so": 294,
+        "libqtlabscalendarplugin.so": 294,
+        "libqgtk3.so": 294,
+        "libgstaudiodecoder.so": 294,
+        "QtWebEngineCore.so": 294,
+        "libqtquickextrasplugin.so": 294,
+        "libqjpeg.so": 294,
+        "QtPositioning.so": 294,
+        "QtMultimedia.so": 294,
+        "libqtquickextrasflatplugin.so": 294,
+        "libqtquickcontrols2universalstyleplugin.so": 294,
+        "libqtgeoservices_osm.so": 294,
+        "libqtgeoservices_mapbox.so": 294,
+        "libqminimalegl.so": 294,
+        "libdeclarative_webchannel.so": 294,
+        "QtSql.so": 294,
+        "libqico.so": 294,
+        "libwindowplugin.so": 294,
+        "libgltfsceneio.so": 294,
+        "QtQml.so": 294,
+        "QtCore.so": 385,
+        "_QOpenGLFunctions_4_1_Core.so": 294,
+        "libqoffscreen.so": 294,
+        "libcomposeplatforminputcontextplugin.so": 294,
+        "libqmlfolderlistmodelplugin.so": 294,
+        "libqjp2.so": 294,
+        "libqtaudio_alsa.so": 294,
+        "libqtgraphicaleffectsprivate.so": 294,
+        "QtGui.so": 308,
+        "libqtiff.so": 294,
+        "libqgenericbearer.so": 294,
+        "QtOpenGL.so": 294,
+        "libdialogsprivateplugin.so": 294,
+        "libqtquickcontrols2plugin.so": 294,
+        "libdeclarative_multimedia.so": 294,
+        "libqmlxmllistmodelplugin.so": 294,
+        "Qt.so": 294,
+        "libqwebp.so": 294,
+        "libqwbmp.so": 294,
+        "libqtquickcontrols2materialstyleplugin.so": 294,
+        "libmodelsplugin.so": 294,
+        "QtQuickWidgets.so": 294,
+        "libqquicklayoutsplugin.so": 294,
+        "QtWebEngineWidgets.so": 294,
+        "libqsqlmysql.so": 294,
+        "libqxcb-glx-integration.so": 294,
+        "QtX11Extras.so": 294,
+        "libqtsensors_generic.so": 294,
+        "libqevdevtabletplugin.so": 294,
+        "libqtmultimedia_m3u.so": 294,
+        "libqtwebengineplugin.so": 294,
+        "QtWebEngine.so": 294,
+        "libqgif.so": 294,
+        "QtPrintSupport.so": 294,
+        "libdeclarative_sensors.so": 294,
+        "libqtgraphicaleffectsplugin.so": 294,
+        "QtBluetooth.so": 294,
+        "libdeclarative_qmlwebsockets.so": 294,
+        "_QOpenGLFunctions_2_0.so": 294,
+        "libqmltestplugin.so": 294,
+        "libqxcb.so": 294,
+        "libqsvgicon.so": 294,
+        "_QOpenGLFunctions_2_1.so": 294,
+        "QtNetwork.so": 294,
+        "libqeglfs.so": 294,
+        "libqlinuxfb.so": 294,
+        "libqminimal.so": 294,
+        "libqtposition_positionpoll.so": 294,
+        "libqtqmlstatemachine.so": 294,
+        "QtDesigner.so": 294,
+        "QtHelp.so": 294,
+        "libqtuiotouchplugin.so": 294,
+        "QtQuick.so": 294,
+        "libibusplatforminputcontextplugin.so": 294,
+        "libqtgeoservices_nokia.so": 294,
+        "libqtsensors_iio-sensor-proxy.so": 294,
+        "libassimpsceneio.so": 294,
+        "libqtlabsplatformplugin.so": 294,
+        "QtLocation.so": 294,
+        "libqxcb-egl-integration.so": 294,
+        "libdeclarative_location.so": 294,
+        "libqtga.so": 294,
+        "libqnmbearer.so": 294,
+        "QtWidgets.so": 322,
+        "libqvnc.so": 294,
+        "libdeclarative_positioning.so": 294,
+        "libdialogplugin.so": 294,
+        "QtXmlPatterns.so": 294,
+        "libqicns.so": 294,
+        "QtWebChannel.so": 294,
+        "libqevdevmouseplugin.so": 294,
+        "libdeclarative_nfc.so": 294,
+        "QtWebSockets.so": 294,
+        "libqtquickscene3dplugin.so": 294,
+        "QtXml.so": 294,
+        "libdeclarative_bluetooth.so": 294,
+        "libwidgetsplugin.so": 294,
+        "pylupdate.so": 294,
+        "QtNfc.so": 294,
+        "libgstmediaplayer.so": 294,
+        "libevdevgamepad.so": 294,
+        "libgstmediacapture.so": 294,
+        "libqconnmanbearer.so": 294,
+        "libparticlesplugin.so": 294,
+        "libpyqt5qmlplugin.so": 294,
+        "QtSensors.so": 294,
+        "libqevdevtouchplugin.so": 294,
+        "QtMultimediaWidgets.so": 294,
+        "libqtgeoservices_esri.so": 294,
+        "libqtsensorgestures_shakeplugin.so": 294,
+        "libqmllocalstorageplugin.so": 294,
+        "libqsqlite.so": 294,
+        "libqtquickcontrolsplugin.so": 294,
+        "libqtsensorgestures_plugin.so": 294
     },
-    "gevent": {
-        "greenlet.cpython-35m-x86_64-linux-gnu.so": 4
+    "PIL": {
+        "_imagingmorph.cpython-35m-x86_64-linux-gnu.so": 35,
+        "_webp.cpython-35m-x86_64-linux-gnu.so": 35,
+        "_imagingtk.cpython-35m-x86_64-linux-gnu.so": 35,
+        "_imagingmath.cpython-35m-x86_64-linux-gnu.so": 35,
+        "_imagingft.cpython-35m-x86_64-linux-gnu.so": 28,
+        "_imagingcms.cpython-35m-x86_64-linux-gnu.so": 28,
+        "_imaging.cpython-35m-x86_64-linux-gnu.so": 28
     },
-    "speedups": {
-        "_speedups.cpython-35m-x86_64-linux-gnu.so": 2
+    "simplejson": {
+        "_speedups.cpython-35m-x86_64-linux-gnu.so": 50
     },
-    "pubnub": {
-        "_SHA256.cpython-35m-x86_64-linux-gnu.so": 3
+    "cffi_backend": {
+        "_cffi_backend.cpython-35m-x86_64-linux-gnu.so": 10
+    },
+    "pygame": {
+        "rwobject.cpython-35m-x86_64-linux-gnu.so": 2,
+        "transform.cpython-35m-x86_64-linux-gnu.so": 4,
+        "image.cpython-35m-x86_64-linux-gnu.so": 2,
+        "color.cpython-35m-x86_64-linux-gnu.so": 3,
+        "key.cpython-35m-x86_64-linux-gnu.so": 2,
+        "mask.cpython-35m-x86_64-linux-gnu.so": 3,
+        "pixelcopy.cpython-35m-x86_64-linux-gnu.so": 10,
+        "cdrom.cpython-35m-x86_64-linux-gnu.so": 2,
+        "event.cpython-35m-x86_64-linux-gnu.so": 4,
+        "bufferproxy.cpython-35m-x86_64-linux-gnu.so": 18,
+        "mouse.cpython-35m-x86_64-linux-gnu.so": 2,
+        "mixer_music.cpython-35m-x86_64-linux-gnu.so": 7,
+        "_camera.cpython-35m-x86_64-linux-gnu.so": 4,
+        "pixelarray.cpython-35m-x86_64-linux-gnu.so": 3,
+        "base.cpython-35m-x86_64-linux-gnu.so": 3,
+        "rect.cpython-35m-x86_64-linux-gnu.so": 10,
+        "scrap.cpython-35m-x86_64-linux-gnu.so": 4,
+        "surface.cpython-35m-x86_64-linux-gnu.so": 3,
+        "math.cpython-35m-x86_64-linux-gnu.so": 11,
+        "pypm.cpython-35m-x86_64-linux-gnu.so": 2,
+        "draw.cpython-35m-x86_64-linux-gnu.so": 3,
+        "time.cpython-35m-x86_64-linux-gnu.so": 17,
+        "constants.cpython-35m-x86_64-linux-gnu.so": 3,
+        "imageext.cpython-35m-x86_64-linux-gnu.so": 2,
+        "gfxdraw.cpython-35m-x86_64-linux-gnu.so": 2,
+        "joystick.cpython-35m-x86_64-linux-gnu.so": 2,
+        "overlay.cpython-35m-x86_64-linux-gnu.so": 3,
+        "fastevent.cpython-35m-x86_64-linux-gnu.so": 3,
+        "display.cpython-35m-x86_64-linux-gnu.so": 3,
+        "mixer.cpython-35m-x86_64-linux-gnu.so": 7,
+        "libportmidi-bda42951.so": 2,
+        "_freetype.cpython-35m-x86_64-linux-gnu.so": 9,
+        "surflock.cpython-35m-x86_64-linux-gnu.so": 2,
+        "newbuffer.cpython-35m-x86_64-linux-gnu.so": 16,
+        "font.cpython-35m-x86_64-linux-gnu.so": 4
     },
     "markupsafe": {
         "_speedups.cpython-35m-x86_64-linux-gnu.so": 6
+    },
+    "RPi.GPIO": {
+        "_GPIO.cpython-35m-x86_64-linux-gnu.so": 3
+    },
+    "coverage": {
+        "tracer.cpython-35m-x86_64-linux-gnu.so": 6
+    },
+    "cv2": {
+        "cv2.cpython-35m-x86_64-linux-gnu.so": 1
+    },
+    "Cython": {
+        "FlowControl.cpython-35m-x86_64-linux-gnu.so": 3100,
+        "Parsing.cpython-35m-x86_64-linux-gnu.so": 3100,
+        "Scanning.cpython-35m-x86_64-linux-gnu.so": 3100,
+        "refnanny.cpython-35m-x86_64-linux-gnu.so": 3195,
+        "_tempita.cpython-35m-x86_64-linux-gnu.so": 3100,
+        "Code.cpython-35m-x86_64-linux-gnu.so": 3100,
+        "Actions.cpython-35m-x86_64-linux-gnu.so": 3100,
+        "Lexicon.cpython-35m-x86_64-linux-gnu.so": 3100,
+        "Scanners.cpython-35m-x86_64-linux-gnu.so": 3100,
+        "Visitor.cpython-35m-x86_64-linux-gnu.so": 3100
+    },
+    "webrtcvad": {
+        "_webrtcvad.cpython-35m-x86_64-linux-gnu.so": 1
+    },
+    "Adafruit_CharLCDPlate": {
+        "spidev.cpython-35m-x86_64-linux-gnu.so": 1
+    },
+    "pyaudio": {
+        "_portaudio.cpython-35m-x86_64-linux-gnu.so": 1
     }
 }

@@ -1,6 +1,7 @@
 Number of analyzed IoT apps: 85
 Number of distinct libs (3p): 366 (270)
 % 3p libs: 73.8
+Number of apps that use one or more 3p libs: 84
 Number of imports per app (min/median/max/mean): 1/7/245/11.7
 Number of 3p imports per app (min/median/max/mean): 0/3/177/5.7
 Top 5 libs by frequency (in % of apps): 
@@ -18,6 +19,3 @@ RPi.GPIO: 2.4
 numpy: 2.4
 Adafruit_I2C: 1.2
 Adafruit_MCP230xx: 1.2
-Top 5 dependencies by frequency: 
-Top 5 dependencies by frequency: 
-Top 5 .so by frequency: 
