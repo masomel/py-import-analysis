@@ -12,7 +12,7 @@ import time
 
 from collections import OrderedDict
 
-from util import *
+from util.source_analysis import *
 from import_scraper import *
 
 LIB_DIR = "../libs"
@@ -69,7 +69,7 @@ def check_ext_proc_calls(imps):
     for src, i in imps.items():
         for l in i:
             if l == "os" or l == "subprocess" or l == "subprocess.call" or l == "subprocess.Popen" or "os." in l:
-                c = scan_source_native(src)
+                c = scan_source_ext_bin(src)
                 if len(c) > 0:
                     print("Found call to native proc")
                     return True
