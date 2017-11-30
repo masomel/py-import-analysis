@@ -1,0 +1,37 @@
+Metadata-Version: 2.0
+Name: jaraco.apt
+Version: 1.2
+Summary: jaraco.apt
+Home-page: https://github.com/jaraco/jaraco.apt
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7
+Requires-Dist: six
+
+.. image:: https://img.shields.io/pypi/v/jaraco.apt.svg
+   :target: https://pypi.org/project/jaraco.apt
+
+.. image:: https://img.shields.io/pypi/pyversions/jaraco.apt.svg
+
+.. image:: https://img.shields.io/pypi/dm/jaraco.apt.svg
+
+.. image:: https://img.shields.io/travis/jaraco/jaraco.apt/master.svg
+   :target: http://travis-ci.org/jaraco/jaraco.apt
+
+Support module for `Debian APT <https://wiki.debian.org/Apt>`_.
+
+License
+=======
+
+License is indicated in the project metadata (typically one or more
+of the Trove classifiers). For more details, see `this explanation
+<https://github.com/jaraco/skeleton/issues/1>`_.
+
+

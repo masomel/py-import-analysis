@@ -1,0 +1,36 @@
+Metadata-Version: 2.0
+Name: jaraco.text
+Version: 1.9.2
+Summary: jaraco.text
+Home-page: https://github.com/jaraco/jaraco.text
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: jaraco.collections
+Requires-Dist: jaraco.functools
+
+.. image:: https://img.shields.io/pypi/v/jaraco.text.svg
+   :target: https://pypi.org/project/jaraco.text
+
+.. image:: https://img.shields.io/pypi/pyversions/jaraco.text.svg
+
+.. image:: https://img.shields.io/pypi/dm/jaraco.text.svg
+
+.. image:: https://img.shields.io/travis/jaraco/jaraco.text/master.svg
+   :target: http://travis-ci.org/jaraco/jaraco.text
+
+
+License
+=======
+
+License is indicated in the project metadata (typically one or more
+of the Trove classifiers). For more details, see `this explanation
+<https://github.com/jaraco/skeleton/issues/1>`_.
+
+

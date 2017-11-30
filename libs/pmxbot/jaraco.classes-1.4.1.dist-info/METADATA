@@ -1,0 +1,35 @@
+Metadata-Version: 2.0
+Name: jaraco.classes
+Version: 1.4.1
+Summary: jaraco.classes
+Home-page: https://github.com/jaraco/jaraco.classes
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: six
+
+.. image:: https://img.shields.io/pypi/v/jaraco.classes.svg
+   :target: https://pypi.org/project/jaraco.classes
+
+.. image:: https://img.shields.io/pypi/pyversions/jaraco.classes.svg
+
+.. image:: https://img.shields.io/pypi/dm/jaraco.classes.svg
+
+.. image:: https://img.shields.io/travis/jaraco/jaraco.classes/master.svg
+   :target: http://travis-ci.org/jaraco/jaraco.classes
+
+
+License
+=======
+
+License is indicated in the project metadata (typically one or more
+of the Trove classifiers). For more details, see `this explanation
+<https://github.com/jaraco/skeleton/issues/1>`_.
+
+

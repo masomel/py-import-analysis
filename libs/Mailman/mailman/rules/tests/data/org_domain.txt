@@ -1,0 +1,23 @@
+// Test data for dmarc organizational domains.
+
+// There are just a few domain entries here for testing purposes.
+
+// biz : https://en.wikipedia.org/wiki/.biz
+biz
+
+// com : https://en.wikipedia.org/wiki/.com
+com
+
+// org : https://en.wikipedia.org/wiki/.org
+org
+
+// jp geographic type names
+// http://jprs.jp/doc/rule/saisoku-1.html
+*.kobe.jp
+!city.kobe.jp
+
+// A line with a trailing comment for testing
+co.uk  some nonsense
+
+// A line with leading white space (ignored)
+  example.biz

@@ -1,0 +1,3 @@
+_______________________________________________
+$display_name mailing list -- $listname
+To unsubscribe send an email to ${short_listname}-leave@${domain}

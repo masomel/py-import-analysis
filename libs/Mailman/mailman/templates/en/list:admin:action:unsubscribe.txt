@@ -1,0 +1,5 @@
+Your authorization is required for a mailing list unsubscription
+request approval:
+
+    For:  $member
+    List: $listname

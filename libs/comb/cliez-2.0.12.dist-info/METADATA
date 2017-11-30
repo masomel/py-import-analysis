@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: cliez
+Version: 2.0.12
+Summary: make CLI-App easier
+Home-page: https://github.com/wangwenpei/cliez
+Author: WANG WENPEI
+Author-email: wangwenpei@nextoa.com
+License: MIT
+Download-URL: https://github.com/wangwenpei/cliez/tarball/master
+Keywords: cli
+Platform: UNKNOWN
+Requires-Dist: future
+Requires-Dist: psutil
+Requires-Dist: termcolor
+
+UNKNOWN
+
+

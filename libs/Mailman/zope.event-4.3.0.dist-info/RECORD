@@ -1,0 +1,12 @@
+zope.event-4.3.0-py3.5-nspkg.pth,sha256=SWEVH-jEWsKYrL0qoC6GBJaStx_iKxGoAY9PQycFVC4,529
+zope/event/__init__.py,sha256=-GW-8PML_6_LsjCDvLzFVkL4sTYRtlLr_ZKtPbs-Rw4,1141
+zope/event/classhandler.py,sha256=Xm5xIF-abCSnUfYNSnGs2iFU7gRWvefcowUT_ueVpSA,1783
+zope/event/tests.py,sha256=bvEzvOmPoQETMqYiqsR9EeVsC8Dzy-HOclfpQFVjDhE,1871
+zope.event-4.3.0.dist-info/DESCRIPTION.rst,sha256=NYBO7ZbC8xhI--sFoguM6KpOABJ79bfa2CrML4v3MBU,2648
+zope.event-4.3.0.dist-info/METADATA,sha256=aPv7SxxIAwhwBCtiX5Xv4Udqvf2TKIBafpuI0WTUjq0,3979
+zope.event-4.3.0.dist-info/RECORD,,
+zope.event-4.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+zope.event-4.3.0.dist-info/metadata.json,sha256=J2uymcmU3kSJa3QFzOHOKy2sfbU4pQ8J6xltQA2p5Hw,1425
+zope.event-4.3.0.dist-info/namespace_packages.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
+zope.event-4.3.0.dist-info/top_level.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
+zope.event-4.3.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4

@@ -1,0 +1,32 @@
+Metadata-Version: 2.0
+Name: lazr.config
+Version: 2.2
+Summary: Create configuration schemas, and process and validate configurations.
+Home-page: https://launchpad.net/lazr.config
+Author: LAZR Developers
+Author-email: lazr-developers@lists.launchpad.net
+License: LGPL v3
+Download-URL: https://launchpad.net/lazr.config/+download
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: lazr.delegates
+Requires-Dist: setuptools
+Requires-Dist: zope.interface
+
+
+The LAZR config system is typically used to manage process configuration.
+Process configuration is for saying how things change when we run systems on
+different machines, or under different circumstances.
+
+This system uses ini-like file format of section, keys, and values.  The
+config file supports inheritance to minimize duplication of information across
+files. The format supports schema validation.
+
+

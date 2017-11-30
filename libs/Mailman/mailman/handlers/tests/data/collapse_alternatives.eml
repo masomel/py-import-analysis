@@ -1,0 +1,52 @@
+To: mailman-users@mailman3.org
+Message-ID: <5847c753-d3c5-23ac-edbd-c102999636a2@example.com>
+Date: Fri, 19 May 2017 12:58:25 +0200
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+ protocol="application/pgp-signature";
+ boundary="vFaMjPs797GQgsvxAoMXW6m0wITFbm1Hh"
+Subject: Test multipart alternative
+From: user@example.com
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--vFaMjPs797GQgsvxAoMXW6m0wITFbm1Hh
+Content-Type: multipart/mixed; boundary="hFtv7Gl3eCgubGHcAccJQEFmFcP6jKVWP";
+ protected-headers="v1"
+
+--hFtv7Gl3eCgubGHcAccJQEFmFcP6jKVWP
+Content-Type: multipart/alternative;
+ boundary="------------826A33926CBE213C2D92E2EE"
+
+This is a multi-part message in MIME format.
+--------------826A33926CBE213C2D92E2EE
+Content-Type: text/plain; charset=utf-8
+
+This is the plain text
+
+--------------826A33926CBE213C2D92E2EE
+Content-Type: text/html; charset="utf-8"
+
+<html><head></head><body>
+This is the html.
+</body></html>
+
+--------------826A33926CBE213C2D92E2EE--
+
+--hFtv7Gl3eCgubGHcAccJQEFmFcP6jKVWP
+Content-Type: text/plain; charset="utf-8"
+
+This is just another part
+
+--hFtv7Gl3eCgubGHcAccJQEFmFcP6jKVWP--
+
+--vFaMjPs797GQgsvxAoMXW6m0wITFbm1Hh
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+some data
+-----END PGP SIGNATURE-----
+
+--vFaMjPs797GQgsvxAoMXW6m0wITFbm1Hh--

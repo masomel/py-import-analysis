@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: AppKit
+Version: 0.2.9
+Summary: Desktop application framework based on Webkit HTML5, CSS3, Javascript and Python
+Home-page: http://nitipit.github.com/appkit/
+Author: Nitipit Nontasuwan
+Author-email: nitipit@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: framework, html5, gnome, ui
+Platform: Linux

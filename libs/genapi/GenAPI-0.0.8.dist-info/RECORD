@@ -1,0 +1,9 @@
+GenAPI-0.0.8.dist-info/DESCRIPTION.rst,sha256=3PNCvz3Uy6M0SpOxwa_58nY_nicdgWU0dP8M14umY-8,902
+GenAPI-0.0.8.dist-info/METADATA,sha256=56ZfVzTrtrOZ7s4ZlbdtxHDIodsQF-ytH486ZTA7IIo,1554
+GenAPI-0.0.8.dist-info/RECORD,,
+GenAPI-0.0.8.dist-info/WHEEL,sha256=AXucK5-TNISW1dQAdsyH02xCRCCE1VKjhXIOWMW_lxI,93
+GenAPI-0.0.8.dist-info/metadata.json,sha256=Z_ffKigLvsx8T04u_LmkhyLl_zWJlEqkray5MeIpcsw,801
+GenAPI-0.0.8.dist-info/top_level.txt,sha256=Hl-wsLirXx9s0KxuMsMfGI6nNlggJ_qGHVkxJp8dFd0,7
+genapi/__init__.py,sha256=NEXe84lvTwJqoaeiz1i9sYeT0XO4QSiOp0HfIky0xzM,14645
+genapi/tests/test_login.py,sha256=QEZ78GrFYcAMaEpwT2TUgF1aQE-lzZhWzEWoz86Q7bY,215
+GenAPI-0.0.8.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4

@@ -1,0 +1,61 @@
+Metadata-Version: 2.0
+Name: yg.lockfile
+Version: 2.3
+Summary: Lockfile object with timeouts and context manager
+Home-page: https://github.com/yougov/yg.lockfile
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7
+Requires-Dist: jaraco.functools (>=1.16)
+Requires-Dist: tempora
+Requires-Dist: zc.lockfile
+Requires-Dist: contextlib2 (>=0.5); python_version=="3.3" or python_version=="3.2" or python_version=="2.7"
+Provides-Extra: docs
+Requires-Dist: jaraco.packaging (>=3.2); extra == 'docs'
+Requires-Dist: rst.linker (>=1.9); extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest (>=2.8); extra == 'testing'
+Requires-Dist: pytest-sugar; extra == 'testing'
+
+.. image:: https://img.shields.io/pypi/v/yg.lockfile.svg
+   :target: https://pypi.org/project/yg.lockfile
+
+.. image:: https://img.shields.io/pypi/pyversions/yg.lockfile.svg
+
+.. image:: https://img.shields.io/pypi/dm/yg.lockfile.svg
+
+.. image:: https://img.shields.io/travis/yougov/yg.lockfile/master.svg
+   :target: http://travis-ci.org/yougov/yg.lockfile
+
+A FileLock class that implements a context manager with timeouts on top of
+`zc.lockfile`, an excellent, cross-platorm implementation of file locking.
+
+License
+=======
+
+License is indicated in the project metadata (typically one or more
+of the Trove classifiers). For more details, see `this explanation
+<https://github.com/jaraco/skeleton/issues/1>`_.
+
+Usage
+=====
+
+Example usage::
+
+    import yg.lockfile
+    try:
+    	with yg.lockfile.FileLock('/tmp/lockfile', timeout=900):
+    		protected_operation()
+    except yg.lockfile.FileLockTimeout:
+    	handle_unable_to_lock()
+
+
+

@@ -1,0 +1,10 @@
+The mailing list '$listname' has just been created for you.  The
+following is some basic information about your mailing list.
+
+There is an email-based interface for users (not administrators) of your list;
+you can get info about using it by sending a message with just the word 'help'
+as subject or in the body, to:
+
+    $request_email
+
+Please address all questions to $site_email.

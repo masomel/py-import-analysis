@@ -1,0 +1,82 @@
+Metadata-Version: 2.0
+Name: GenAPI
+Version: 0.0.8
+Summary: A Python API for the Genesis platform.
+Home-page: https://github.com/genialis/genesis-genapi/
+Author: Genialis d.o.o.
+Author-email: dev-team@genialis.com
+License: Proprietary software
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: requests (>=2.3.0)
+Requires-Dist: requests-toolbelt (>=0.3.0)
+Requires-Dist: six
+Requires-Dist: slumber (>=0.6.0)
+
+======
+GenAPI
+======
+
+GenAPI is a Python API for the Genesis platform.
+
+=======
+Install
+=======
+
+To install, run::
+
+  python setup.py install
+
+To install for development, run::
+
+  python setup.py develop
+
+=====
+Usage
+=====
+
+Create an API instance:
+
+.. code-block:: python
+
+   gen = GenCloud('anonymous@genialis.com', 'anonymous', 'http://cloud.genialis.com')
+
+
+Get all project and select the first one:
+
+.. code-block:: python
+
+   projects = gen.projects()
+   project = projects.itervalues().next()
+
+Get expression objects and select the first one:
+
+.. code-block:: python
+
+   objects = project.objects(type__startswith='data:expression')
+   object = object.itervalues().next()
+
+Print annotation:
+
+.. code-block:: python
+
+   object.print_annotation()
+
+Print file fields:
+
+.. code-block:: python
+
+   object.print_downloads()
+
+Download file:
+
+.. code-block:: python
+
+   object.download('output.rpkum')
+
+

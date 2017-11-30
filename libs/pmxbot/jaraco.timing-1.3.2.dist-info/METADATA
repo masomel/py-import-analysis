@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: jaraco.timing
+Version: 1.3.2
+Summary: Routines for quick and dirty profiling and rate limits
+Home-page: https://github.com/jaraco/jaraco.timing
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: tempora (>=1.5)
+
+jaraco.timing is deprecated. Use `tempora <https://pypi.org/project/tempora>`_
+instead.
+
+

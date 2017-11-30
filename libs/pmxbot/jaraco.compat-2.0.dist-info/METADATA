@@ -1,0 +1,73 @@
+Metadata-Version: 2.0
+Name: jaraco.compat
+Version: 2.0
+Summary: Modules providing forward compatibility across some Python 2.x versions
+Home-page: https://github.com/jaraco/jaraco.compat
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.3
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: six
+Requires-Dist: ordereddict (>=1.1); python_version == "2.6" or python_version == "2.5" or python_version == "2.4" or python_version == "2.3"
+
+.. image:: https://img.shields.io/pypi/v/jaraco.compat.svg
+   :target: https://pypi.org/project/jaraco.compat
+
+.. image:: https://img.shields.io/pypi/pyversions/jaraco.compat.svg
+
+.. image:: https://img.shields.io/pypi/dm/jaraco.compat.svg
+
+.. image:: https://img.shields.io/travis/jaraco/jaraco.compat/master.svg
+   :target: http://travis-ci.org/jaraco/jaraco.compat
+
+Forward compatibility for Python packages,
+allowing future constructs to be borrowed before they're available in
+the standard library.
+
+This package is generally deprecated in favor of more surgical
+backports in separate packages.
+
+License
+=======
+
+License is indicated in the project metadata (typically one or more
+of the Trove classifiers). For more details, see `this explanation
+<https://github.com/jaraco/skeleton/issues/1>`_.
+
+Usage
+=====
+
+Import functions from the appropriate pyXXcompat module in your python
+code. When you're eventually ready to upgrade beyond pyXX, you can
+easily locate (with a grep) and replace those functions with the
+canonical implementations.
+
+Example
+=======
+
+Say you want a namedtuple (introduced in Python 2.6) in a project which
+supports Python 2.5 and greater::
+
+    from py25compat import namedtuple
+    MyTuple = namedtuple('MyTuple', 'a b c')
+    mt = MyTuple(1,2,3)
+
+With jaraco.compat installed, this code will run on Python 2.5 and
+greater. When the project is ready to move to Python 2.6, one can easily
+grep for py25compat and make the necessary replacements with minimal
+impact on the code. In this case::
+
+    from collections import namedtuple
+    MyTuple = namedtuple('MyTuple', 'a b c')
+    mt = MyTuple(1,2,3)
+
+

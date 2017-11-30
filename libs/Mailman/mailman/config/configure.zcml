@@ -1,0 +1,142 @@
+<!-- -*- xml -*- -->
+<configure
+    xmlns="http://namespaces.zope.org/zope">
+
+  <include package="zope.component" file="meta.zcml"/>
+
+  <adapter
+    for="mailman.interfaces.mailinglist.IMailingList"
+    provides="mailman.interfaces.bans.IBanManager"
+    factory="mailman.model.bans.BanManager"
+    />
+
+  <adapter
+    for="None"
+    provides="mailman.interfaces.bans.IBanManager"
+    factory="mailman.model.bans.BanManager"
+    />
+
+  <adapter
+    for="mailman.interfaces.mailinglist.IMailingList"
+    provides="mailman.interfaces.autorespond.IAutoResponseSet"
+    factory="mailman.model.autorespond.AutoResponseSet"
+    />
+
+  <adapter
+    for="mailman.interfaces.mailinglist.IMailingList"
+    provides="mailman.interfaces.mailinglist.IAcceptableAliasSet"
+    factory="mailman.model.mailinglist.AcceptableAliasSet"
+    />
+
+  <adapter
+    for="mailman.interfaces.mailinglist.IMailingList"
+    provides="mailman.interfaces.mailinglist.IListArchiverSet"
+    factory="mailman.model.mailinglist.ListArchiverSet"
+    />
+
+  <adapter
+    for="mailman.interfaces.mailinglist.IMailingList"
+    provides="mailman.interfaces.mailinglist.IHeaderMatchList"
+    factory="mailman.model.mailinglist.HeaderMatchList"
+    />
+
+  <adapter
+    for="mailman.interfaces.mailinglist.IMailingList"
+    provides="mailman.interfaces.requests.IListRequests"
+    factory="mailman.model.requests.ListRequests"
+    />
+
+  <adapter
+    for="mailman.interfaces.mailinglist.IMailingList"
+    provides="mailman.interfaces.subscriptions.ISubscriptionManager"
+    factory="mailman.app.subscriptions.SubscriptionManager"
+    />
+
+  <utility
+    provides="mailman.interfaces.bounce.IBounceProcessor"
+    factory="mailman.model.bounce.BounceProcessor"
+    />
+
+  <utility
+    provides="mailman.interfaces.cache.ICacheManager"
+    factory="mailman.model.cache.CacheManager"
+    />
+
+  <utility
+    provides="mailman.interfaces.database.IDatabaseFactory"
+    factory="mailman.database.factory.DatabaseFactory"
+    name="production"
+    />
+
+  <utility
+    provides="mailman.interfaces.database.IDatabaseFactory"
+    factory="mailman.database.factory.DatabaseTestingFactory"
+    name="testing"
+    />
+
+  <utility
+    provides="mailman.interfaces.domain.IDomainManager"
+    factory="mailman.model.domain.DomainManager"
+    />
+
+  <utility
+    provides="mailman.interfaces.languages.ILanguageManager"
+    factory="mailman.languages.manager.LanguageManager"
+    />
+
+  <utility
+    provides="mailman.interfaces.listmanager.IListManager"
+    factory="mailman.model.listmanager.ListManager"
+    />
+
+  <utility
+    provides="mailman.interfaces.mta.IMailTransportAgentAliases"
+    factory="mailman.mta.aliases.MailTransportAgentAliases"
+    />
+
+  <utility
+    provides="mailman.interfaces.messages.IMessageStore"
+    factory="mailman.model.messagestore.MessageStore"
+    />
+
+  <utility
+    provides="mailman.interfaces.pending.IPendings"
+    factory="mailman.model.pending.Pendings"
+    />
+
+  <utility
+   provides="mailman.interfaces.styles.IStyleManager"
+   factory="mailman.styles.manager.StyleManager"
+   />
+
+  <utility
+    provides="mailman.interfaces.subscriptions.ISubscriptionService"
+    factory="mailman.model.subscriptions.SubscriptionService"
+    />
+
+  <utility
+    provides="mailman.interfaces.usermanager.IUserManager"
+    factory="mailman.model.usermanager.UserManager"
+    />
+
+  <utility
+    provides="mailman.interfaces.address.IEmailValidator"
+    factory="mailman.email.validate.Validator"
+    />
+
+  <utility
+   provides="mailman.interfaces.template.ITemplateLoader"
+   factory="mailman.model.template.TemplateLoader"
+   />
+
+  <utility
+   provides="mailman.interfaces.template.ITemplateManager"
+   factory="mailman.model.template.TemplateManager"
+   />
+
+  <utility
+    provides="mailman.interfaces.workflow.IWorkflowStateManager"
+    factory="mailman.model.workflow.WorkflowStateManager"
+    />
+
+</configure>

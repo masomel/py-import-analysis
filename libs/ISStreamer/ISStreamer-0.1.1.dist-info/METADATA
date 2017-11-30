@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: ISStreamer
+Version: 0.1.1
+Summary: A python module to simplify the process of getting log data to Initial State's platform
+Home-page: https://www.initialstate.com
+Author: David Sulpy, Initial State Technologies
+Author-email: david@initialstate.com
+License: MIT
+Keywords: logger,logstream,initial state
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+
+UNKNOWN
+
+

@@ -1,0 +1,5 @@
+[console_scripts]
+mailman = mailman.bin.mailman:main
+master = mailman.bin.master:main
+runner = mailman.bin.runner:main
+

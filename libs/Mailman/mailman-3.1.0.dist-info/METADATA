@@ -1,0 +1,42 @@
+Metadata-Version: 2.0
+Name: mailman
+Version: 3.1.0
+Summary: Mailman -- the GNU mailing list manager
+Home-page: http://www.list.org
+Author: The Mailman Developers
+Author-email: mailman-developers@python.org
+License: GPLv3
+Keywords: email
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Communications :: Email :: Mailing List Servers
+Classifier: Topic :: Communications :: Usenet News
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Dist: aiosmtpd (>=1.0a5)
+Requires-Dist: alembic
+Requires-Dist: atpublic
+Requires-Dist: dnspython (>=1.14.0)
+Requires-Dist: falcon (>=1.0.0rc1)
+Requires-Dist: flufl.bounce
+Requires-Dist: flufl.i18n
+Requires-Dist: flufl.lock
+Requires-Dist: lazr.config
+Requires-Dist: passlib
+Requires-Dist: requests
+Requires-Dist: sqlalchemy
+Requires-Dist: zope.component
+Requires-Dist: zope.configuration
+Requires-Dist: zope.event
+Requires-Dist: zope.interface
+
+This is GNU Mailman, a mailing list management system distributed under the
+terms of the GNU General Public License (GPL) version 3 or later.  The name of
+this software is spelled 'Mailman' with a leading capital 'M' but with a lower
+case second `m'.  Any other spelling is incorrect.
+

@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: flufl.i18n
+Version: 2.0
+Summary: A high level API for Python internationalization.
+Home-page: https://flufli18n.readthedocs.io
+Author: Barry Warsaw
+Author-email: barry@python.org
+License: ASLv2
+Download-URL: https://pypi.python.org/pypi/flufl.i18n
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Localization
+Requires-Dist: atpublic
+
+UNKNOWN
+
+

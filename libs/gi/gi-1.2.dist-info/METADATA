@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: gi
+Version: 1.2
+Summary: Command line to private gist. Example: gi.py myFile
+Home-page: http://github.com/inconditus/gi
+Author: Edward Wang
+Author-email: edward.auc@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+

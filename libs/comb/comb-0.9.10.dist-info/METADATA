@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: comb
+Version: 0.9.10
+Summary: A simple and high-performance framework for create concurrent program
+Home-page: http://comb.readthdocs.org
+Author: Wang WenPei
+Author-email: wangwenpei@nextoa.com
+License: http://opensource.org/licenses/MIT
+Download-URL: https://github.com/nextoa/comb/archive/master.zip
+Keywords: comb,thread,framework,hook
+Platform: UNKNOWN
+Requires-Dist: cliez
+
+UNKNOWN
+
+

@@ -1,0 +1,13 @@
+more_itertools/__init__.py,sha256=SYMa339HQxySn6l5h5QisFao8d5_LEfOEecQl5goeto,71
+more_itertools/more.py,sha256=-MVt64IDUdCg-JDlGBdhY2x8Uxy3BAjhRgSMcoVlla8,29233
+more_itertools/recipes.py,sha256=AZ_OFCha1obpYNQCA4olt91tO6EuhckrsMDzo_0osxo,12151
+more_itertools/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+more_itertools/tests/test_more.py,sha256=fhA4jr2zwIHKZYUD4w68tcjSI6hp797Llc449JnqrS8,24009
+more_itertools/tests/test_recipes.py,sha256=LUDc8xFtIAmAKKpFqoHmdQxolqBbVDXyw0Vi4W4oapw,17043
+more_itertools-2.5.0.dist-info/DESCRIPTION.rst,sha256=gKZocZAN1Ipi4q6baRJVti22yhGB4CUFN3UkNC-l54I,3802
+more_itertools-2.5.0.dist-info/METADATA,sha256=vT0s0wekHmLsNQYk4_JIeA7HrtPxRhQpom4EZNJvpPQ,4783
+more_itertools-2.5.0.dist-info/RECORD,,
+more_itertools-2.5.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+more_itertools-2.5.0.dist-info/metadata.json,sha256=uvy7Nt26SRGa3-17qMQ4ALVGkfOReEKlO8P96FpsF9g,1186
+more_itertools-2.5.0.dist-info/top_level.txt,sha256=fAuqRXu9LPhxdB9ujJowcFOu1rZ8wzSpOW9_jlKis6M,15
+more_itertools-2.5.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4

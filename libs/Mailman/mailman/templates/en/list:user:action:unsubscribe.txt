@@ -1,0 +1,17 @@
+Email Address Unsubscription Confirmation
+
+Hello, this is the GNU Mailman server at $domain.
+
+We have received an unsubscription request for the email address
+
+    $user_email
+
+Before GNU Mailman can unsubscribe you, you must first confirm your request.
+You can do this by replying to this message, keeping the Subject header
+intact.
+
+If you do not wish to unsubscribe this email address, simply disregard this
+message.  If you think you are being maliciously unsubscribed from the list,
+or have any other questions, you may contact
+
+    $owner_email

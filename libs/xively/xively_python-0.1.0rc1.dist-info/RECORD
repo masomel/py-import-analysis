@@ -1,0 +1,12 @@
+xively/__init__.py,sha256=C4OILQwkN0H-N9PpN3jgTmKxPGybHfYAfzQc86pYdYU,742
+xively/api.py,sha256=Si84EAR-RsQB8MA_VbMxZuYsQSno6uk-uhw_ejKOI9A,2047
+xively/client.py,sha256=bv0JMCeLNCd5esr03p4f2OTFHl7Hp_keNVwtpZhCGvo,3482
+xively/managers.py,sha256=O_P2W6z9mFaa6f0YtHTBtVj2ElW7EVa7x858gyxAEns,38417
+xively/models.py,sha256=QSqi8ew5n0eBr-0x2pFBNjCItnn2-i7wh-9lXun-rAQ,15340
+xively_python-0.1.0rc1.dist-info/DESCRIPTION.rst,sha256=BjwYxC91GBJjAStVpG73x4Hg89WNXjXL7XiM4ngYoZg,71
+xively_python-0.1.0rc1.dist-info/METADATA,sha256=FU5uOvAY4ynSACMuxn6lgYcv6YzkykCqDAHzOtwsVdI,317
+xively_python-0.1.0rc1.dist-info/RECORD,,
+xively_python-0.1.0rc1.dist-info/WHEEL,sha256=AXucK5-TNISW1dQAdsyH02xCRCCE1VKjhXIOWMW_lxI,93
+xively_python-0.1.0rc1.dist-info/metadata.json,sha256=GALOIpgBSbPh5M00blcOZOfJNun7ulwqG0U8N3xzMC4,450
+xively_python-0.1.0rc1.dist-info/top_level.txt,sha256=lqKsgGZkr7aW_uIpobBRsZcoB5sLsHWJhg3q2qRuU-k,7
+xively_python-0.1.0rc1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4

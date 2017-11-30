@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: signals
+Version: 0.0.2
+Summary: Object notifier and pubsub
+Home-page: http://github.com/stevepeak/signals
+Author: @stevepeak
+Author-email: steve@stevepeak.net
+License: http://www.apache.org/licenses/LICENSE-2.0
+Keywords: pubsub notify listen emit
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+
+UNKNOWN
+
+

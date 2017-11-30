@@ -1,0 +1,178 @@
+=========================
+RFC 2919 and 2369 headers
+=========================
+
+`RFC 2919`_ and `RFC 2369`_ define headers for mailing list actions.  These
+headers generally start with the `List-` prefix.
+
+    >>> mlist = create_list('test@example.com')
+    >>> mlist.preferred_language = 'en'
+    >>> from mailman.interfaces.archiver import ArchivePolicy
+    >>> mlist.archive_policy = ArchivePolicy.never
+
+..
+    This is a helper function for the following section.
+    >>> def list_headers(msg, only=None):
+    ...     if isinstance(only, str):
+    ...         only = (only.lower(),)
+    ...     elif only is None:
+    ...         only = set(header.lower() for header in msg.keys()
+    ...                    if header.lower().startswith('list-'))
+    ...         only.add('archived-at')
+    ...     else:
+    ...         only = set(header.lower() for header in only)
+    ...     print('---start---')
+    ...     for header in sorted(only):
+    ...         for value in sorted(msg.get_all(header, ())):
+    ...             print('%s: %s' % (header, value))
+    ...     print('---end---')
+
+The `rfc-2369` handler adds the `List-` headers.  `List-Id` is always added.
+
+    >>> from mailman.handlers.rfc_2369 import process
+    >>> msg = message_from_string("""\
+    ... From: aperson@example.com
+    ...
+    ... """)
+    >>> process(mlist, msg, {})
+    >>> list_headers(msg, 'list-id')
+    ---start---
+    list-id: <test.example.com>
+    ---end---
+
+
+Fewer headers
+=============
+
+Some people don't like these headers because their mail readers aren't good
+about hiding them.  A list owner can turn these headers off.
+
+    >>> mlist.include_rfc2369_headers = False
+    >>> msg = message_from_string("""\
+    ... From: aperson@example.com
+    ...
+    ... """)
+    >>> process(mlist, msg, {})
+    >>> list_headers(msg)
+    ---start---
+    ---end---
+
+Messages which Mailman generates itself, such as user or owner notifications,
+have a reduced set of `List-` headers.  Specifically, there is no `List-Post`,
+`List-Archive` or `Archived-At` header.
+..
+
+    >>> mlist.include_rfc2369_headers = True
+    >>> msg = message_from_string("""\
+    ... From: aperson@example.com
+    ...
+    ... """)
+
+    >>> process(mlist, msg, dict(reduced_list_headers=True))
+    >>> list_headers(msg)
+    ---start---
+    list-help: <mailto:test-request@example.com?subject=help>
+    list-id: <test.example.com>
+    list-subscribe: <mailto:test-join@example.com>
+    list-unsubscribe: <mailto:test-leave@example.com>
+    ---end---
+
+
+List-Post header
+================
+
+Discussion lists, to which any subscriber can post, also have a `List-Post`
+header which contains the `mailto:` URL used to send messages to the list.
+
+    >>> mlist.include_rfc2369_headers = True
+    >>> mlist.allow_list_posts = True
+    >>> msg = message_from_string("""\
+    ... From: aperson@example.com
+    ...
+    ... """)
+    >>> process(mlist, msg, {})
+    >>> list_headers(msg)
+    ---start---
+    list-help: <mailto:test-request@example.com?subject=help>
+    list-id: <test.example.com>
+    list-post: <mailto:test@example.com>
+    list-subscribe: <mailto:test-join@example.com>
+    list-unsubscribe: <mailto:test-leave@example.com>
+    ---end---
+
+Some mailing lists are announce, or one-way lists, not discussion lists.
+Because the general membership cannot post to these mailing lists, the list
+owner can set a flag which adds a special `List-Post` header value, according
+to RFC 2369.
+
+    >>> mlist.allow_list_posts = False
+    >>> msg = message_from_string("""\
+    ... From: aperson@example.com
+    ...
+    ... """)
+    >>> process(mlist, msg, {})
+    >>> list_headers(msg)
+    ---start---
+    list-help: <mailto:test-request@example.com?subject=help>
+    list-id: <test.example.com>
+    list-post: NO
+    list-subscribe: <mailto:test-join@example.com>
+    list-unsubscribe: <mailto:test-leave@example.com>
+    ---end---
+
+
+List-Id header
+==============
+
+If the mailing list has a description, then it is included in the ``List-Id``
+header.
+
+    >>> mlist.allow_list_posts = True
+    >>> mlist.description = 'My test mailing list'
+    >>> msg = message_from_string("""\
+    ... From: aperson@example.com
+    ...
+    ... """)
+    >>> process(mlist, msg, {})
+    >>> list_headers(msg)
+    ---start---
+    list-help: <mailto:test-request@example.com?subject=help>
+    list-id: My test mailing list <test.example.com>
+    list-post: <mailto:test@example.com>
+    list-subscribe: <mailto:test-join@example.com>
+    list-unsubscribe: <mailto:test-leave@example.com>
+    ---end---
+
+Any existing ``List-Id`` headers are removed from the original message.
+
+    >>> msg = message_from_string("""\
+    ... From: aperson@example.com
+    ... List-ID: <123.456.789>
+    ...
+    ... """)
+
+    >>> process(mlist, msg, {})
+    >>> list_headers(msg, only='list-id')
+    ---start---
+    list-id: My test mailing list <test.example.com>
+    ---end---
+
+
+Archive headers
+===============
+
+When the mailing list is configured to enable archiving, ``List-Archive``
+headers will be added for each web accessible archiver that is enabled.
+
+`RFC 5064`_ defines the `Archived-At` header which contains the url to the
+individual message in the archives.  Archivers which don't support
+pre-calculation of the archive url cannot add the `Archived-At` header.
+However, other archivers can calculate the url, and do add this header.
+
+If the mailing list isn't being archived, neither the `List-Archive` nor
+`Archived-At` headers will be added.
+
+
+.. _`RFC 2919`: http://www.faqs.org/rfcs/rfc2919.html
+.. _`RFC 2369`: http://www.faqs.org/rfcs/rfc2369.html
+.. _`RFC 5064`: http://www.faqs.org/rfcs/rfc5064.html

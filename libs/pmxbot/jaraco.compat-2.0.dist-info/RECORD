@@ -1,0 +1,17 @@
+jaraco.compat-2.0.dist-info/DESCRIPTION.rst,sha256=fmWkp4_6OhDFTomaXn6K211KYKqHhjELPSRUv00pHwA,1634
+jaraco.compat-2.0.dist-info/METADATA,sha256=TYtMp11us9cFKxzXM31MNkX7fjPudWrU67NChQSm_68,2522
+jaraco.compat-2.0.dist-info/RECORD,,
+jaraco.compat-2.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+jaraco.compat-2.0.dist-info/metadata.json,sha256=g5SmAljCHYV8TIr8tDFA8o_ADSbZ8-1LB8zOls1GDvs,1053
+jaraco.compat-2.0.dist-info/top_level.txt,sha256=efBo8u3xkM09-C7UA4rqFj8TgRcJ_FhyubiSV-w_Jmg,33
+py26compat/__init__.py,sha256=sErHiuU5F3tTBUhqpqWIAs41yl7gsSxD-VA9xXaZXUs,1068
+py26compat/collections.py,sha256=9frYg_y78z74SzxnD-Y8xjC6i4nMTCLaQqfepqFQ9W0,206
+py26compat/subprocess.py,sha256=XAw5w2xepYmRc2VD0deBt8DnnHIwGFuaTGoU9i74nWw,1385
+py27compat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py27compat/properties.py,sha256=JhC6OTdxsoS__QvtffOUC-uQRbzmOsFyGzCMElRRKMI,545
+py27compat/traceback.py,sha256=e-BkPeLTJfVszJ7tHiNay7escesxyEuZufMPV4lfmXw,502
+py31compat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py31compat/_functools_wraps.py,sha256=jC1Zl8zfJoEjgU3gKh51H9DoGdRNyBB-MkGUYbYxeYY,432
+py31compat/cache.py,sha256=iGFbGM86ojim-W_iOa41Yqiz39lCKZmcxn_U7G8Iypk,4166
+py31compat/functools.py,sha256=OHSKoPV8pUSFr_HKGTTzNhsxaUqh0b8GBBR9vS7AGo8,164
+jaraco.compat-2.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4

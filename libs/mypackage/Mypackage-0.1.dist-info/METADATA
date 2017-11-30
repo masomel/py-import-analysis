@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: Mypackage
+Version: 0.1
+Summary: Program to create a package 
+Home-page: UNKNOWN
+Author: Christina
+Author-email: beemerchristina@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: cmd2
+
+UNKNOWN
+
+

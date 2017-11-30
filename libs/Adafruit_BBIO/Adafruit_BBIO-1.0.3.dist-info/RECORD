@@ -1,0 +1,16 @@
+Adafruit_I2C.py,sha256=3CLrD67UqB486fdv0cvCA2VBDCABTekGyHZosaYd9_I,4078
+Adafruit_BBIO/ADC.cpython-35m-x86_64-linux-gnu.so,sha256=xasWwLhM_mbWABSFHTHfk4lZEFqwIAgBhrG1vr0FvCg,80016
+Adafruit_BBIO/GPIO.cpython-35m-x86_64-linux-gnu.so,sha256=pyWQFqF9hwap57caw2JLqSMcLPsxGL2zAqZcwpBGZBg,133400
+Adafruit_BBIO/PWM.cpython-35m-x86_64-linux-gnu.so,sha256=tHfpJMQqQg_30g825y97Ki1cQXGsVrP5nMn8YCDvd5A,111192
+Adafruit_BBIO/SPI.cpython-35m-x86_64-linux-gnu.so,sha256=cm41MYkBhycMPCXPva76fb2SiG0mnMAgoL5cQQ4LoQM,105328
+Adafruit_BBIO/UART.cpython-35m-x86_64-linux-gnu.so,sha256=XAXElPfbUgVC8leNp581E3OVOijP0QrkfF-myQMOLUk,76096
+Adafruit_BBIO/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Adafruit_BBIO-1.0.3.dist-info/DESCRIPTION.rst,sha256=UU-H0ImS_mPeethJwtXkBs4uwSn0gSy5G7DtFMYBVao,9026
+Adafruit_BBIO-1.0.3.dist-info/METADATA,sha256=KKNyCxUA_lEcsIul-bqtkCfxL0RJKzd6MwF8oZUrfuk,9742
+Adafruit_BBIO-1.0.3.dist-info/RECORD,,
+Adafruit_BBIO-1.0.3.dist-info/WHEEL,sha256=za7Wjm1blEPZrwcfJJm5AlNVXOyST9VKlUv9gs7rHC8,104
+Adafruit_BBIO-1.0.3.dist-info/metadata.json,sha256=wilTaH1osWFdsnsCeB2L5mA6sc05m4564_yLyHGcpGo,860
+Adafruit_BBIO-1.0.3.dist-info/top_level.txt,sha256=w572ybxUekSEaYNJa1nEmlTV5g3jxiQww5dwXifGB2c,36
+overlays/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+overlays/builder.py,sha256=P1XLA3uGyvv0e-1O4PHf2QPJ3vDNpfl3S-WPlTYX7XQ,1667
+Adafruit_BBIO-1.0.3.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4

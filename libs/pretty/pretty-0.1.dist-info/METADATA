@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: pretty
+Version: 0.1
+Summary: extensible pprint successor.
+Home-page: http://dev.pocoo.org/hg/sandbox
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+
+UNKNOWN
+
+

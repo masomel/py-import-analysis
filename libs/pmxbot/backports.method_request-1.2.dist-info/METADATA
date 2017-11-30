@@ -1,0 +1,62 @@
+Metadata-Version: 2.0
+Name: backports.method-request
+Version: 1.2
+Summary: backports.method_request
+Home-page: https://github.com/jaraco/backports.method_request
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.6
+Provides-Extra: docs
+Requires-Dist: jaraco.packaging (>=3.2); extra == 'docs'
+Requires-Dist: rst.linker (>=1.9); extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest (>=2.8); extra == 'testing'
+Requires-Dist: pytest-sugar; extra == 'testing'
+
+.. image:: https://img.shields.io/pypi/v/backports.method_request.svg
+   :target: https://pypi.org/project/backports.method_request
+
+.. image:: https://img.shields.io/pypi/pyversions/backports.method_request.svg
+
+.. image:: https://img.shields.io/pypi/dm/backports.method_request.svg
+
+.. image:: https://img.shields.io/travis/jaraco/backports.method_request/master.svg
+   :target: http://travis-ci.org/jaraco/backports.method_request
+
+A backport of the urllib.request.MethodRequest class from Python 3.4 which
+allows overriding of the method in a class attribute or as a keyword
+parameter to the initializer.
+
+See `Python 18978 <http://bugs.python.org/issue18978>`_ for details.
+
+Works on Python 2.6 and later.
+
+
+License
+=======
+
+License is indicated in the project metadata (typically one or more
+of the Trove classifiers). For more details, see `this explanation
+<https://github.com/jaraco/skeleton/issues/1>`_.
+
+Usage
+-----
+
+Use ``method_request.Request`` in place of ``urllib.request.Request``::
+
+    from backports.method_request import Request
+
+    req = Request(..., method='PATCH')
+    resp = urllib.request.urlopen(req)
+    ...
+
+

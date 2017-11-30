@@ -1,0 +1,4 @@
+This package contains wrappers for accessing the ALSA API from Python.
+It is fairly complete for PCM devices and Mixer access.
+
+

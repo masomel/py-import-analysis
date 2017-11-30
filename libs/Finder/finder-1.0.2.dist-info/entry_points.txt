@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        finder=finder.__main__:finder
+    

@@ -1,0 +1,17 @@
+OpenGL_accelerate/__init__.py,sha256=9letjajnkEAXqxb0jD2SBshtvq9MjjWmLbuu3d3lf8I,381
+OpenGL_accelerate/arraydatatype.cpython-35m-x86_64-linux-gnu.so,sha256=B2dUULm9c-UFPOfnQxa7SoRgufgoKn-LP0E8uGQKoeo,666464
+OpenGL_accelerate/buffers_formathandler.cpython-35m-x86_64-linux-gnu.so,sha256=kVd1pYYa8QQpngPnNkSDy_tppbyeR_T-fnk-qHR9udM,188864
+OpenGL_accelerate/errorchecker.cpython-35m-x86_64-linux-gnu.so,sha256=CuIiKIJOuKHfDdQEGwscopjyGETafy68OXIV-0be_1w,157008
+OpenGL_accelerate/formathandler.cpython-35m-x86_64-linux-gnu.so,sha256=cHrvf4L93RSXambacDKWVLnHXVNKvtviGtJOFWjRdjo,182512
+OpenGL_accelerate/latebind.cpython-35m-x86_64-linux-gnu.so,sha256=2CdECUrbejCsjItc8-3IjZk0d6A4SWLGmcC1ZmkGN0s,93648
+OpenGL_accelerate/nones_formathandler.cpython-35m-x86_64-linux-gnu.so,sha256=XW3ZJaNASOphRWQQ-1eSik-CTRfyrBkB6Ag1xUvxRJE,54888
+OpenGL_accelerate/setup.py,sha256=_kO36b_ct4JlOFhZc6S3Yn7op06KbAk4uLpo6NyOZTs,4556
+OpenGL_accelerate/vbo.cpython-35m-x86_64-linux-gnu.so,sha256=LFF3-xAGXzugmk2gr4_MSe94hwO6hyoqL7weos1sDBY,547264
+OpenGL_accelerate/wrapper.cpython-35m-x86_64-linux-gnu.so,sha256=HyeqrSkgRXaFI9xkRxNphsMTMB2lSFFKT6AkAhxCcDw,603144
+PyOpenGL_accelerate-3.1.0.dist-info/DESCRIPTION.rst,sha256=qljDjgKyEuayke1EUbEsHGt4egqL3paBjm46eUJUd3I,143
+PyOpenGL_accelerate-3.1.0.dist-info/METADATA,sha256=J9bLQWX22slnfSMoK0BnoClP6oF8RareCB_Bbj7Ah6U,895
+PyOpenGL_accelerate-3.1.0.dist-info/RECORD,,
+PyOpenGL_accelerate-3.1.0.dist-info/WHEEL,sha256=za7Wjm1blEPZrwcfJJm5AlNVXOyST9VKlUv9gs7rHC8,104
+PyOpenGL_accelerate-3.1.0.dist-info/metadata.json,sha256=QRuLFZ4MbvPYDuDORxemoQj3KAnbUdwozf8pDgpngzU,886
+PyOpenGL_accelerate-3.1.0.dist-info/top_level.txt,sha256=9o0RHjJ27rL4yafmZevzZL2UGWVjawgxkrWN9pZsRFQ,18
+PyOpenGL_accelerate-3.1.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4

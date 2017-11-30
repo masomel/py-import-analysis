@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: wiringpi2
+Version: 2.32.3
+Summary: A python interface to WiringPi 2.0 library which allows for
+    easily interfacing with the GPIO pins of the Raspberry Pi. Also supports
+    i2c and SPI
+Home-page: https://github.com/WiringPi/WiringPi-Python/
+Author: Philip Howard
+Author-email: phil@gadgetoid.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: wiringpi (>=2.23.1)
+
+# Wiring Pi 2
+
+This package has been deprecated in favour of using the name "WiringPi" which provides the same exact functionality.
+
+

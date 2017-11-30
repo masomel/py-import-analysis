@@ -1,0 +1,6 @@
+repo: 3cd033e6b530f6a78b3b14fedbd2074896dbf6de
+node: 7af03ffcfce3b00ad657ea957a7c1322b991fe6b
+branch: 2.7-slp
+latesttag: v2.7.13
+latesttagdistance: 11
+changessincelatesttag: 405

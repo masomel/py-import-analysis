@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: Adafruit-PureIO
+Version: 0.2.1
+Summary: Pure python (i.e. no native extensions) access to Linux IO including I2C and SPI.  Drop in replacement for smbus and spidev modules.
+Home-page: UNKNOWN
+Author: Tony DiCola
+Author-email: tdicola@adafruit.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Hardware
+
+UNKNOWN
+
+

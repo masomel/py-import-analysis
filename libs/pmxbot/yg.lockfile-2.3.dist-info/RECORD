@@ -1,0 +1,13 @@
+yg.lockfile-2.3-py3.6-nspkg.pth,sha256=lC4XU81hafIBlE96bsbCqg6vU9MalzA0BBEusQC06cE,519
+yg/lockfile/__init__.py,sha256=I6QlPH4o0131wqC0OL0L1b_DVJbfb3-uRNa6Tg_NP4g,3639
+yg/lockfile/py33compat.py,sha256=Q8AKY3vLqshzJIWK4F0cIwjuBJGrw8O4ZfgV26XCvnc,330
+yg/lockfile/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yg/lockfile/test/test_lockfile.py,sha256=eRPo3F9TJk2YReAnu_OIYl-la9HqTJMfWdUgmKkFfjQ,2138
+yg.lockfile-2.3.dist-info/DESCRIPTION.rst,sha256=S0zFmirzJoxGvLKp3fA5sOoYLoAO7ZwO5fV4nE_MP1I,934
+yg.lockfile-2.3.dist-info/METADATA,sha256=5ow2NstwFL8Ss_9F8zSn94EdiOjAOFMMC7p_vvUcjsY,1948
+yg.lockfile-2.3.dist-info/RECORD,,
+yg.lockfile-2.3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+yg.lockfile-2.3.dist-info/metadata.json,sha256=oPksf4QpYrjtsIZrlP6NrxTTBKxhoS0mVqJihte_DBY,1084
+yg.lockfile-2.3.dist-info/namespace_packages.txt,sha256=hrm9blgr6DyKYmk-kRxb2v1MyVq-oWkS27zljFGKJzM,3
+yg.lockfile-2.3.dist-info/top_level.txt,sha256=hrm9blgr6DyKYmk-kRxb2v1MyVq-oWkS27zljFGKJzM,3
+yg.lockfile-2.3.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4

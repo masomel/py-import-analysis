@@ -1,0 +1,42 @@
+Metadata-Version: 2.0
+Name: distributed
+Version: 1.18.1
+Summary: Distributed computing
+Home-page: https://distributed.readthedocs.io/en/latest/
+Author: Matthew Rocklin
+Author-email: mrocklin@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Distributed Computing
+Requires-Dist: click (>=6.6)
+Requires-Dist: cloudpickle (>=0.2.2)
+Requires-Dist: dask (>=0.14.1)
+Requires-Dist: msgpack-python
+Requires-Dist: psutil
+Requires-Dist: six
+Requires-Dist: sortedcontainers
+Requires-Dist: tblib
+Requires-Dist: toolz (>=0.7.4)
+Requires-Dist: tornado (>=4.4.3)
+Requires-Dist: zict (>=0.1.2)
+Requires-Dist: futures;  python_version < '3.0'
+Requires-Dist: singledispatch;  python_version < '3.4'
+
+Distributed
+===========
+
+A library for distributed computation.  See documentation_ for more details.
+
+.. _documentation: https://distributed.readthedocs.io/en/latest
+
+

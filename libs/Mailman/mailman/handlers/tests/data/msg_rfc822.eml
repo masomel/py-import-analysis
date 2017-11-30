@@ -1,0 +1,183 @@
+Message-ID: <4D9E6AEA.1060802@example.net>
+Date: Thu, 07 Apr 2011 18:54:50 -0700
+From: User <user@example.com>
+MIME-Version: 1.0
+To: Someone <someone@example.net>
+Subject: Message Subject
+Content-Type: multipart/mixed;
+ boundary="------------050603050603060608020908"
+
+This is a multi-part message in MIME format.
+--------------050603050603060608020908
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+Plain body.
+
+--------------050603050603060608020908
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment
+
+Message-ID: <4D9E647F.4050308@example.net>
+Date: Thu, 07 Apr 2011 18:27:27 -0700
+From: User1 <user1@example.com>
+MIME-Version: 1.0
+To: Someone1 <someone1@example.net>
+Content-Type: multipart/mixed; boundary="------------060107040402070208020705"
+Subject: Attached Message 1 Subject
+
+This is a multi-part message in MIME format.
+--------------060107040402070208020705
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+Attached Message 1 body.
+
+--------------060107040402070208020705
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment
+
+From: User2 <user2@example.com>
+To: Someone2 <someone2@example.net>
+Subject: Attached Message 2 Subject
+Date: Thu, 7 Apr 2011 19:09:35 -0500
+Message-ID: <DAE689E1FD1D493BACD15180145B4151@example.net>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0066_01CBF557.56C6F370"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0066_01CBF557.56C6F370
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Attached Message 2 body.
+
+------=_NextPart_000_0066_01CBF557.56C6F370
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment
+
+From: User3 <user3@example.com>
+To: Someone3 <someone3@example.net>
+Subject: Attached Message 3 Subject
+Date: Thu, 7 Apr 2011 17:22:04 -0500
+Message-ID: <BANLkTi=SzfNJo-V7cvrg3nE3uOi9uxXv3g@example.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0058_01CBF557.56C48270"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0058_01CBF557.56C48270
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Attached Message 3 plain body.
+
+------=_NextPart_000_0058_01CBF557.56C48270
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Attached Message 3 html body.
+
+------=_NextPart_000_0058_01CBF557.56C48270--
+
+------=_NextPart_000_0066_01CBF557.56C6F370
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment
+
+From: User4 <user4@example.com>
+To: Someone4 <someone4@example.net>
+Subject: Attached Message 4 Subject
+Date: Thu, 7 Apr 2011 17:24:26 -0500
+Message-ID: <19CC3BDF28CF49AD988FF43B2DBC5F1D@example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0060_01CBF557.56C6F370"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0060_01CBF557.56C6F370
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0061_01CBF557.56C6F370"
+
+------=_NextPart_001_0061_01CBF557.56C6F370
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Attached Message 4 plain body.
+
+------=_NextPart_001_0061_01CBF557.56C6F370
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Attached Message 4 html body.
+
+------=_NextPart_001_0061_01CBF557.56C6F370--
+
+------=_NextPart_000_0060_01CBF557.56C6F370
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment
+
+From: User5 <user5@example.com>
+To: Someone5 <someone5@example.net>
+Subject: Attached Message 5 Subject
+Date: Thu, 7 Apr 2011 16:24:26 -0500
+Message-ID: <some_id@example>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_005C_01CBF557.56C6F370"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_005C_01CBF557.56C6F370
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Attached Message 5 plain body.
+
+------=_NextPart_000_005C_01CBF557.56C6F370
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Attached Message 5 html body.
+
+------=_NextPart_000_005C_01CBF557.56C6F370--
+
+------=_NextPart_000_0060_01CBF557.56C6F370
+Content-Type: text/plain;
+	name="ATT00055.txt"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+	filename="ATT00055.txt"
+
+Another plain part.
+
+------=_NextPart_000_0060_01CBF557.56C6F370--
+
+------=_NextPart_000_0066_01CBF557.56C6F370--
+
+--------------060107040402070208020705
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Final plain part.
+
+--------------060107040402070208020705--
+
+--------------050603050603060608020908--
