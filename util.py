@@ -2,6 +2,10 @@ import os
 import os.path
 import sys
 
+# Path hack to use our app analysis utils
+import sys, os
+sys.path.append(os.path.abspath('../app-analysis-utils'))
+
 from collections import OrderedDict
 import xmlrpc.client as xmlrpclib
 from stdlib_list import stdlib_list
@@ -9,7 +13,8 @@ from stdlib_list import stdlib_list
 from pyflakes import reporter as modReporter
 from pyflakes.api import checkRecursive, iterSourceCode
 
-from util.record_data import *
+from record_data import *
+from common import *
 
 def is_3p_lib(l):
     libs2 = stdlib_list("2.7")
@@ -144,6 +149,30 @@ def get_pkg_names(app, target):
             tlp = lib
         pkgs.append(tlp)
     return remove_dups(pkgs)
+
+def get_package_fqns(names_list):
+    fqns = []
+    for n in names_list:
+        if n == "RPi.GPIO" or n == "encodings.idna" or n == "xmlrpc.client":
+            # let's make an exception for these 3 libs -- that's the pkg name
+            pkg = n
+        elif "concurrent.futures" in n:
+            # need to make an exception for stdlib concurrent.futures
+            pkg = "concurrent.futures"
+        elif "mock" == n:
+            # mock is in the stdlib since 3.3 as part of unittest
+            pkg = "unittest.mock"
+        elif "pkg_resources" in n:
+            # pkg_resources is a subpackage of setuptools
+            pkg = "setuptools"
+        else:
+            tmp = n.split('.')
+            if len(tmp) == 1:
+                pkg = n
+            else:
+                pkg = '.'.join(tmp[:len(tmp)-1])
+        fqns.append(pkg)
+    return remove_dups(fqns)
 
 def get_subdir_srcs(subdir):
     srcs = []
