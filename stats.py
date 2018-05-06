@@ -5,6 +5,10 @@ Python application imports.
 author: Marcela S. Melara
 '''
 
+# Path hack to use our app analysis utils
+import sys, os
+sys.path.append(os.path.abspath('../app-analysis-utils'))
+
 from statistics import mean, median
 import record_data
 import util
@@ -15,8 +19,8 @@ def __get_per_app_imports(paths_list):
         imps_files = os.listdir(p)
         for f in imps_files:
             if f.endswith('-imports'):
-                app_name = f[:8]
-                perapp[app_name] = util.get_pkg_fqns(record_data.read_set(p+'/'+f))
+                app_name = f[:len(f)-8]
+                perapp[app_name] = util.get_package_fqns(record_data.read_set(p+'/'+f))
     print("Per-app dict of imports: "+str(perapp))
     return perapp
 
@@ -45,7 +49,7 @@ def __basic_stats_dict(data_list):
 def basic_per_app_stats(paths_list):
     perapp_imps = __get_per_app_imports(paths_list)
     num_apps = len(perapp_imps)
-    perapp_3ps = __get_per_app_3p_imports(perapps_imps)
+    perapp_3ps = __get_per_app_3p_imports(perapp_imps)
 
     stats_dict = dict()
     stats_dict['all'] = __basic_stats_dict(per_key_count_list(perapp_imps))
