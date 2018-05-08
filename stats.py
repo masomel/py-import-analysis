@@ -19,7 +19,7 @@ def __get_per_app_imports(paths_list):
         imps_files = os.listdir(p)
         for f in imps_files:
             if f.endswith('-imports'):
-                app_name = f[:len(f)-8]
+                app_name = f[:-8]
                 perapp[app_name] = util.get_package_fqns(record_data.read_set(p+'/'+f))
     print("Per-app dict of imports: "+str(perapp))
     return perapp

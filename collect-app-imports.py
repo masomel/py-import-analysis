@@ -10,7 +10,7 @@ import sys
 from collections import OrderedDict
 
 def collect_imports(app):
-    os.system("sfood-imports --unified "+APP_PATH+"/"+app+" > "+RAW_DATA_DIR+"/"+app+"-imports")
+    os.system("sfood --extract-imports "+APP_PATH+"/"+app+" > "+RAW_DATA_DIR+"/"+app+"-imports")
 
 # pass in the category: visual, audio or env
 cat = sys.argv[1]

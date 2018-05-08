@@ -7,7 +7,6 @@ import sys, os
 sys.path.append(os.path.abspath('../app-analysis-utils'))
 
 from collections import OrderedDict
-import xmlrpc.client as xmlrpclib
 from stdlib_list import stdlib_list
 
 from pyflakes import reporter as modReporter
@@ -169,8 +168,10 @@ def get_package_fqns(names_list):
             tmp = n.split('.')
             if len(tmp) == 1:
                 pkg = n
+            elif len(tmp) == 2:
+                pkg = tmp[0]
             else:
-                pkg = '.'.join(tmp[:len(tmp)-1])
+                pkg = '.'.join(tmp[:-1])
         fqns.append(pkg)
     return remove_dups(fqns)
 
@@ -520,16 +521,3 @@ def replace_unused_init_imports(raw_imports, unused, path):
 
         replaced_imps[src] = new_i
     return replaced_imps
-
-def find_pip_name(lib):
-    client = xmlrpclib.ServerProxy('https://pypi.python.org/pypi')
-    search = client.search({'name': lib})
-    found = False
-    for l in search:
-        pipname = l['name']
-        if pipname == lib:
-            print(pipname)
-            found = True
-
-    if not found:
-        print(lib+": "+str(search))
