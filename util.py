@@ -1,19 +1,22 @@
-import os
-import os.path
-import sys
-
 # Path hack to use our app analysis utils
 import sys, os
 sys.path.append(os.path.abspath('../app-analysis-utils'))
-
 from collections import OrderedDict
+
 from stdlib_list import stdlib_list
 
-from pyflakes import reporter as modReporter
-from pyflakes.api import checkRecursive, iterSourceCode
-
-from record_data import *
+from record_data import read_set
 from common import *
+
+def read_imports_files(paths_list):
+    perapp = dict()
+    for p in paths_list:
+        imps_files = os.listdir(p)
+        for f in imps_files:
+            if f.endswith('-imports'):
+                app_name = f[:-8]
+                perapp[app_name] = get_package_fqns(read_set(p+'/'+f))
+    return perapp
 
 def is_3p_lib(l):
     libs2 = stdlib_list("2.7")
@@ -33,43 +36,6 @@ def remove_stdlib_imports(import_list):
             libs_3p.append(l1)
 
     return libs_3p
-
-def extract_imports(cat, path, perm="w+"):
-    f = open("logs/pyflakes-out/"+cat+"-py3-report.txt", perm)
-    reporter = modReporter.Reporter(f, f)
-    # num = number of warnings, imps = used imports, un = unused imports
-    num, imps, un = checkRecursive([path], reporter)
-    f.close()
-
-    write_map(imps, "logs/pyflakes-out/"+cat+"-imports-py3.txt", perm=perm, sort=True)
-    write_map(un, "logs/pyflakes-out/"+cat+"-unused-py3.txt", perm=perm, sort=True)
-
-    # the modules in this list are likely written in python2 so run pyflakes
-    # on python2
-    redir = ">"
-    if perm == "a+":
-        redir = ">>"
-    os.system("python2 -m pyflakes "+path+" "+redir+" logs/pyflakes-out/"+cat+"-py2-report.txt 2>&1")
-
-    # now, let's parse the imports and unused
-    imps_2 = read_map("logs/pyflakes-out/imports-py2.txt")
-    un_2 = read_map("logs/pyflakes-out/unused-py2.txt")
-
-    # the py2 run of flakes probably finds imports found by the py3 run
-    # let's merge the two dicts
-    # see: https://stackoverflow.com/questions/38987/how-to-merge-two-python-dictionaries-in-a-single-expression#26853961
-    imports_raw = imps.copy()
-    imports_raw.update(imps_2)
-    unused_raw = un.copy()
-    unused_raw.update(un_2)
-
-    write_map(imports_raw, "logs/pyflakes-out/"+cat+"-imports.txt", perm=perm, sort=True)
-    write_map(unused_raw, "logs/pyflakes-out/"+cat+"-unused.txt", perm=perm, sort=True)
-
-    os.remove("logs/pyflakes-out/imports-py2.txt")
-    os.remove("logs/pyflakes-out/unused-py2.txt")
-
-    return imports_raw, unused_raw
 
 def group_by(g, ungrouped):
     grouped = OrderedDict()

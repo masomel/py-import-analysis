@@ -10,24 +10,14 @@ import sys, os
 sys.path.append(os.path.abspath('../app-analysis-utils'))
 
 from statistics import mean, median
-import record_data
-import util
-
-def __get_per_app_imports(paths_list):
-    perapp = dict()
-    for p in paths_list:
-        imps_files = os.listdir(p)
-        for f in imps_files:
-            if f.endswith('-imports'):
-                app_name = f[:-8]
-                perapp[app_name] = util.get_package_fqns(record_data.read_set(p+'/'+f))
-    print("Per-app dict of imports: "+str(perapp))
-    return perapp
+from common import map2list
+from data_processing import count_freq, get_top_n_freq
+from util import remove_stdlib_imports
 
 def __get_per_app_3p_imports(imports_dict):
     perapp_3ps = dict()
     for app, imps in imports_dict.items():
-        perapp_3ps[app] = util.remove_stdlib_imports(imps)
+        perapp_3ps[app] = remove_stdlib_imports(imps)
     return perapp_3ps
 
 # TODO: move this to app-analysis-utils.common
@@ -46,8 +36,12 @@ def __basic_stats_dict(data_list):
     d['median'] = median(data_list)
     return d
 
-def basic_per_app_stats(paths_list):
-    perapp_imps = __get_per_app_imports(paths_list)
+'''
+Compute basic stats about the number of imports per app
+in the given map:
+mean, median, min and max number of imports.
+'''
+def basic_per_app_stats(perapp_imps):
     num_apps = len(perapp_imps)
     perapp_3ps = __get_per_app_3p_imports(perapp_imps)
 
@@ -55,3 +49,24 @@ def basic_per_app_stats(paths_list):
     stats_dict['all'] = __basic_stats_dict(per_key_count_list(perapp_imps))
     stats_dict['3p'] = __basic_stats_dict(per_key_count_list(perapp_3ps))
     return num_apps, stats_dict
+
+'''
+Find the distinct libraries imported into the apps
+in the given map
+'''
+def distinct_libs(perapp_imps):
+    distinct_libs = []
+    for app, imps in perapp_imps.items():
+        tmp = [ x for x in imps if x not in distinct_libs ]
+        distinct_libs.extend(tmp)
+    return distinct_libs, remove_stdlib_imports(distinct_libs)
+
+'''
+Count the number of apps each distinct third-party import
+is included in, and return the top 5 imports
+'''
+def lib_frequency_count(perapp_imps):
+    freq_dict = dict()
+    for app, imps in perapp_imps.items():
+        count_freq(imps, freq_dict)
+    return freq_dict, map2list(get_top_n_freq(50, all_freq, len(perapp_imps)))

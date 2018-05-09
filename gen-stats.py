@@ -46,8 +46,6 @@ def app_stats():
     write_val(str(num_all_libs)+" ("+str(num_3p_libs)+")", "distinct libs (3p)")
     pct_3p_libs = "%.1f" % ((num_3p_libs/num_all_libs)*100)
     write_str(pct_3p_libs, "% 3p libs")
-    write_list_raw(distinct_libs, "raw/all-libs.txt")
-    write_list_raw(distinct_3p, "raw/all-3p-libs.txt")
 
     # get the number of apps with 3p libs
     perapp = OrderedDict()
