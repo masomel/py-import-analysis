@@ -8,7 +8,7 @@ from stdlib_list import stdlib_list
 from record_data import read_set
 from common import *
 
-def read_imports_files(paths_list):
+def read_import_files(paths_list):
     perapp = dict()
     for p in paths_list:
         imps_files = os.listdir(p)

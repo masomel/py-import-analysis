@@ -69,4 +69,4 @@ def lib_frequency_count(perapp_imps):
     freq_dict = dict()
     for app, imps in perapp_imps.items():
         count_freq(imps, freq_dict)
-    return freq_dict, map2list(get_top_n_freq(50, all_freq, len(perapp_imps)))
+    return freq_dict, map2list(get_top_n_freq(50, freq_dict, len(perapp_imps)))

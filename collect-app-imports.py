@@ -10,13 +10,13 @@ import sys
 from collections import OrderedDict
 
 def collect_imports(app):
-    os.system("sfood --extract-imports "+APP_PATH+"/"+app+" > "+RAW_DATA_DIR+"/"+app+"-imports")
+    os.system("sfood --extract-imports "+APP_PATH+"/"+app+" > "+OUTPUT_DIR+"/"+app+"-imports")
 
 # pass in the category: visual, audio or env
 cat = sys.argv[1]
 
 APP_DIR = "../apps"
-RAW_DATA_DIR = "raw-data/imports/"+cat
+OUTPUT_DIR = "data/imports/"+cat
 
 # expect apps to be located in apps/cat/
 APP_PATH = APP_DIR+"/"+cat
@@ -24,7 +24,7 @@ APP_PATH = APP_DIR+"/"+cat
 # let's organize our imports by app
 app_list = os.listdir(APP_PATH)
 
-os.system("mkdir -p "+RAW_DATA_DIR)
+os.system("mkdir -p "+OUTPUT_DIR)
 
 num_apps = 0
 # iterate through all apps to organize the imports
