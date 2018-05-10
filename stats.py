@@ -7,7 +7,7 @@ author: Marcela S. Melara
 
 # Path hack to use our app analysis utils
 import sys, os
-sys.path.append(os.path.abspath('../app-analysis-utils'))
+sys.path.append(os.path.abspath('../pyapp-analysis-utils'))
 
 from statistics import mean, median
 from common import map2list
@@ -25,7 +25,6 @@ def per_key_count_list(data_dict):
     perkey_counts = []
     for k, vlist in data_dict.items():
         perkey_counts.append(len(vlist))
-    print("Per-app list of import numbers: "+str(perkey_counts))
     return perkey_counts
 
 def __basic_stats_dict(data_list):
@@ -67,6 +66,7 @@ is included in, and return the top 5 imports
 '''
 def lib_frequency_count(perapp_imps):
     freq_dict = dict()
-    for app, imps in perapp_imps.items():
+    perapp_3ps = __get_per_app_3p_imports(perapp_imps)
+    for app, imps in perapp_3ps.items():
         count_freq(imps, freq_dict)
-    return freq_dict, map2list(get_top_n_freq(50, freq_dict, len(perapp_imps)))
+    return freq_dict, map2list(get_top_n_freq(50, freq_dict, len(perapp_3ps)))

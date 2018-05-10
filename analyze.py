@@ -9,7 +9,7 @@ import argparse
 
 # Path hack to use our app analysis utils
 import sys, os
-sys.path.append(os.path.abspath('../app-analysis-utils'))
+sys.path.append(os.path.abspath('../py-app-analysis-utils'))
 from record_data import write_list_raw, write_freq_map
 
 from stats import basic_per_app_stats, distinct_libs, lib_frequency_count
@@ -31,9 +31,9 @@ def distinct_import_analysis(perapp_imps):
     count_all = len(all_distinct)
     count_3p = len(tp_distinct)
     print("Distinct per-app imports:")
-    pct_3p_libs = (count_3p/count_all)*100
+    pct_3p_libs = (count_3p*100.0)/count_all
     print(" -- Number of distinct libraries (overall): %d" % count_all)
-    print(" -- Number of distinct third-party libraries: %d (%.1f)" % (count_3p, pct_3p_libs))
+    print(" -- Number of distinct third-party libraries: %d (%.1f %%)" % (count_3p, pct_3p_libs))
     return all_distinct, tp_distinct
 
 def import_frequency_analysis(perapp_imps):
@@ -41,7 +41,7 @@ def import_frequency_analysis(perapp_imps):
     print("Top 5 third-party imports by % of apps:")
     print(" -- %s" % (', '.join(top50[:5])))
     return freq_dict, top50
-    
+
 parser = argparse.ArgumentParser(description='Analyze python application imports.')
 parser.add_argument('dirs', metavar='d', type=str, nargs='+',
                     help='one or more paths to a directory containing raw per-application import files')

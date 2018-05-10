@@ -1,6 +1,6 @@
 # Path hack to use our app analysis utils
 import sys, os
-sys.path.append(os.path.abspath('../app-analysis-utils'))
+sys.path.append(os.path.abspath('../py-app-analysis-utils'))
 from collections import OrderedDict
 
 from stdlib_list import stdlib_list
