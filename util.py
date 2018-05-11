@@ -18,6 +18,16 @@ def read_import_files(paths_list):
                 perapp[app_name] = get_package_fqns(read_set(p+'/'+f))
     return perapp
 
+def read_dep_depth_files(paths_list):
+    perapp = dict()
+    for p in paths_list:
+        depths_files = os.listdir(p)
+        for f in depths_files:
+            if f.endswith('-depth'):
+                app_name = f[:-6]
+                perapp[app_name] = int(read_set(p+'/'+f)[0])
+    return perapp
+
 def is_3p_lib(l):
     libs2 = stdlib_list("2.7")
     libs3 = stdlib_list("3.4")
@@ -130,6 +140,10 @@ def get_package_fqns(names_list):
         elif "pkg_resources" in n:
             # pkg_resources is a subpackage of setuptools
             pkg = "setuptools"
+        elif n.isupper():
+            #skip over all-caps pkg names since those are likely
+            #variable/configurable imports
+            continue
         else:
             tmp = n.split('.')
             if len(tmp) == 1:

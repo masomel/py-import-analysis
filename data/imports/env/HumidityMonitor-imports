@@ -1,6 +1,10 @@
-math
-sys
-time
 Image
+Adafruit_GPIO.SPI
+sys
+Adafruit_SSD1306
+ubidots
 ImageDraw
 ImageFont
+Adafruit_DHT
+time
+math

@@ -1,3 +1,4 @@
-os
 subprocess
+os
+RPi.GPIO
 time

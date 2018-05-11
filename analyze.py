@@ -12,11 +12,11 @@ import sys, os
 sys.path.append(os.path.abspath('../py-app-analysis-utils'))
 from record_data import write_list_raw, write_freq_map
 
-from stats import basic_per_app_stats, distinct_libs, lib_frequency_count
-from util import read_import_files
+from stats import basic_per_app_imports, distinct_libs, lib_frequency_count, basic_per_app_dependency_depths
+from util import read_import_files, read_dep_depth_files
 
 def default_analysis(perapp_imps):
-    num_apps, stats_dict = basic_per_app_stats(perapp_imps)
+    num_apps, stats_dict = basic_per_app_imports(perapp_imps)
     print("Number of analyzed apps: "+str(num_apps))
     print("Per-app import analysis:")
     stats_3p = stats_dict['3p']
@@ -42,22 +42,31 @@ def import_frequency_analysis(perapp_imps):
     print(" -- %s" % (', '.join(top50[:5])))
     return freq_dict, top50
 
+def dependency_chain_depth_analysis(perapp_depths):
+    stats_dict = basic_per_app_dependency_depths(perapp_depths)
+    print("Per-app maximum dependency chain length analysis:")
+    print(" -- Across %d apps: mean = %d, min = %d, max = %d, median = %d" %
+          (len(perapp_depths), stats_dict['depths']['mean'], stats_dict['depths']['min'],
+           stats_dict['depths']['max'], stats_dict['depths']['median']))
+    
 parser = argparse.ArgumentParser(description='Analyze python application imports.')
 parser.add_argument('dirs', metavar='d', type=str, nargs='+',
                     help='one or more paths to a directory containing raw per-application import files')
 parser.add_argument('--distinct', action='store_true',
                     help='compute distinct number of imports')
+parser.add_argument('--depths', action='store_true',
+                    help='compute the min, median, max, mean of the depth of '
+                    'the dependency chains')
 parser.add_argument('-o', '--output', dest='save', type=str, nargs=1,
                     help='a path to a directory where intermediate data should be output')
 
 args = parser.parse_args()
 
 print(" -------- Python application import analysis --------")
-perapp_imports = read_import_files(args.dirs)
-
-default_analysis(perapp_imports)
-
 if args.distinct:
+    perapp_imports = read_import_files(args.dirs)
+    default_analysis(perapp_imports)
+    
     distinct_libs, distinct_3p = distinct_import_analysis(perapp_imports)
     freq_dict, top50 = import_frequency_analysis(perapp_imports)
     if args.save:
@@ -65,3 +74,7 @@ if args.distinct:
         write_list_raw(distinct_3p, args.save[0]+"/3p-distinct-libs.txt")
         write_freq_map(freq_dict, args.save[0]+"/3p-lib-freq.txt", perm='w+')
         write_list_raw(top50, args.save[0]+"/top50-3p-libs.txt")
+
+if args.depths:
+    perapp_dep_depths = read_dep_depth_files(args.dirs)
+    dependency_chain_depth_analysis(perapp_dep_depths)

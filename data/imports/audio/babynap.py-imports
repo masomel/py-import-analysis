@@ -1,5 +1,10 @@
+threading
+paho.mqtt.client
+time
+nfc
+tentacle_pi.TSL2561
+sys
 json
 ssl
-sys
-threading
-time
+wiringpi2
+paho.mqtt.publish

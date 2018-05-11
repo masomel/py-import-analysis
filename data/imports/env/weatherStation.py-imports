@@ -1,3 +1,5 @@
-os
-smtplib
 time
+os
+Adafruit_DHT
+smtplib
+RPi.GPIO

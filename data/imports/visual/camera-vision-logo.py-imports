@@ -1,2 +1,5 @@
-argparse
+picamera
 base64
+oauth2client.client
+googleapiclient.discovery
+argparse

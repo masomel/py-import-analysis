@@ -1,0 +1,10 @@
+shlex
+sys
+RPi.GPIO
+tgl
+picamera
+subprocess
+functools
+time
+os
+datetime

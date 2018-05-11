@@ -1,4 +1,6 @@
+paho.mqtt.client
 json
+adxl345
 ssl
-thread
+_thread
 time

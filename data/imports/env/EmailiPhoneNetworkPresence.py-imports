@@ -1,6 +1,6 @@
-datetime
 email.mime.text
-os
-smtplib
-socket
 time
+smtplib
+datetime
+os
+socket

@@ -1,5 +1,9 @@
 os
 random
+pygame
 subprocess
 time
+RPi.GPIO
+picamera
 Image
+pygame.locals

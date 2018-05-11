@@ -1,5 +1,11 @@
-os
-shelve
-subprocess
-time
 PIL.Image
+RPi.GPIO
+tkinter.ttk
+picamera
+time
+subprocess
+shelve
+tkinter.filedialog
+tkinter
+tkinter.font
+os

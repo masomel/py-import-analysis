@@ -1,5 +1,11 @@
+MySQLdb
+socket
+MySQLdb
 socket
 sys
 time
-Tkinter
+mraa
+tkinter
+matplotlib.pyplot
+MySQLdb
 numpy

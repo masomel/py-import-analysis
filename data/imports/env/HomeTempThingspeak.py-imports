@@ -1,4 +1,7 @@
+http.client
+smbus
 ctypes
-httplib
+urllib.request
+urllib.parse
+urllib.error
 time
-urllib

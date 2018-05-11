@@ -1,7 +1,10 @@
+urllib.error
+urllib.parse
 argparse
-json
 subprocess
-urllib
 requests
-StringIO
+urllib.request
+json
+io
 os.path
+pycurl.cpython-35m-x86_64-linux-gnu.so

@@ -1,2 +1,7 @@
+urllib.request
+cv2
+urllib.error
 time
-urllib
+mraa
+urllib.parse
+tweepy

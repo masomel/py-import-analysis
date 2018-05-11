@@ -1,4 +1,8 @@
+APDS9300
+flask
+MPL3115A2
 ctypes
+RPi.GPIO
+time
 datetime
 math
-time

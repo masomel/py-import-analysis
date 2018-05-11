@@ -40,7 +40,7 @@ Compute basic stats about the number of imports per app
 in the given map:
 mean, median, min and max number of imports.
 '''
-def basic_per_app_stats(perapp_imps):
+def basic_per_app_imports(perapp_imps):
     num_apps = len(perapp_imps)
     perapp_3ps = __get_per_app_3p_imports(perapp_imps)
 
@@ -70,3 +70,14 @@ def lib_frequency_count(perapp_imps):
     for app, imps in perapp_3ps.items():
         count_freq(imps, freq_dict)
     return freq_dict, map2list(get_top_n_freq(50, freq_dict, len(perapp_3ps)))
+
+'''
+Compute basic stats about the depth of the depenency chain per app
+in the given map:
+mean, median, min and max number of dependency depth.
+'''
+def basic_per_app_dependency_depths(perapp_depths):
+    stats_dict = dict()
+    depths_list = [v for k, v in perapp_depths.items()]
+    stats_dict['depths'] = __basic_stats_dict(depths_list)
+    return stats_dict

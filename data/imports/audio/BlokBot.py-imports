@@ -1,8 +1,12 @@
 os
+PIL.Image
 re
+espeak
+Adafruit_GPIO.SPI
+time
 subprocess
 sys
-time
-PIL.Image
-PIL.ImageDraw
 PIL.ImageFont
+Adafruit_SSD1306
+PIL.ImageDraw
+unirest
