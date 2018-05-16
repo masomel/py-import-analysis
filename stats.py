@@ -43,11 +43,13 @@ mean, median, min and max number of imports.
 def basic_per_app_imports(perapp_imps):
     num_apps = len(perapp_imps)
     perapp_3ps = __get_per_app_3p_imports(perapp_imps)
+    nums_3ps = per_key_count_list(perapp_3ps)
+    app_3p_count = num_apps - nums_3ps.count(0)
 
     stats_dict = dict()
     stats_dict['all'] = __basic_stats_dict(per_key_count_list(perapp_imps))
-    stats_dict['3p'] = __basic_stats_dict(per_key_count_list(perapp_3ps))
-    return num_apps, stats_dict
+    stats_dict['3p'] = __basic_stats_dict(nums_3ps)
+    return num_apps, app_3p_count, stats_dict
 
 '''
 Find the distinct libraries imported into the apps

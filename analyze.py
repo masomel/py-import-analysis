@@ -16,8 +16,9 @@ from stats import basic_per_app_imports, distinct_libs, lib_frequency_count, bas
 from util import read_import_files, read_dep_depth_files
 
 def default_analysis(perapp_imps):
-    num_apps, stats_dict = basic_per_app_imports(perapp_imps)
+    num_apps, app_count_3p, stats_dict = basic_per_app_imports(perapp_imps)
     print("Number of analyzed apps: "+str(num_apps))
+    print("Number of apps that import at least one third-party library: %d (%.1f %%)" % (app_count_3p, ((app_count_3p*100.0)/num_apps)))
     print("Per-app import analysis:")
     stats_3p = stats_dict['3p']
     stats_all = stats_dict['all']
