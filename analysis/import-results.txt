@@ -1,0 +1,11 @@
+ -------- Python application import analysis --------
+Number of analyzed apps: 85
+Number of apps that import at least one third-party library: 84 (98.8 %)
+Per-app import analysis:
+ -- Number of third-party imports: mean = 6, min = 0, max = 186, median = 3
+ -- Number of all imports: mean = 13, min = 1, max = 253, median = 8
+Distinct per-app imports:
+ -- Number of distinct libraries (overall): 418
+ -- Number of distinct third-party libraries: 331 (79.2 %)
+Top 5 third-party imports by % of apps:
+ -- RPi.GPIO: 47.1, requests: 23.5, picamera: 21.2, serial: 12.9, alsaaudio: 11.8

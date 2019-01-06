@@ -83,3 +83,4 @@ def basic_per_app_dependency_depths(perapp_depths):
     depths_list = [v for k, v in perapp_depths.items()]
     stats_dict['depths'] = __basic_stats_dict(depths_list)
     return stats_dict
+

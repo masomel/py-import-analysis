@@ -43,11 +43,14 @@ def import_frequency_analysis(perapp_imps):
     print(" -- %s" % (', '.join(top50[:5])))
     return freq_dict, top50
 
-def dependency_chain_depth_analysis(perapp_depths):
+def dependency_chain_depth_analysis(perapp_depths, is_lib=False):
     stats_dict = basic_per_app_dependency_depths(perapp_depths)
-    print("Per-app maximum dependency chain length analysis:")
-    print(" -- Across %d apps: mean = %d, min = %d, max = %d, median = %d" %
-          (len(perapp_depths), stats_dict['depths']['mean'], stats_dict['depths']['min'],
+    target = "app"
+    if is_lib:
+        target = "lib"
+    print("Per-"+target+" maximum dependency chain length analysis:")
+    print(" -- Across %d %ss: mean = %d, min = %d, max = %d, median = %d" %
+          (len(perapp_depths), target, stats_dict['depths']['mean'], stats_dict['depths']['min'],
            stats_dict['depths']['max'], stats_dict['depths']['median']))
     
 parser = argparse.ArgumentParser(description='Analyze python application imports.')
@@ -79,3 +82,5 @@ if args.distinct:
 if args.depths:
     perapp_dep_depths = read_dep_depth_files(args.dirs)
     dependency_chain_depth_analysis(perapp_dep_depths)
+    perlib_dep_depths = read_dep_depth_files(["data/depths/libs"])
+    dependency_chain_depth_analysis(perlib_dep_depths, True)

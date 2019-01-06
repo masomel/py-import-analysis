@@ -1,0 +1,5 @@
+ -------- Python application import analysis --------
+Per-app maximum dependency chain length analysis:
+ -- Across 85 apps: mean = 22, min = 1, max = 37, median = 25
+Per-lib maximum dependency chain length analysis:
+ -- Across 50 libs: mean = 24, min = 0, max = 34, median = 27

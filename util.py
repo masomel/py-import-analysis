@@ -25,7 +25,11 @@ def read_dep_depth_files(paths_list):
         for f in depths_files:
             if f.endswith('-depth'):
                 app_name = f[:-6]
-                perapp[app_name] = int(read_set(p+'/'+f)[0])
+                num_list = read_set(p+'/'+f)
+                if len(num_list) >= 1:
+                    perapp[app_name] = int(num_list[0])
+                else:
+                    perapp[app_name] = 0
     return perapp
 
 def is_3p_lib(l):
